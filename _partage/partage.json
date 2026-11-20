@@ -1,0 +1,188 @@
+{
+  "avertissements": [
+    "logo pris dans assets/images (logo-sombre.png) : aucun logo dans donnees/images.json, vérifier que ce n'est pas celui du socle"
+  ],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/accueil-ouverture-1280.webp",
+      "poids": 96377,
+      "sujet": {
+        "x": 602,
+        "y": 49,
+        "l": 595,
+        "h": 581
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "enseigne-800.webp",
+      "poids": 66969,
+      "sujet": {
+        "x": 600,
+        "y": 149,
+        "l": 600,
+        "h": 315
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "expertise",
+      "langue": "fr",
+      "fichier": "assets/partage/expertise-fr.jpg",
+      "gabarit": "droite",
+      "image": "expertise-ouverture-1280.webp",
+      "poids": 60334,
+      "sujet": {
+        "x": 653,
+        "y": 82,
+        "l": 496,
+        "h": 522
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 44,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "produits",
+      "langue": "fr",
+      "fichier": "assets/partage/produits-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/produits-ouverture-1280.webp",
+      "poids": 98186,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 615
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "services",
+      "langue": "fr",
+      "fichier": "assets/partage/services-fr.jpg",
+      "gabarit": "plein",
+      "image": "grok/services-ouverture-1280.webp",
+      "poids": 91633,
+      "sujet": {
+        "x": 150,
+        "y": 44,
+        "l": 713,
+        "h": 256
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 468,
+          "l": 744,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 547,
+          "l": 744,
+          "h": 35
+        },
+        {
+          "x": 966,
+          "y": 518,
+          "l": 170,
+          "h": 64
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

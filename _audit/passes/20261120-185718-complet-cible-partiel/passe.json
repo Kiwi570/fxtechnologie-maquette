@@ -1,0 +1,17 @@
+{
+ "id": "20261120-185718-complet-cible-partiel",
+ "date": "2026-11-20T19:03:03.775Z",
+ "niveau": "complet",
+ "pages": "/,/contact,/expertise,/produits,/services",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "ecran"
+ ],
+ "version": "1",
+ "echecs": 1,
+ "aRegarder": 40,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

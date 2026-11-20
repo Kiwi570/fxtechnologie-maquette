@@ -1,0 +1,42 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 32 s
+… mesures
+  19/66
+  42/66
+  63/66
+  fait en 97 s
+… mesures:balayage
+  fait en 29 s
+… films
+  fait en 138 s
+… bords
+  fait en 65 s
+… parcours:intro
+  fait en 57 s
+… parcours:menu
+  fait en 4 s
+… parcours:liens
+  fait en 125 s
+… parcours:hauteur
+  fait en 40 s
+… parcours:projet
+  fait en 0 s
+… ecran
+  fait en 31 s
+… fluidite
+  fait en 185 s
+… mouvement
+  fait en 135 s
+… vitesse
+  fait en 17 s
+… captures
+  fait en 139 s
+… safari
+  fait en 0 s
+
+Échecs : 16 · À regarder : 47 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --pages=/,/contact,/expertise,/services --seulement=fichiers,mesures,ecran
+Rapport : /home/claude/fxtechnologie-maquette/_audit/rapport/rapport.md (passe 20261120-183112-standard)
+fin standard 1

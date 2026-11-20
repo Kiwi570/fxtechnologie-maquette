@@ -1,0 +1,50 @@
+[
+ {
+  "id": "cb",
+  "nom": "Colombie-Britannique",
+  "region": "Canada",
+  "x": 6,
+  "y": 40
+ },
+ {
+  "id": "toronto",
+  "nom": "Toronto",
+  "region": "Ontario",
+  "tel": "416-628-3792",
+  "lien": "+14166283792",
+  "x": 43,
+  "y": 64
+ },
+ {
+  "id": "montreal",
+  "nom": "Montréal",
+  "region": "Québec",
+  "tel": "450-582-9413",
+  "lien": "+14505829413",
+  "x": 60,
+  "y": 46
+ },
+ {
+  "id": "st-jerome",
+  "nom": "Saint-Jérôme",
+  "region": "Québec",
+  "x": 57,
+  "y": 30
+ },
+ {
+  "id": "usa",
+  "nom": "Plattsburgh",
+  "region": "État de New York",
+  "tel": "518-907-4267",
+  "lien": "+15189074267",
+  "x": 66,
+  "y": 76
+ },
+ {
+  "id": "allemagne",
+  "nom": "Allemagne",
+  "region": "Europe",
+  "x": 93,
+  "y": 40
+ }
+]

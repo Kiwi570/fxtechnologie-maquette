@@ -1,0 +1,16 @@
+{
+ "id": "20261120-192506-standard-cible-partiel",
+ "date": "2026-11-20T19:27:03.283Z",
+ "niveau": "standard",
+ "pages": "/,/services,/contact,/produits,/expertise",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 4,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

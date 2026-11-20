@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FX Technologie : le spécialiste de l&#39;engrenage au Québec</title>
+<meta name="description" content="Fabrication, réparation et usinage d&#39;engrenages, de grandes couronnes et de réducteurs, en atelier ou sur place. Urgence 24 h.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://fxtechnologie-maquette.vercel.app/">
+<style>:root{--fond:#F0EDE8;--texte:#15181B;--voile-fond:#15181B;--ouverture-fond:#15181B;--menu-fond:#15181B}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bsd-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/plex-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#15181B">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FX Technologie">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="FX Technologie : le spécialiste de l&#39;engrenage au Québec">
+<meta property="og:description" content="Fabrication, réparation et usinage d&#39;engrenages, de grandes couronnes et de réducteurs, en atelier ou sur place. Urgence 24 h.">
+<meta property="og:url" content="https://fxtechnologie-maquette.vercel.app/">
+<meta property="og:image" content="https://fxtechnologie-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="FX Technologie, le spécialiste de l&#39;engrenage : grande couronne dans un atelier">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"FX Technologie","url":"https://fxtechnologie-maquette.vercel.app/","description":"Fabrication, réparation et usinage d'engrenages et de composants de transmission de puissance.","telephone":"+1-450-582-9413","faxNumber":"+1-450-582-9105","email":"info@fxtechnologie.com","address":{"@type":"PostalAddress","streetAddress":"267, rue de la Rivière","addressLocality":"Sainte-Sophie","addressRegion":"QC","postalCode":"J5J 1B6","addressCountry":"CA"},"sameAs":["https://twitter.com/fxtechnologie"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><svg class="voile-roue" viewBox="0 0 100 100" aria-hidden="true"><path d="M89.00 50.00 A39.00 39.00 0 0 1 88.95 52.04 L95.84 53.85 A46.00 46.00 0 0 1 95.47 56.96 L88.35 57.11 A39.00 39.00 0 0 1 87.67 60.09 A39.00 39.00 0 0 1 87.09 62.05 L93.28 65.58 A46.00 46.00 0 0 1 92.12 68.49 L85.20 66.79 A39.00 39.00 0 0 1 83.77 69.50 A39.00 39.00 0 0 1 82.71 71.24 L87.77 76.25 A46.00 46.00 0 0 1 85.90 78.76 L79.66 75.33 A39.00 39.00 0 0 1 77.58 77.58 A39.00 39.00 0 0 1 76.10 78.98 L79.69 85.13 A46.00 46.00 0 0 1 77.23 87.07 L72.09 82.14 A39.00 39.00 0 0 1 69.50 83.77 A39.00 39.00 0 0 1 67.71 84.75 L69.59 91.62 A46.00 46.00 0 0 1 66.71 92.86 L63.02 86.76 A39.00 39.00 0 0 1 60.09 87.67 A39.00 39.00 0 0 1 58.11 88.15 L58.15 95.27 A46.00 46.00 0 0 1 55.05 95.72 L53.06 88.88 A39.00 39.00 0 0 1 50.00 89.00 A39.00 39.00 0 0 1 47.96 88.95 L46.15 95.84 A46.00 46.00 0 0 1 43.04 95.47 L42.89 88.35 A39.00 39.00 0 0 1 39.91 87.67 A39.00 39.00 0 0 1 37.95 87.09 L34.42 93.28 A46.00 46.00 0 0 1 31.51 92.12 L33.21 85.20 A39.00 39.00 0 0 1 30.50 83.77 A39.00 39.00 0 0 1 28.76 82.71 L23.75 87.77 A46.00 46.00 0 0 1 21.24 85.90 L24.67 79.66 A39.00 39.00 0 0 1 22.42 77.58 A39.00 39.00 0 0 1 21.02 76.10 L14.87 79.69 A46.00 46.00 0 0 1 12.93 77.23 L17.86 72.09 A39.00 39.00 0 0 1 16.23 69.50 A39.00 39.00 0 0 1 15.25 67.71 L8.38 69.59 A46.00 46.00 0 0 1 7.14 66.71 L13.24 63.02 A39.00 39.00 0 0 1 12.33 60.09 A39.00 39.00 0 0 1 11.85 58.11 L4.73 58.15 A46.00 46.00 0 0 1 4.28 55.05 L11.12 53.06 A39.00 39.00 0 0 1 11.00 50.00 A39.00 39.00 0 0 1 11.05 47.96 L4.16 46.15 A46.00 46.00 0 0 1 4.53 43.04 L11.65 42.89 A39.00 39.00 0 0 1 12.33 39.91 A39.00 39.00 0 0 1 12.91 37.95 L6.72 34.42 A46.00 46.00 0 0 1 7.88 31.51 L14.80 33.21 A39.00 39.00 0 0 1 16.23 30.50 A39.00 39.00 0 0 1 17.29 28.76 L12.23 23.75 A46.00 46.00 0 0 1 14.10 21.24 L20.34 24.67 A39.00 39.00 0 0 1 22.42 22.42 A39.00 39.00 0 0 1 23.90 21.02 L20.31 14.87 A46.00 46.00 0 0 1 22.77 12.93 L27.91 17.86 A39.00 39.00 0 0 1 30.50 16.23 A39.00 39.00 0 0 1 32.29 15.25 L30.41 8.38 A46.00 46.00 0 0 1 33.29 7.14 L36.98 13.24 A39.00 39.00 0 0 1 39.91 12.33 A39.00 39.00 0 0 1 41.89 11.85 L41.85 4.73 A46.00 46.00 0 0 1 44.95 4.28 L46.94 11.12 A39.00 39.00 0 0 1 50.00 11.00 A39.00 39.00 0 0 1 52.04 11.05 L53.85 4.16 A46.00 46.00 0 0 1 56.96 4.53 L57.11 11.65 A39.00 39.00 0 0 1 60.09 12.33 A39.00 39.00 0 0 1 62.05 12.91 L65.58 6.72 A46.00 46.00 0 0 1 68.49 7.88 L66.79 14.80 A39.00 39.00 0 0 1 69.50 16.23 A39.00 39.00 0 0 1 71.24 17.29 L76.25 12.23 A46.00 46.00 0 0 1 78.76 14.10 L75.33 20.34 A39.00 39.00 0 0 1 77.58 22.42 A39.00 39.00 0 0 1 78.98 23.90 L85.13 20.31 A46.00 46.00 0 0 1 87.07 22.77 L82.14 27.91 A39.00 39.00 0 0 1 83.77 30.50 A39.00 39.00 0 0 1 84.75 32.29 L91.62 30.41 A46.00 46.00 0 0 1 92.86 33.29 L86.76 36.98 A39.00 39.00 0 0 1 87.67 39.91 A39.00 39.00 0 0 1 88.15 41.89 L95.27 41.85 A46.00 46.00 0 0 1 95.72 44.95 L88.88 46.94 A39.00 39.00 0 0 1 89.00 50.00Z M62.00 50.00 A12.00 12.00 0 1 0 38.00 50.00 A12.00 12.00 0 1 0 62.00 50.00Z"/></svg><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-train">
+    <svg class="ouverture-roue" viewBox="0 0 400 400"><path d="M378.00 200.00 A178.00 178.00 0 0 1 377.91 205.59 L395.75 209.85 A196.00 196.00 0 0 1 395.19 217.83 L376.93 219.53 A178.00 178.00 0 0 1 375.81 227.85 A178.00 178.00 0 0 1 374.85 233.35 L391.80 240.35 A196.00 196.00 0 0 1 389.99 248.15 L371.69 246.97 A178.00 178.00 0 0 1 369.29 255.01 A178.00 178.00 0 0 1 367.48 260.30 L383.13 269.86 A196.00 196.00 0 0 1 380.12 277.28 L362.23 273.25 A178.00 178.00 0 0 1 358.60 280.81 A178.00 178.00 0 0 1 355.98 285.75 L369.95 297.64 A196.00 196.00 0 0 1 365.82 304.50 L348.77 297.73 A178.00 178.00 0 0 1 344.01 304.63 A178.00 178.00 0 0 1 340.65 309.10 L352.58 323.03 A196.00 196.00 0 0 1 347.43 329.15 L331.65 319.80 A178.00 178.00 0 0 1 325.87 325.87 A178.00 178.00 0 0 1 321.85 329.76 L331.45 345.38 A196.00 196.00 0 0 1 325.41 350.63 L311.29 338.92 A178.00 178.00 0 0 1 304.63 344.01 A178.00 178.00 0 0 1 300.05 347.22 L307.09 364.16 A196.00 196.00 0 0 1 300.30 368.39 L288.19 354.62 A178.00 178.00 0 0 1 280.81 358.60 A178.00 178.00 0 0 1 275.79 361.06 L280.10 378.89 A196.00 196.00 0 0 1 272.72 382.01 L262.92 366.51 A178.00 178.00 0 0 1 255.01 369.29 A178.00 178.00 0 0 1 249.66 370.93 L251.12 389.21 A196.00 196.00 0 0 1 243.36 391.14 L236.10 374.30 A178.00 178.00 0 0 1 227.85 375.81 A178.00 178.00 0 0 1 222.31 376.60 L220.90 394.88 A196.00 196.00 0 0 1 212.92 395.57 L208.38 377.80 A178.00 178.00 0 0 1 200.00 378.00 A178.00 178.00 0 0 1 194.41 377.91 L190.15 395.75 A196.00 196.00 0 0 1 182.17 395.19 L180.47 376.93 A178.00 178.00 0 0 1 172.15 375.81 A178.00 178.00 0 0 1 166.65 374.85 L159.65 391.80 A196.00 196.00 0 0 1 151.85 389.99 L153.03 371.69 A178.00 178.00 0 0 1 144.99 369.29 A178.00 178.00 0 0 1 139.70 367.48 L130.14 383.13 A196.00 196.00 0 0 1 122.72 380.12 L126.75 362.23 A178.00 178.00 0 0 1 119.19 358.60 A178.00 178.00 0 0 1 114.25 355.98 L102.36 369.95 A196.00 196.00 0 0 1 95.50 365.82 L102.27 348.77 A178.00 178.00 0 0 1 95.37 344.01 A178.00 178.00 0 0 1 90.90 340.65 L76.97 352.58 A196.00 196.00 0 0 1 70.85 347.43 L80.20 331.65 A178.00 178.00 0 0 1 74.13 325.87 A178.00 178.00 0 0 1 70.24 321.85 L54.62 331.45 A196.00 196.00 0 0 1 49.37 325.41 L61.08 311.29 A178.00 178.00 0 0 1 55.99 304.63 A178.00 178.00 0 0 1 52.78 300.05 L35.84 307.09 A196.00 196.00 0 0 1 31.61 300.30 L45.38 288.19 A178.00 178.00 0 0 1 41.40 280.81 A178.00 178.00 0 0 1 38.94 275.79 L21.11 280.10 A196.00 196.00 0 0 1 17.99 272.72 L33.49 262.92 A178.00 178.00 0 0 1 30.71 255.01 A178.00 178.00 0 0 1 29.07 249.66 L10.79 251.12 A196.00 196.00 0 0 1 8.86 243.36 L25.70 236.10 A178.00 178.00 0 0 1 24.19 227.85 A178.00 178.00 0 0 1 23.40 222.31 L5.12 220.90 A196.00 196.00 0 0 1 4.43 212.92 L22.20 208.38 A178.00 178.00 0 0 1 22.00 200.00 A178.00 178.00 0 0 1 22.09 194.41 L4.25 190.15 A196.00 196.00 0 0 1 4.81 182.17 L23.07 180.47 A178.00 178.00 0 0 1 24.19 172.15 A178.00 178.00 0 0 1 25.15 166.65 L8.20 159.65 A196.00 196.00 0 0 1 10.01 151.85 L28.31 153.03 A178.00 178.00 0 0 1 30.71 144.99 A178.00 178.00 0 0 1 32.52 139.70 L16.87 130.14 A196.00 196.00 0 0 1 19.88 122.72 L37.77 126.75 A178.00 178.00 0 0 1 41.40 119.19 A178.00 178.00 0 0 1 44.02 114.25 L30.05 102.36 A196.00 196.00 0 0 1 34.18 95.50 L51.23 102.27 A178.00 178.00 0 0 1 55.99 95.37 A178.00 178.00 0 0 1 59.35 90.90 L47.42 76.97 A196.00 196.00 0 0 1 52.57 70.85 L68.35 80.20 A178.00 178.00 0 0 1 74.13 74.13 A178.00 178.00 0 0 1 78.15 70.24 L68.55 54.62 A196.00 196.00 0 0 1 74.59 49.37 L88.71 61.08 A178.00 178.00 0 0 1 95.37 55.99 A178.00 178.00 0 0 1 99.95 52.78 L92.91 35.84 A196.00 196.00 0 0 1 99.70 31.61 L111.81 45.38 A178.00 178.00 0 0 1 119.19 41.40 A178.00 178.00 0 0 1 124.21 38.94 L119.90 21.11 A196.00 196.00 0 0 1 127.28 17.99 L137.08 33.49 A178.00 178.00 0 0 1 144.99 30.71 A178.00 178.00 0 0 1 150.34 29.07 L148.88 10.79 A196.00 196.00 0 0 1 156.64 8.86 L163.90 25.70 A178.00 178.00 0 0 1 172.15 24.19 A178.00 178.00 0 0 1 177.69 23.40 L179.10 5.12 A196.00 196.00 0 0 1 187.08 4.43 L191.62 22.20 A178.00 178.00 0 0 1 200.00 22.00 A178.00 178.00 0 0 1 205.59 22.09 L209.85 4.25 A196.00 196.00 0 0 1 217.83 4.81 L219.53 23.07 A178.00 178.00 0 0 1 227.85 24.19 A178.00 178.00 0 0 1 233.35 25.15 L240.35 8.20 A196.00 196.00 0 0 1 248.15 10.01 L246.97 28.31 A178.00 178.00 0 0 1 255.01 30.71 A178.00 178.00 0 0 1 260.30 32.52 L269.86 16.87 A196.00 196.00 0 0 1 277.28 19.88 L273.25 37.77 A178.00 178.00 0 0 1 280.81 41.40 A178.00 178.00 0 0 1 285.75 44.02 L297.64 30.05 A196.00 196.00 0 0 1 304.50 34.18 L297.73 51.23 A178.00 178.00 0 0 1 304.63 55.99 A178.00 178.00 0 0 1 309.10 59.35 L323.03 47.42 A196.00 196.00 0 0 1 329.15 52.57 L319.80 68.35 A178.00 178.00 0 0 1 325.87 74.13 A178.00 178.00 0 0 1 329.76 78.15 L345.38 68.55 A196.00 196.00 0 0 1 350.63 74.59 L338.92 88.71 A178.00 178.00 0 0 1 344.01 95.37 A178.00 178.00 0 0 1 347.22 99.95 L364.16 92.91 A196.00 196.00 0 0 1 368.39 99.70 L354.62 111.81 A178.00 178.00 0 0 1 358.60 119.19 A178.00 178.00 0 0 1 361.06 124.21 L378.89 119.90 A196.00 196.00 0 0 1 382.01 127.28 L366.51 137.08 A178.00 178.00 0 0 1 369.29 144.99 A178.00 178.00 0 0 1 370.93 150.34 L389.21 148.88 A196.00 196.00 0 0 1 391.14 156.64 L374.30 163.90 A178.00 178.00 0 0 1 375.81 172.15 A178.00 178.00 0 0 1 376.60 177.69 L394.88 179.10 A196.00 196.00 0 0 1 395.57 187.08 L377.80 191.62 A178.00 178.00 0 0 1 378.00 200.00Z M254.00 200.00 A54.00 54.00 0 1 0 146.00 200.00 A54.00 54.00 0 1 0 254.00 200.00Z"/><g class="ouverture-rayons"><circle cx="312.0" cy="200.0" r="30"/><circle cx="256.0" cy="297.0" r="30"/><circle cx="144.0" cy="297.0" r="30"/><circle cx="88.0" cy="200.0" r="30"/><circle cx="144.0" cy="103.0" r="30"/><circle cx="256.0" cy="103.0" r="30"/></g></svg>
+    <svg class="ouverture-pignon" viewBox="0 0 160 160" data-ouverture-objet><path d="M141.00 80.00 A61.00 61.00 0 0 1 140.81 84.79 L157.38 89.78 A78.00 78.00 0 0 1 155.99 97.61 L138.71 96.56 A61.00 61.00 0 0 1 136.36 103.34 A61.00 61.00 0 0 1 134.35 107.69 L147.75 118.65 A78.00 78.00 0 0 1 143.46 125.35 L127.90 117.76 A61.00 61.00 0 0 1 123.13 123.13 A61.00 61.00 0 0 1 119.62 126.38 L127.81 141.63 A78.00 78.00 0 0 1 121.28 146.18 L109.81 133.22 A61.00 61.00 0 0 1 103.34 136.36 A61.00 61.00 0 0 1 98.85 138.01 L100.58 155.24 A78.00 78.00 0 0 1 92.81 156.94 L87.17 140.58 A61.00 61.00 0 0 1 80.00 141.00 A61.00 61.00 0 0 1 75.21 140.81 L70.22 157.38 A78.00 78.00 0 0 1 62.39 155.99 L63.44 138.71 A61.00 61.00 0 0 1 56.66 136.36 A61.00 61.00 0 0 1 52.31 134.35 L41.35 147.75 A78.00 78.00 0 0 1 34.65 143.46 L42.24 127.90 A61.00 61.00 0 0 1 36.87 123.13 A61.00 61.00 0 0 1 33.62 119.62 L18.37 127.81 A78.00 78.00 0 0 1 13.82 121.28 L26.78 109.81 A61.00 61.00 0 0 1 23.64 103.34 A61.00 61.00 0 0 1 21.99 98.85 L4.76 100.58 A78.00 78.00 0 0 1 3.06 92.81 L19.42 87.17 A61.00 61.00 0 0 1 19.00 80.00 A61.00 61.00 0 0 1 19.19 75.21 L2.62 70.22 A78.00 78.00 0 0 1 4.01 62.39 L21.29 63.44 A61.00 61.00 0 0 1 23.64 56.66 A61.00 61.00 0 0 1 25.65 52.31 L12.25 41.35 A78.00 78.00 0 0 1 16.54 34.65 L32.10 42.24 A61.00 61.00 0 0 1 36.87 36.87 A61.00 61.00 0 0 1 40.38 33.62 L32.19 18.37 A78.00 78.00 0 0 1 38.72 13.82 L50.19 26.78 A61.00 61.00 0 0 1 56.66 23.64 A61.00 61.00 0 0 1 61.15 21.99 L59.42 4.76 A78.00 78.00 0 0 1 67.19 3.06 L72.83 19.42 A61.00 61.00 0 0 1 80.00 19.00 A61.00 61.00 0 0 1 84.79 19.19 L89.78 2.62 A78.00 78.00 0 0 1 97.61 4.01 L96.56 21.29 A61.00 61.00 0 0 1 103.34 23.64 A61.00 61.00 0 0 1 107.69 25.65 L118.65 12.25 A78.00 78.00 0 0 1 125.35 16.54 L117.76 32.10 A61.00 61.00 0 0 1 123.13 36.87 A61.00 61.00 0 0 1 126.38 40.38 L141.63 32.19 A78.00 78.00 0 0 1 146.18 38.72 L133.22 50.19 A61.00 61.00 0 0 1 136.36 56.66 A61.00 61.00 0 0 1 138.01 61.15 L155.24 59.42 A78.00 78.00 0 0 1 156.94 67.19 L140.58 72.83 A61.00 61.00 0 0 1 141.00 80.00Z M98.00 80.00 A18.00 18.00 0 1 0 62.00 80.00 A18.00 18.00 0 1 0 98.00 80.00Z"/></svg>
+  </div>
+  <img class="ouverture-logo" src="/assets/images/logo-fx-clair.png" alt="" width="210" height="79">
+  <p class="ouverture-ligne">Le spécialiste de l&#39;engrenage</p>
+  <canvas class="ouverture-etincelles" width="600" height="400"></canvas>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="FX Technologie : Accueil" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-fx-clair.png" alt="FX Technologie" width="210" height="79">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/produits" data-libelle="Produits">Produits</a></li><li><a href="/services" data-libelle="Services">Services</a></li><li><a href="/expertise" data-libelle="Expertise">Expertise</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#soumission" data-libelle="Contact">Demander une soumission</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/produits" class="menu-lien" data-libelle="Produits">Produits</a></li><li style="--i:2"><a href="/services" class="menu-lien" data-libelle="Services">Services</a></li><li style="--i:3"><a href="/expertise" class="menu-lien" data-libelle="Expertise">Expertise</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-urgence"><a class="bouton" href="tel:+15148056350">Urgence 24 h · 514-805-6350</a></p>
+  <p class="menu-coord"><a href="tel:+14505829413">450-582-9413</a> · <a href="mailto:info@fxtechnologie.com">info@fxtechnologie.com</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero sombre" id="debut">
+  <figure class="media hero-media" data-grok data-iris-centre data-fx="parallaxe" data-fx-force="8" style="--cadrage:70% 47%;--cadrage-mobile:50% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/accueil-ouverture-mobile-640.webp 640w, /assets/images/grok/accueil-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/accueil-ouverture-1280.webp" srcset="/assets/images/grok/accueil-ouverture-640.webp 640w, /assets/images/grok/accueil-ouverture-1280.webp 1280w, /assets/images/grok/accueil-ouverture-1920.webp 1920w" sizes="100vw" alt="Grande couronne d&#39;engrenage dressée dans un atelier de mécanique lourde, la nuit" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <canvas class="etincelles hero-etincelles" data-etincelles="hero" data-effet="etincelles" data-audit-ignorer aria-hidden="true"></canvas>
+  <div class="hero-texte conteneur">
+    <p class="surtitre hero-sur" data-anime="gsap">Engrenages · transmission de puissance · Québec</p>
+    <h1 class="hero-titre" data-anime="gsap"><span class="hero-masque"><span class="hero-ligne">Le spécialiste</span></span><span class="hero-masque"><span class="hero-ligne">de l&#39;<em>engrenage</em></span></span></h1>
+    <p class="hero-intro" data-anime="gsap">Fabrication, réparation et usinage, de la petite pièce à la couronne de 320 po. Dans nos ateliers ou directement dans votre usine.</p>
+    <div class="hero-actions" data-anime="gsap">
+      <a href="/contact#soumission" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander une soumission</a>
+      <a class="hero-urgence" href="tel:+15148056350" data-info-cle><span class="pastille" aria-hidden="true"></span>Urgence 24 h · <strong>514-805-6350</strong></a>
+    </div>
+  </div>
+</section>
+<section class="chiffres sombre" id="reperes" aria-label="Repères">
+  <ul class="conteneur chiffres-liste" data-anime="cascade"><li>
+    <strong class="chiffre">+<span data-compteur="25">25</span></strong>
+    <span>ans d&#39;expérience en transmission de puissance</span></li><li>
+    <strong class="chiffre"><span data-compteur="320">320</span>&nbsp;po</strong>
+    <span>de diamètre pour nos plus grandes couronnes</span></li><li>
+    <strong class="chiffre"><span data-compteur="12">12</span></strong>
+    <span>services, de l&#39;usinage à la métallisation</span></li><li>
+    <strong class="chiffre"><span data-compteur="14">14</span></strong>
+    <span>secteurs industriels servis</span></li></ul>
+  <p class="conteneur chiffres-norme" data-anime>Fabrication selon les normes AGMA, contrôle de qualité à chaque étape.</p>
+</section>
+<section class="produits clair" id="produits">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Produits</p>
+      <h2 class="titre-section" data-anime="lignes">Quatre familles de pièces, une seule exigence</h2>
+      <p class="chapo" data-anime>Chaque pièce est conçue pour son application, puis fabriquée et contrôlée dans nos ateliers.</p>
+    </div>
+    <p class="produits-glisser" aria-hidden="true">Faites glisser →</p>
+    <div class="produits-defile" tabindex="0" role="region" aria-label="Produits">
+    <ul class="produits-grille" data-anime="cascade"><li class="produit-carte">
+      <a href="/produits#engrenages" data-libelle="Produits" class="produit-lien" data-survol="incline" data-survol-force="4">
+        <figure class="media produit-media" data-grok data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/carte-engrenages-1600.webp" srcset="/assets/images/grok/carte-engrenages-480.webp 480w, /assets/images/grok/carte-engrenages-640.webp 640w, /assets/images/grok/carte-engrenages-1600.webp 1600w" sizes="(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 25vw" alt="Gros plan sur la denture d&#39;un engrenage hélicoïdal rectifié" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <span class="produit-num">01</span>
+        <h3>Engrenages</h3>
+        <p>Droits, hélicoïdaux, double hélice, vis sans fin, spiro-coniques : taillés selon les normes AGMA.</p>
+        <span class="lien-fleche">Voir la fiche</span>
+      </a>
+    </li><li class="produit-carte">
+      <a href="/produits#grande-couronne" data-libelle="Produits" class="produit-lien" data-survol="incline" data-survol-force="4">
+        <figure class="media produit-media" data-grok data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/carte-couronne-1600.webp" srcset="/assets/images/grok/carte-couronne-480.webp 480w, /assets/images/grok/carte-couronne-640.webp 640w, /assets/images/grok/carte-couronne-1600.webp 1600w" sizes="(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 25vw" alt="Couronne segmentée posée sur des cales dans un atelier" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <span class="produit-num">02</span>
+        <h3>Grande couronne</h3>
+        <p>Couronnes segmentées pour fours rotatifs, tambours et broyeurs à billes, jusqu&#39;à 320 po de diamètre.</p>
+        <span class="lien-fleche">Voir la fiche</span>
+      </a>
+    </li><li class="produit-carte">
+      <a href="/produits#sechage" data-libelle="Produits" class="produit-lien" data-survol="incline" data-survol-force="4">
+        <figure class="media produit-media" data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/produit-secherie-1600.webp" srcset="/assets/images/produit-secherie-480.webp 480w, /assets/images/produit-secherie-640.webp 640w, /assets/images/produit-secherie-1600.webp 1600w" sizes="(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 25vw" alt="Engrenage de sécherie en fonte, moyeu usiné" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span class="produit-num">03</span>
+        <h3>Engrenage de sécherie</h3>
+        <p>Engrenages de séchoirs et réducteurs pour les sections de sécherie des machines à papier.</p>
+        <span class="lien-fleche">Voir la fiche</span>
+      </a>
+    </li><li class="produit-carte">
+      <a href="/produits#reducteur" data-libelle="Produits" class="produit-lien" data-survol="incline" data-survol-force="4">
+        <figure class="media produit-media" data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/produit-reducteur-1000.webp" srcset="/assets/images/produit-reducteur-480.webp 480w, /assets/images/produit-reducteur-640.webp 640w, /assets/images/produit-reducteur-1000.webp 1000w" sizes="(max-width: 760px) 90vw, (max-width: 1100px) 45vw, 25vw" alt="Réducteur remis à neuf, peint en blanc, à l&#39;atelier" width="1000" height="1250" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span class="produit-num">04</span>
+        <h3>Réducteur sur mesure</h3>
+        <p>Boîtes de réduction fabriquées selon vos spécifications, en remplacement exact de l&#39;unité en place.</p>
+        <span class="lien-fleche">Voir la fiche</span>
+      </a>
+    </li></ul>
+    </div>
+  </div>
+</section>
+<section class="couronne sombre" id="capacites" data-effet="couronne-echelle">
+  <div class="conteneur couronne-grille">
+    <div class="couronne-texte">
+      <p class="surtitre" data-anime>Capacités</p>
+      <h2 class="titre-section" data-anime="lignes">Jusqu&#39;à 8,13 m de diamètre</h2>
+      <p data-anime>Nos couronnes segmentées pour fours rotatifs, tambours et broyeurs atteignent 320 po. Choisissez un type pour voir sa largeur de face.</p>
+      <table class="capacites" data-anime>
+        <caption class="visuellement-cache">Capacités maximales des grandes couronnes</caption>
+        <thead><tr><th scope="col">Type</th><th scope="col">Diamètre max</th><th scope="col">Largeur de face</th></tr></thead>
+        <tbody>
+          <tr data-type="droit" class="actif">
+            <th scope="row"><button type="button" class="capacite-choix" data-face="50.4" aria-pressed="true">Droit</button></th>
+            <td>320&nbsp;po <small>8,13&nbsp;m</small></td>
+            <td>50,4&nbsp;po <small>1,28&nbsp;m</small></td>
+          </tr><tr data-type="helicoidal">
+            <th scope="row"><button type="button" class="capacite-choix" data-face="43.5" aria-pressed="false">Hélicoïdal simple</button></th>
+            <td><small>selon le projet</small></td>
+            <td>43,5&nbsp;po <small>1,10&nbsp;m</small></td>
+          </tr><tr data-type="double">
+            <th scope="row"><button type="button" class="capacite-choix" data-face="86" aria-pressed="false">Double hélice</button></th>
+            <td>320&nbsp;po <small>8,13&nbsp;m</small></td>
+            <td>86&nbsp;po <small>au total</small> <small>2,18&nbsp;m</small></td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note" data-anime>Conversions en mètres arrondies.</p>
+    </div>
+    <figure class="echelle" data-visuel aria-labelledby="echelle-legende">
+      <svg viewBox="0 0 660 500" class="echelle-svg" role="img" aria-label="Couronne de 320 po dessinée à l&#39;échelle à côté d&#39;une silhouette humaine">
+        <line class="echelle-sol" x1="0" y1="452" x2="660" y2="452"/>
+        <g transform="translate(0 12)"><g class="echelle-couronne"><path d="M428.00 236.00 A192.00 192.00 0 0 1 427.98 238.51 L439.96 240.27 A204.00 204.00 0 0 1 439.85 243.74 L427.80 244.79 A192.00 192.00 0 0 1 427.59 248.56 A192.00 192.00 0 0 1 427.41 251.06 L439.24 253.60 A204.00 204.00 0 0 1 438.91 257.06 L426.81 257.32 A192.00 192.00 0 0 1 426.36 261.06 A192.00 192.00 0 0 1 426.01 263.55 L437.65 266.86 A204.00 204.00 0 0 1 437.10 270.28 L425.01 269.75 A192.00 192.00 0 0 1 424.31 273.46 A192.00 192.00 0 0 1 423.80 275.92 L435.20 279.98 A204.00 204.00 0 0 1 434.43 283.36 L422.40 282.04 A192.00 192.00 0 0 1 421.46 285.69 A192.00 192.00 0 0 1 420.79 288.12 L431.90 292.91 A204.00 204.00 0 0 1 430.90 296.24 L418.99 294.13 A192.00 192.00 0 0 1 417.81 297.72 A192.00 192.00 0 0 1 416.99 300.09 L427.76 305.60 A204.00 204.00 0 0 1 426.55 308.86 L414.79 305.98 A192.00 192.00 0 0 1 413.38 309.48 A192.00 192.00 0 0 1 412.41 311.79 L422.80 318.00 A204.00 204.00 0 0 1 421.37 321.16 L409.83 317.52 A192.00 192.00 0 0 1 408.20 320.92 A192.00 192.00 0 0 1 407.07 323.17 L417.03 330.04 A204.00 204.00 0 0 1 415.41 333.11 L404.13 328.72 A192.00 192.00 0 0 1 402.28 332.00 A192.00 192.00 0 0 1 401.01 334.17 L410.49 341.68 A204.00 204.00 0 0 1 408.67 344.63 L397.71 339.51 A192.00 192.00 0 0 1 395.64 342.67 A192.00 192.00 0 0 1 394.23 344.75 L403.21 352.86 A204.00 204.00 0 0 1 401.20 355.69 L390.59 349.87 A192.00 192.00 0 0 1 388.32 352.88 A192.00 192.00 0 0 1 386.78 354.87 L395.21 363.55 A204.00 204.00 0 0 1 393.01 366.24 L382.81 359.74 A192.00 192.00 0 0 1 380.35 362.59 A192.00 192.00 0 0 1 378.68 364.47 L386.52 373.69 A204.00 204.00 0 0 1 384.16 376.23 L374.40 369.07 A192.00 192.00 0 0 1 371.76 371.76 A192.00 192.00 0 0 1 369.98 373.53 L377.20 383.24 A204.00 204.00 0 0 1 374.67 385.62 L365.40 377.84 A192.00 192.00 0 0 1 362.59 380.35 A192.00 192.00 0 0 1 360.69 382.00 L367.26 392.16 A204.00 204.00 0 0 1 364.59 394.37 L355.85 386.00 A192.00 192.00 0 0 1 352.88 388.32 A192.00 192.00 0 0 1 350.88 389.84 L356.77 400.41 A204.00 204.00 0 0 1 353.96 402.44 L345.78 393.52 A192.00 192.00 0 0 1 342.67 395.64 A192.00 192.00 0 0 1 340.57 397.02 L345.76 407.96 A204.00 204.00 0 0 1 342.82 409.80 L335.25 400.36 A192.00 192.00 0 0 1 332.00 402.28 A192.00 192.00 0 0 1 329.82 403.52 L334.28 414.77 A204.00 204.00 0 0 1 331.22 416.41 L324.28 406.50 A192.00 192.00 0 0 1 320.92 408.20 A192.00 192.00 0 0 1 318.66 409.30 L322.38 420.81 A204.00 204.00 0 0 1 319.22 422.25 L312.94 411.91 A192.00 192.00 0 0 1 309.48 413.38 A192.00 192.00 0 0 1 307.15 414.33 L310.10 426.07 A204.00 204.00 0 0 1 306.86 427.30 L301.27 416.56 A192.00 192.00 0 0 1 297.72 417.81 A192.00 192.00 0 0 1 295.33 418.60 L297.51 430.50 A204.00 204.00 0 0 1 294.20 431.52 L289.32 420.45 A192.00 192.00 0 0 1 285.69 421.46 A192.00 192.00 0 0 1 283.26 422.09 L284.66 434.11 A204.00 204.00 0 0 1 281.28 434.91 L277.15 423.54 A192.00 192.00 0 0 1 273.46 424.31 A192.00 192.00 0 0 1 270.99 424.78 L271.60 436.87 A204.00 204.00 0 0 1 268.18 437.45 L264.79 425.83 A192.00 192.00 0 0 1 261.06 426.36 A192.00 192.00 0 0 1 258.57 426.67 L258.39 438.77 A204.00 204.00 0 0 1 254.93 439.12 L252.32 427.31 A192.00 192.00 0 0 1 248.56 427.59 A192.00 192.00 0 0 1 246.05 427.74 L245.08 439.80 A204.00 204.00 0 0 1 241.61 439.92 L239.77 427.96 A192.00 192.00 0 0 1 236.00 428.00 A192.00 192.00 0 0 1 233.49 427.98 L231.73 439.96 A204.00 204.00 0 0 1 228.26 439.85 L227.21 427.80 A192.00 192.00 0 0 1 223.44 427.59 A192.00 192.00 0 0 1 220.94 427.41 L218.40 439.24 A204.00 204.00 0 0 1 214.94 438.91 L214.68 426.81 A192.00 192.00 0 0 1 210.94 426.36 A192.00 192.00 0 0 1 208.45 426.01 L205.14 437.65 A204.00 204.00 0 0 1 201.72 437.10 L202.25 425.01 A192.00 192.00 0 0 1 198.54 424.31 A192.00 192.00 0 0 1 196.08 423.80 L192.02 435.20 A204.00 204.00 0 0 1 188.64 434.43 L189.96 422.40 A192.00 192.00 0 0 1 186.31 421.46 A192.00 192.00 0 0 1 183.88 420.79 L179.09 431.90 A204.00 204.00 0 0 1 175.76 430.90 L177.87 418.99 A192.00 192.00 0 0 1 174.28 417.81 A192.00 192.00 0 0 1 171.91 416.99 L166.40 427.76 A204.00 204.00 0 0 1 163.14 426.55 L166.02 414.79 A192.00 192.00 0 0 1 162.52 413.38 A192.00 192.00 0 0 1 160.21 412.41 L154.00 422.80 A204.00 204.00 0 0 1 150.84 421.37 L154.48 409.83 A192.00 192.00 0 0 1 151.08 408.20 A192.00 192.00 0 0 1 148.83 407.07 L141.96 417.03 A204.00 204.00 0 0 1 138.89 415.41 L143.28 404.13 A192.00 192.00 0 0 1 140.00 402.28 A192.00 192.00 0 0 1 137.83 401.01 L130.32 410.49 A204.00 204.00 0 0 1 127.37 408.67 L132.49 397.71 A192.00 192.00 0 0 1 129.33 395.64 A192.00 192.00 0 0 1 127.25 394.23 L119.14 403.21 A204.00 204.00 0 0 1 116.31 401.20 L122.13 390.59 A192.00 192.00 0 0 1 119.12 388.32 A192.00 192.00 0 0 1 117.13 386.78 L108.45 395.21 A204.00 204.00 0 0 1 105.76 393.01 L112.26 382.81 A192.00 192.00 0 0 1 109.41 380.35 A192.00 192.00 0 0 1 107.53 378.68 L98.31 386.52 A204.00 204.00 0 0 1 95.77 384.16 L102.93 374.40 A192.00 192.00 0 0 1 100.24 371.76 A192.00 192.00 0 0 1 98.47 369.98 L88.76 377.20 A204.00 204.00 0 0 1 86.38 374.67 L94.16 365.40 A192.00 192.00 0 0 1 91.65 362.59 A192.00 192.00 0 0 1 90.00 360.69 L79.84 367.26 A204.00 204.00 0 0 1 77.63 364.59 L86.00 355.85 A192.00 192.00 0 0 1 83.68 352.88 A192.00 192.00 0 0 1 82.16 350.88 L71.59 356.77 A204.00 204.00 0 0 1 69.56 353.96 L78.48 345.78 A192.00 192.00 0 0 1 76.36 342.67 A192.00 192.00 0 0 1 74.98 340.57 L64.04 345.76 A204.00 204.00 0 0 1 62.20 342.82 L71.64 335.25 A192.00 192.00 0 0 1 69.72 332.00 A192.00 192.00 0 0 1 68.48 329.82 L57.23 334.28 A204.00 204.00 0 0 1 55.59 331.22 L65.50 324.28 A192.00 192.00 0 0 1 63.80 320.92 A192.00 192.00 0 0 1 62.70 318.66 L51.19 322.38 A204.00 204.00 0 0 1 49.75 319.22 L60.09 312.94 A192.00 192.00 0 0 1 58.62 309.48 A192.00 192.00 0 0 1 57.67 307.15 L45.93 310.10 A204.00 204.00 0 0 1 44.70 306.86 L55.44 301.27 A192.00 192.00 0 0 1 54.19 297.72 A192.00 192.00 0 0 1 53.40 295.33 L41.50 297.51 A204.00 204.00 0 0 1 40.48 294.20 L51.55 289.32 A192.00 192.00 0 0 1 50.54 285.69 A192.00 192.00 0 0 1 49.91 283.26 L37.89 284.66 A204.00 204.00 0 0 1 37.09 281.28 L48.46 277.15 A192.00 192.00 0 0 1 47.69 273.46 A192.00 192.00 0 0 1 47.22 270.99 L35.13 271.60 A204.00 204.00 0 0 1 34.55 268.18 L46.17 264.79 A192.00 192.00 0 0 1 45.64 261.06 A192.00 192.00 0 0 1 45.33 258.57 L33.23 258.39 A204.00 204.00 0 0 1 32.88 254.93 L44.69 252.32 A192.00 192.00 0 0 1 44.41 248.56 A192.00 192.00 0 0 1 44.26 246.05 L32.20 245.08 A204.00 204.00 0 0 1 32.08 241.61 L44.04 239.77 A192.00 192.00 0 0 1 44.00 236.00 A192.00 192.00 0 0 1 44.02 233.49 L32.04 231.73 A204.00 204.00 0 0 1 32.15 228.26 L44.20 227.21 A192.00 192.00 0 0 1 44.41 223.44 A192.00 192.00 0 0 1 44.59 220.94 L32.76 218.40 A204.00 204.00 0 0 1 33.09 214.94 L45.19 214.68 A192.00 192.00 0 0 1 45.64 210.94 A192.00 192.00 0 0 1 45.99 208.45 L34.35 205.14 A204.00 204.00 0 0 1 34.90 201.72 L46.99 202.25 A192.00 192.00 0 0 1 47.69 198.54 A192.00 192.00 0 0 1 48.20 196.08 L36.80 192.02 A204.00 204.00 0 0 1 37.57 188.64 L49.60 189.96 A192.00 192.00 0 0 1 50.54 186.31 A192.00 192.00 0 0 1 51.21 183.88 L40.10 179.09 A204.00 204.00 0 0 1 41.10 175.76 L53.01 177.87 A192.00 192.00 0 0 1 54.19 174.28 A192.00 192.00 0 0 1 55.01 171.91 L44.24 166.40 A204.00 204.00 0 0 1 45.45 163.14 L57.21 166.02 A192.00 192.00 0 0 1 58.62 162.52 A192.00 192.00 0 0 1 59.59 160.21 L49.20 154.00 A204.00 204.00 0 0 1 50.63 150.84 L62.17 154.48 A192.00 192.00 0 0 1 63.80 151.08 A192.00 192.00 0 0 1 64.93 148.83 L54.97 141.96 A204.00 204.00 0 0 1 56.59 138.89 L67.87 143.28 A192.00 192.00 0 0 1 69.72 140.00 A192.00 192.00 0 0 1 70.99 137.83 L61.51 130.32 A204.00 204.00 0 0 1 63.33 127.37 L74.29 132.49 A192.00 192.00 0 0 1 76.36 129.33 A192.00 192.00 0 0 1 77.77 127.25 L68.79 119.14 A204.00 204.00 0 0 1 70.80 116.31 L81.41 122.13 A192.00 192.00 0 0 1 83.68 119.12 A192.00 192.00 0 0 1 85.22 117.13 L76.79 108.45 A204.00 204.00 0 0 1 78.99 105.76 L89.19 112.26 A192.00 192.00 0 0 1 91.65 109.41 A192.00 192.00 0 0 1 93.32 107.53 L85.48 98.31 A204.00 204.00 0 0 1 87.84 95.77 L97.60 102.93 A192.00 192.00 0 0 1 100.24 100.24 A192.00 192.00 0 0 1 102.02 98.47 L94.80 88.76 A204.00 204.00 0 0 1 97.33 86.38 L106.60 94.16 A192.00 192.00 0 0 1 109.41 91.65 A192.00 192.00 0 0 1 111.31 90.00 L104.74 79.84 A204.00 204.00 0 0 1 107.41 77.63 L116.15 86.00 A192.00 192.00 0 0 1 119.12 83.68 A192.00 192.00 0 0 1 121.12 82.16 L115.23 71.59 A204.00 204.00 0 0 1 118.04 69.56 L126.22 78.48 A192.00 192.00 0 0 1 129.33 76.36 A192.00 192.00 0 0 1 131.43 74.98 L126.24 64.04 A204.00 204.00 0 0 1 129.18 62.20 L136.75 71.64 A192.00 192.00 0 0 1 140.00 69.72 A192.00 192.00 0 0 1 142.18 68.48 L137.72 57.23 A204.00 204.00 0 0 1 140.78 55.59 L147.72 65.50 A192.00 192.00 0 0 1 151.08 63.80 A192.00 192.00 0 0 1 153.34 62.70 L149.62 51.19 A204.00 204.00 0 0 1 152.78 49.75 L159.06 60.09 A192.00 192.00 0 0 1 162.52 58.62 A192.00 192.00 0 0 1 164.85 57.67 L161.90 45.93 A204.00 204.00 0 0 1 165.14 44.70 L170.73 55.44 A192.00 192.00 0 0 1 174.28 54.19 A192.00 192.00 0 0 1 176.67 53.40 L174.49 41.50 A204.00 204.00 0 0 1 177.80 40.48 L182.68 51.55 A192.00 192.00 0 0 1 186.31 50.54 A192.00 192.00 0 0 1 188.74 49.91 L187.34 37.89 A204.00 204.00 0 0 1 190.72 37.09 L194.85 48.46 A192.00 192.00 0 0 1 198.54 47.69 A192.00 192.00 0 0 1 201.01 47.22 L200.40 35.13 A204.00 204.00 0 0 1 203.82 34.55 L207.21 46.17 A192.00 192.00 0 0 1 210.94 45.64 A192.00 192.00 0 0 1 213.43 45.33 L213.61 33.23 A204.00 204.00 0 0 1 217.07 32.88 L219.68 44.69 A192.00 192.00 0 0 1 223.44 44.41 A192.00 192.00 0 0 1 225.95 44.26 L226.92 32.20 A204.00 204.00 0 0 1 230.39 32.08 L232.23 44.04 A192.00 192.00 0 0 1 236.00 44.00 A192.00 192.00 0 0 1 238.51 44.02 L240.27 32.04 A204.00 204.00 0 0 1 243.74 32.15 L244.79 44.20 A192.00 192.00 0 0 1 248.56 44.41 A192.00 192.00 0 0 1 251.06 44.59 L253.60 32.76 A204.00 204.00 0 0 1 257.06 33.09 L257.32 45.19 A192.00 192.00 0 0 1 261.06 45.64 A192.00 192.00 0 0 1 263.55 45.99 L266.86 34.35 A204.00 204.00 0 0 1 270.28 34.90 L269.75 46.99 A192.00 192.00 0 0 1 273.46 47.69 A192.00 192.00 0 0 1 275.92 48.20 L279.98 36.80 A204.00 204.00 0 0 1 283.36 37.57 L282.04 49.60 A192.00 192.00 0 0 1 285.69 50.54 A192.00 192.00 0 0 1 288.12 51.21 L292.91 40.10 A204.00 204.00 0 0 1 296.24 41.10 L294.13 53.01 A192.00 192.00 0 0 1 297.72 54.19 A192.00 192.00 0 0 1 300.09 55.01 L305.60 44.24 A204.00 204.00 0 0 1 308.86 45.45 L305.98 57.21 A192.00 192.00 0 0 1 309.48 58.62 A192.00 192.00 0 0 1 311.79 59.59 L318.00 49.20 A204.00 204.00 0 0 1 321.16 50.63 L317.52 62.17 A192.00 192.00 0 0 1 320.92 63.80 A192.00 192.00 0 0 1 323.17 64.93 L330.04 54.97 A204.00 204.00 0 0 1 333.11 56.59 L328.72 67.87 A192.00 192.00 0 0 1 332.00 69.72 A192.00 192.00 0 0 1 334.17 70.99 L341.68 61.51 A204.00 204.00 0 0 1 344.63 63.33 L339.51 74.29 A192.00 192.00 0 0 1 342.67 76.36 A192.00 192.00 0 0 1 344.75 77.77 L352.86 68.79 A204.00 204.00 0 0 1 355.69 70.80 L349.87 81.41 A192.00 192.00 0 0 1 352.88 83.68 A192.00 192.00 0 0 1 354.87 85.22 L363.55 76.79 A204.00 204.00 0 0 1 366.24 78.99 L359.74 89.19 A192.00 192.00 0 0 1 362.59 91.65 A192.00 192.00 0 0 1 364.47 93.32 L373.69 85.48 A204.00 204.00 0 0 1 376.23 87.84 L369.07 97.60 A192.00 192.00 0 0 1 371.76 100.24 A192.00 192.00 0 0 1 373.53 102.02 L383.24 94.80 A204.00 204.00 0 0 1 385.62 97.33 L377.84 106.60 A192.00 192.00 0 0 1 380.35 109.41 A192.00 192.00 0 0 1 382.00 111.31 L392.16 104.74 A204.00 204.00 0 0 1 394.37 107.41 L386.00 116.15 A192.00 192.00 0 0 1 388.32 119.12 A192.00 192.00 0 0 1 389.84 121.12 L400.41 115.23 A204.00 204.00 0 0 1 402.44 118.04 L393.52 126.22 A192.00 192.00 0 0 1 395.64 129.33 A192.00 192.00 0 0 1 397.02 131.43 L407.96 126.24 A204.00 204.00 0 0 1 409.80 129.18 L400.36 136.75 A192.00 192.00 0 0 1 402.28 140.00 A192.00 192.00 0 0 1 403.52 142.18 L414.77 137.72 A204.00 204.00 0 0 1 416.41 140.78 L406.50 147.72 A192.00 192.00 0 0 1 408.20 151.08 A192.00 192.00 0 0 1 409.30 153.34 L420.81 149.62 A204.00 204.00 0 0 1 422.25 152.78 L411.91 159.06 A192.00 192.00 0 0 1 413.38 162.52 A192.00 192.00 0 0 1 414.33 164.85 L426.07 161.90 A204.00 204.00 0 0 1 427.30 165.14 L416.56 170.73 A192.00 192.00 0 0 1 417.81 174.28 A192.00 192.00 0 0 1 418.60 176.67 L430.50 174.49 A204.00 204.00 0 0 1 431.52 177.80 L420.45 182.68 A192.00 192.00 0 0 1 421.46 186.31 A192.00 192.00 0 0 1 422.09 188.74 L434.11 187.34 A204.00 204.00 0 0 1 434.91 190.72 L423.54 194.85 A192.00 192.00 0 0 1 424.31 198.54 A192.00 192.00 0 0 1 424.78 201.01 L436.87 200.40 A204.00 204.00 0 0 1 437.45 203.82 L425.83 207.21 A192.00 192.00 0 0 1 426.36 210.94 A192.00 192.00 0 0 1 426.67 213.43 L438.77 213.61 A204.00 204.00 0 0 1 439.12 217.07 L427.31 219.68 A192.00 192.00 0 0 1 427.59 223.44 A192.00 192.00 0 0 1 427.74 225.95 L439.80 226.92 A204.00 204.00 0 0 1 439.92 230.39 L427.96 232.23 A192.00 192.00 0 0 1 428.00 236.00Z M396.00 236.00 A160.00 160.00 0 1 0 76.00 236.00 A160.00 160.00 0 1 0 396.00 236.00Z" fill-rule="evenodd"/></g></g>
+        <g class="echelle-cote"><line x1="32" y1="472" x2="440" y2="472"/><line x1="32" y1="464" x2="32" y2="480"/><line x1="440" y1="464" x2="440" y2="480"/></g>
+        <text class="echelle-texte" x="236" y="498" text-anchor="middle">320 po · 8,13 m</text>
+        <text class="echelle-texte echelle-face-texte" x="500" y="30">50,4 po</text>
+        <rect class="echelle-face-barre" x="500" y="44" width="110" height="408"/>
+        <g class="echelle-humain" transform="translate(634 364)"><circle cx="0" cy="8" r="7.5"/><path d="M-8 19h16l3 32h-5l-2 37h-4l-2-30-2 30h-4l-2-37h-5z"/></g>
+      </svg>
+      <figcaption id="echelle-legende">À l&#39;échelle : une silhouette de 1,75 m à côté d&#39;une couronne de 320 po.</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="services clair" id="services" data-effet="index-services">
+  <div class="conteneur services-grille">
+    <div class="services-liste">
+      <div class="tete-section">
+        <p class="surtitre" data-anime>Services</p>
+        <h2 class="titre-section" data-anime="lignes">Douze savoir-faire sous le même toit</h2>
+      </div>
+      <div class="services-famille">
+        <h3 class="services-famille-titre">Réparer et remettre à neuf</h3>
+        <ol class="index"><li class="index-ligne" data-index-image="produit-reducteur">
+          <a href="/services#reparer" data-libelle="Services">
+            <span class="index-num">01</span>
+            <span class="index-titre">Réparation de boîte de vitesses</span>
+            <span class="index-texte">Remplacement des engrenages défectueux, modification du rapport, remise à neuf complète.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/produit-reducteur-1000.webp" srcset="/assets/images/produit-reducteur-480.webp 480w, /assets/images/produit-reducteur-640.webp 640w, /assets/images/produit-reducteur-1000.webp 1000w" sizes="120px" alt="" width="1000" height="1250" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li><li class="index-ligne" data-index-image="reparation-engrenage">
+          <a href="/services#reparer" data-libelle="Services">
+            <span class="index-num">02</span>
+            <span class="index-titre">Réparation d&#39;engrenages</span>
+            <span class="index-texte">Engrenages de tout genre et de toute taille, remis en état ou refaits à l&#39;identique.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/reparation-engrenage-800.webp" srcset="/assets/images/reparation-engrenage-480.webp 480w, /assets/images/reparation-engrenage-640.webp 640w, /assets/images/reparation-engrenage-800.webp 800w" sizes="120px" alt="" width="800" height="534" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li><li class="index-ligne" data-index-image="service-pompe">
+          <a href="/services#reparer" data-libelle="Services">
+            <span class="index-num">03</span>
+            <span class="index-titre">Réparation de pompes</span>
+            <span class="index-texte">Démontage, expertise, remise en état et essais.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-pompe-800.webp" srcset="/assets/images/service-pompe-480.webp 480w, /assets/images/service-pompe-640.webp 640w, /assets/images/service-pompe-800.webp 800w" sizes="120px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li><li class="index-ligne" data-index-image="service-soufflante">
+          <a href="/services#reparer" data-libelle="Services">
+            <span class="index-num">04</span>
+            <span class="index-titre">Réparation de soufflantes</span>
+            <span class="index-texte">Soufflantes et souffleurs remis en état, repeints, prêts à repartir.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-soufflante-1600.webp" srcset="/assets/images/service-soufflante-480.webp 480w, /assets/images/service-soufflante-640.webp 640w, /assets/images/service-soufflante-1600.webp 1600w" sizes="120px" alt="" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li><li class="index-ligne" data-index-image="service-hydraulique">
+          <a href="/services#reparer" data-libelle="Services">
+            <span class="index-num">05</span>
+            <span class="index-titre">Réparation hydraulique</span>
+            <span class="index-texte">Composants hydrauliques réparés et remontés.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-hydraulique-800.webp" srcset="/assets/images/service-hydraulique-480.webp 480w, /assets/images/service-hydraulique-640.webp 640w, /assets/images/service-hydraulique-800.webp 800w" sizes="120px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li><li class="index-ligne" data-index-image="service-moteur">
+          <a href="/services#reparer" data-libelle="Services">
+            <span class="index-num">06</span>
+            <span class="index-titre">Moteur électrique</span>
+            <span class="index-texte">Réparation et remise en service de moteurs électriques.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-moteur-800.webp" srcset="/assets/images/service-moteur-480.webp 480w, /assets/images/service-moteur-640.webp 640w, /assets/images/service-moteur-800.webp 800w" sizes="120px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li></ol>
+      </div><div class="services-famille">
+        <h3 class="services-famille-titre">Usiner et fabriquer</h3>
+        <ol class="index"><li class="index-ligne" data-index-image="service-usinage">
+          <a href="/services#usiner" data-libelle="Services">
+            <span class="index-num">07</span>
+            <span class="index-titre">Usinage CNC et conventionnel</span>
+            <span class="index-texte">De la petite pièce au gros composant : acier, inox, aluminium, fibre de carbone, Inconel.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-usinage-800.webp" srcset="/assets/images/service-usinage-480.webp 480w, /assets/images/service-usinage-640.webp 640w, /assets/images/service-usinage-800.webp 800w" sizes="120px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li><li class="index-ligne" data-index-image="service-soudure">
+          <a href="/services#usiner" data-libelle="Services">
+            <span class="index-num">08</span>
+            <span class="index-titre">Soudure et fabrication</span>
+            <span class="index-texte">Pièces soudées et fabrications sur mesure.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-soudure-800.webp" srcset="/assets/images/service-soudure-480.webp 480w, /assets/images/service-soudure-640.webp 640w, /assets/images/service-soudure-800.webp 800w" sizes="120px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li><li class="index-ligne" data-index-image="service-coupe">
+          <a href="/services#usiner" data-libelle="Services">
+            <span class="index-num">09</span>
+            <span class="index-titre">Coupe de métal</span>
+            <span class="index-texte">Découpe de pièces et de tôles pour la fabrication.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-coupe-800.webp" srcset="/assets/images/service-coupe-480.webp 480w, /assets/images/service-coupe-640.webp 640w, /assets/images/service-coupe-800.webp 800w" sizes="120px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li></ol>
+      </div><div class="services-famille">
+        <h3 class="services-famille-titre">Traiter les surfaces</h3>
+        <ol class="index"><li class="index-ligne" data-index-image="service-hvof">
+          <a href="/services#surfaces" data-libelle="Services">
+            <span class="index-num">10</span>
+            <span class="index-titre">Métallisation HVOF et chrome</span>
+            <span class="index-texte">Revêtements très denses et fortement adhérents, en remplacement du chrome dur.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-hvof-800.webp" srcset="/assets/images/service-hvof-480.webp 480w, /assets/images/service-hvof-640.webp 640w, /assets/images/service-hvof-800.webp 800w" sizes="120px" alt="" width="800" height="534" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li><li class="index-ligne" data-index-image="service-rouleaux">
+          <a href="/services#surfaces" data-libelle="Services">
+            <span class="index-num">11</span>
+            <span class="index-titre">Revêtement de rouleaux</span>
+            <span class="index-texte">Rouleaux rechargés, recouverts et réusinés.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-rouleaux-800.webp" srcset="/assets/images/service-rouleaux-480.webp 480w, /assets/images/service-rouleaux-640.webp 640w, /assets/images/service-rouleaux-800.webp 800w" sizes="120px" alt="" width="800" height="534" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li></ol>
+      </div><div class="services-famille">
+        <h3 class="services-famille-titre">Intervenir sur place</h3>
+        <ol class="index"><li class="index-ligne" data-index-image="service-sur-place">
+          <a href="/services#sur-place" data-libelle="Services">
+            <span class="index-num">12</span>
+            <span class="index-titre">Prestations sur place</span>
+            <span class="index-texte">Assistance technique et service mécanique dans votre usine, pour réduire les arrêts.</span>
+            <figure class="media index-vignette" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/service-sur-place-960.webp" srcset="/assets/images/service-sur-place-480.webp 480w, /assets/images/service-sur-place-640.webp 640w, /assets/images/service-sur-place-960.webp 960w" sizes="120px" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          </a></li></ol>
+      </div>
+      <p class="services-suite"><a href="/services" class="bouton bouton--contour" data-libelle="Services">Tous les services</a></p>
+    </div>
+    <div class="services-visuel" aria-hidden="true">
+      <div class="services-cadre">
+        <figure class="media services-image actif" data-image="produit-reducteur" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/produit-reducteur-1000.webp" srcset="/assets/images/produit-reducteur-480.webp 480w, /assets/images/produit-reducteur-640.webp 640w, /assets/images/produit-reducteur-1000.webp 1000w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="1000" height="1250" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="reparation-engrenage" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/reparation-engrenage-800.webp" srcset="/assets/images/reparation-engrenage-480.webp 480w, /assets/images/reparation-engrenage-640.webp 640w, /assets/images/reparation-engrenage-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="534" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-pompe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-pompe-800.webp" srcset="/assets/images/service-pompe-480.webp 480w, /assets/images/service-pompe-640.webp 640w, /assets/images/service-pompe-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-soufflante" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-soufflante-1600.webp" srcset="/assets/images/service-soufflante-480.webp 480w, /assets/images/service-soufflante-640.webp 640w, /assets/images/service-soufflante-1600.webp 1600w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-hydraulique" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-hydraulique-800.webp" srcset="/assets/images/service-hydraulique-480.webp 480w, /assets/images/service-hydraulique-640.webp 640w, /assets/images/service-hydraulique-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-moteur" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-moteur-800.webp" srcset="/assets/images/service-moteur-480.webp 480w, /assets/images/service-moteur-640.webp 640w, /assets/images/service-moteur-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-usinage" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-usinage-800.webp" srcset="/assets/images/service-usinage-480.webp 480w, /assets/images/service-usinage-640.webp 640w, /assets/images/service-usinage-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-soudure" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-soudure-800.webp" srcset="/assets/images/service-soudure-480.webp 480w, /assets/images/service-soudure-640.webp 640w, /assets/images/service-soudure-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-coupe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-coupe-800.webp" srcset="/assets/images/service-coupe-480.webp 480w, /assets/images/service-coupe-640.webp 640w, /assets/images/service-coupe-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-hvof" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-hvof-800.webp" srcset="/assets/images/service-hvof-480.webp 480w, /assets/images/service-hvof-640.webp 640w, /assets/images/service-hvof-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="534" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-rouleaux" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-rouleaux-800.webp" srcset="/assets/images/service-rouleaux-480.webp 480w, /assets/images/service-rouleaux-640.webp 640w, /assets/images/service-rouleaux-800.webp 800w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="800" height="534" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media services-image" data-image="service-sur-place" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/service-sur-place-960.webp" srcset="/assets/images/service-sur-place-480.webp 480w, /assets/images/service-sur-place-640.webp 640w, /assets/images/service-sur-place-960.webp 960w" sizes="(max-width: 1100px) 40vw, 480px" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="services-legende" data-services-legende>Remplacement des engrenages défectueux, modification du rapport, remise à neuf complète.</p>
+        <svg class="services-roue" viewBox="0 0 120 120"><path d="M108.00 60.00 A48.00 48.00 0 0 1 107.88 63.35 L117.64 66.47 A58.00 58.00 0 0 1 116.82 71.66 L106.57 71.61 A48.00 48.00 0 0 1 105.11 76.42 A48.00 48.00 0 0 1 103.85 79.52 L111.95 85.79 A58.00 58.00 0 0 1 109.40 90.39 L99.79 86.84 A48.00 48.00 0 0 1 96.77 90.85 A48.00 48.00 0 0 1 94.53 93.34 L100.00 102.00 A58.00 58.00 0 0 1 96.03 105.45 L88.21 98.83 A48.00 48.00 0 0 1 84.00 101.57 A48.00 48.00 0 0 1 81.04 103.14 L83.22 113.15 A58.00 58.00 0 0 1 78.31 115.03 L73.23 106.14 A48.00 48.00 0 0 1 68.34 107.27 A48.00 48.00 0 0 1 65.02 107.74 L63.64 117.89 A58.00 58.00 0 0 1 58.38 117.98 L56.65 107.88 A48.00 48.00 0 0 1 51.66 107.27 A48.00 48.00 0 0 1 48.39 106.57 L43.62 115.64 A58.00 58.00 0 0 1 38.65 113.93 L40.48 103.85 A48.00 48.00 0 0 1 36.00 101.57 A48.00 48.00 0 0 1 33.16 99.79 L25.58 106.68 A58.00 58.00 0 0 1 21.49 103.37 L26.66 94.53 A48.00 48.00 0 0 1 23.23 90.85 A48.00 48.00 0 0 1 21.17 88.21 L11.69 92.10 A58.00 58.00 0 0 1 8.98 87.59 L16.86 81.04 A48.00 48.00 0 0 1 14.89 76.42 A48.00 48.00 0 0 1 13.86 73.23 L3.63 73.64 A58.00 58.00 0 0 1 2.62 68.47 L12.26 65.02 A48.00 48.00 0 0 1 12.00 60.00 A48.00 48.00 0 0 1 12.12 56.65 L2.36 53.53 A58.00 58.00 0 0 1 3.18 48.34 L13.43 48.39 A48.00 48.00 0 0 1 14.89 43.58 A48.00 48.00 0 0 1 16.15 40.48 L8.05 34.21 A58.00 58.00 0 0 1 10.60 29.61 L20.21 33.16 A48.00 48.00 0 0 1 23.23 29.15 A48.00 48.00 0 0 1 25.47 26.66 L20.00 18.00 A58.00 58.00 0 0 1 23.97 14.55 L31.79 21.17 A48.00 48.00 0 0 1 36.00 18.43 A48.00 48.00 0 0 1 38.96 16.86 L36.78 6.85 A58.00 58.00 0 0 1 41.69 4.97 L46.77 13.86 A48.00 48.00 0 0 1 51.66 12.73 A48.00 48.00 0 0 1 54.98 12.26 L56.36 2.11 A58.00 58.00 0 0 1 61.62 2.02 L63.35 12.12 A48.00 48.00 0 0 1 68.34 12.73 A48.00 48.00 0 0 1 71.61 13.43 L76.38 4.36 A58.00 58.00 0 0 1 81.35 6.07 L79.52 16.15 A48.00 48.00 0 0 1 84.00 18.43 A48.00 48.00 0 0 1 86.84 20.21 L94.42 13.32 A58.00 58.00 0 0 1 98.51 16.63 L93.34 25.47 A48.00 48.00 0 0 1 96.77 29.15 A48.00 48.00 0 0 1 98.83 31.79 L108.31 27.90 A58.00 58.00 0 0 1 111.02 32.41 L103.14 38.96 A48.00 48.00 0 0 1 105.11 43.58 A48.00 48.00 0 0 1 106.14 46.77 L116.37 46.36 A58.00 58.00 0 0 1 117.38 51.53 L107.74 54.98 A48.00 48.00 0 0 1 108.00 60.00Z M76.00 60.00 A16.00 16.00 0 1 0 44.00 60.00 A16.00 16.00 0 1 0 76.00 60.00Z" fill-rule="evenodd"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="atelier" id="atelier" style="--fx-longueur: 220svh" data-fx="plein-ecran" data-fx-depart="inset(22% 28% 22% 28% round 16px)">
+  <div data-collant>
+    <figure class="media atelier-media" data-grok data-fx-cible style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-atelier-1280.webp" srcset="/assets/images/grok/accueil-atelier-640.webp 640w, /assets/images/grok/accueil-atelier-1280.webp 1280w, /assets/images/grok/accueil-atelier-1920.webp 1920w" sizes="100vw" alt="Un pont roulant soulève un carter de réducteur dans un atelier, un technicien guide la charge" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <p class="atelier-mots" aria-hidden="true"><span data-fx-ecarte="g">Dans nos ateliers</span><span data-fx-ecarte="d">ou chez vous</span></p>
+    <div class="atelier-legende" data-fx-apres>
+      <h2>On vient à la machine quand elle ne peut pas venir à nous</h2>
+      <p>Nos équipes interviennent sur place pour réduire vos arrêts de production. En cas de panne, la ligne d&#39;urgence répond 24 h sur 24.</p>
+      <p class="atelier-actions"><a class="bouton" href="tel:+15148056350">Urgence 24 h · 514-805-6350</a><a href="/services#sur-place" class="lien-fleche lien-clair" data-libelle="Services">Prestations sur place</a></p>
+    </div>
+  </div>
+</section>
+<section class="methode sombre" id="methode" data-scene data-effet="denture" style="--etapes:5">
+  <div class="methode-cadre" data-collant>
+    <div class="conteneur methode-grille">
+      <div class="methode-texte">
+        <p class="surtitre">Méthode</p>
+        <h2 class="titre-section">Cinq temps, une dent à la fois</h2>
+        <ol class="etapes"><li class="etape actif" data-etape="0">
+          <span class="etape-num">01</span>
+          <div><h3>Évaluer le besoin</h3><p>On part de votre pièce, de votre machine et de vos contraintes d&#39;arrêt : on mesure, on inspecte, on cherche la cause.</p></div>
+        </li><li class="etape" data-etape="1">
+          <span class="etape-num">02</span>
+          <div><h3>Concevoir</h3><p>Conception propre à l&#39;application, rapport, matériau et traitement choisis pour durer.</p></div>
+        </li><li class="etape" data-etape="2">
+          <span class="etape-num">03</span>
+          <div><h3>Produire</h3><p>Taillage, usinage, soudure ou métallisation dans nos ateliers, selon les normes AGMA.</p></div>
+        </li><li class="etape" data-etape="3">
+          <span class="etape-num">04</span>
+          <div><h3>Contrôler</h3><p>Contrôle de qualité à chaque étape, avec la maîtrise des coûts en ligne de mire.</p></div>
+        </li><li class="etape" data-etape="4">
+          <span class="etape-num">05</span>
+          <div><h3>Livrer vite</h3><p>Livraison rapide et délais tenus, pour que votre production reparte plus tôt.</p></div>
+        </li></ol>
+        <p class="methode-detail" data-methode-detail aria-live="polite">On part de votre pièce, de votre machine et de vos contraintes d&#39;arrêt : on mesure, on inspecte, on cherche la cause.</p>
+      </div>
+      <div class="methode-visuel" data-visuel aria-hidden="true">
+        <svg class="methode-roue" viewBox="0 0 400 400">
+          <path class="methode-roue-corps" d="M358.00 200.00 A158.00 158.00 0 0 1 357.69 209.92 L389.04 219.07 A190.00 190.00 0 0 1 386.85 234.43 L354.19 234.47 A158.00 158.00 0 0 1 350.27 248.82 A158.00 158.00 0 0 1 346.90 258.16 L373.90 276.55 A190.00 190.00 0 0 1 367.07 290.49 L336.00 280.43 A158.00 158.00 0 0 1 327.82 292.87 A158.00 158.00 0 0 1 321.74 300.71 L341.73 326.54 A190.00 190.00 0 0 1 330.93 337.68 L304.49 318.52 A158.00 158.00 0 0 1 292.87 327.82 A158.00 158.00 0 0 1 284.66 333.40 L295.69 364.15 A190.00 190.00 0 0 1 281.98 371.41 L262.75 345.01 A158.00 158.00 0 0 1 248.82 350.27 A158.00 158.00 0 0 1 239.29 353.04 L240.28 385.68 A190.00 190.00 0 0 1 225.00 388.35 L214.87 357.30 A158.00 158.00 0 0 1 200.00 358.00 A158.00 158.00 0 0 1 190.08 357.69 L180.93 389.04 A190.00 190.00 0 0 1 165.57 386.85 L165.53 354.19 A158.00 158.00 0 0 1 151.18 350.27 A158.00 158.00 0 0 1 141.84 346.90 L123.45 373.90 A190.00 190.00 0 0 1 109.51 367.07 L119.57 336.00 A158.00 158.00 0 0 1 107.13 327.82 A158.00 158.00 0 0 1 99.29 321.74 L73.46 341.73 A190.00 190.00 0 0 1 62.32 330.93 L81.48 304.49 A158.00 158.00 0 0 1 72.18 292.87 A158.00 158.00 0 0 1 66.60 284.66 L35.85 295.69 A190.00 190.00 0 0 1 28.59 281.98 L54.99 262.75 A158.00 158.00 0 0 1 49.73 248.82 A158.00 158.00 0 0 1 46.96 239.29 L14.32 240.28 A190.00 190.00 0 0 1 11.65 225.00 L42.70 214.87 A158.00 158.00 0 0 1 42.00 200.00 A158.00 158.00 0 0 1 42.31 190.08 L10.96 180.93 A190.00 190.00 0 0 1 13.15 165.57 L45.81 165.53 A158.00 158.00 0 0 1 49.73 151.18 A158.00 158.00 0 0 1 53.10 141.84 L26.10 123.45 A190.00 190.00 0 0 1 32.93 109.51 L64.00 119.57 A158.00 158.00 0 0 1 72.18 107.13 A158.00 158.00 0 0 1 78.26 99.29 L58.27 73.46 A190.00 190.00 0 0 1 69.07 62.32 L95.51 81.48 A158.00 158.00 0 0 1 107.13 72.18 A158.00 158.00 0 0 1 115.34 66.60 L104.31 35.85 A190.00 190.00 0 0 1 118.02 28.59 L137.25 54.99 A158.00 158.00 0 0 1 151.18 49.73 A158.00 158.00 0 0 1 160.71 46.96 L159.72 14.32 A190.00 190.00 0 0 1 175.00 11.65 L185.13 42.70 A158.00 158.00 0 0 1 200.00 42.00 A158.00 158.00 0 0 1 209.92 42.31 L219.07 10.96 A190.00 190.00 0 0 1 234.43 13.15 L234.47 45.81 A158.00 158.00 0 0 1 248.82 49.73 A158.00 158.00 0 0 1 258.16 53.10 L276.55 26.10 A190.00 190.00 0 0 1 290.49 32.93 L280.43 64.00 A158.00 158.00 0 0 1 292.87 72.18 A158.00 158.00 0 0 1 300.71 78.26 L326.54 58.27 A190.00 190.00 0 0 1 337.68 69.07 L318.52 95.51 A158.00 158.00 0 0 1 327.82 107.13 A158.00 158.00 0 0 1 333.40 115.34 L364.15 104.31 A190.00 190.00 0 0 1 371.41 118.02 L345.01 137.25 A158.00 158.00 0 0 1 350.27 151.18 A158.00 158.00 0 0 1 353.04 160.71 L385.68 159.72 A190.00 190.00 0 0 1 388.35 175.00 L357.30 185.13 A158.00 158.00 0 0 1 358.00 200.00Z M246.00 200.00 A46.00 46.00 0 1 0 154.00 200.00 A46.00 46.00 0 1 0 246.00 200.00Z" fill-rule="evenodd"/>
+          <circle class="methode-repere actif" data-repere-etape="0" cx="370.3" cy="224.2" r="9"/><circle class="methode-repere" data-repere-etape="1" cx="229.6" cy="369.4" r="9"/><circle class="methode-repere" data-repere-etape="2" cx="48.0" cy="280.5" r="9"/><circle class="methode-repere" data-repere-etape="3" cx="76.5" cy="80.3" r="9"/><circle class="methode-repere" data-repere-etape="4" cx="275.7" cy="45.5" r="9"/>
+          <circle class="methode-moyeu" cx="200" cy="200" r="70"/>
+        </svg>
+        <svg class="methode-pignon" viewBox="0 0 200 200"><path d="M162.77 120.40 A66.00 66.00 0 0 1 159.72 128.10 L183.54 147.30 A96.00 96.00 0 0 1 174.73 160.26 L148.11 145.18 A66.00 66.00 0 0 1 138.79 153.40 A66.00 66.00 0 0 1 131.80 157.84 L139.78 187.37 A96.00 96.00 0 0 1 125.04 192.68 L112.37 164.83 A66.00 66.00 0 0 1 100.00 166.00 A66.00 66.00 0 0 1 91.73 165.48 L80.83 194.07 A96.00 96.00 0 0 1 65.78 189.70 L71.90 159.72 A66.00 66.00 0 0 1 61.21 153.40 A66.00 66.00 0 0 1 54.82 148.11 L29.20 164.83 A96.00 96.00 0 0 1 19.60 152.45 L42.16 131.80 A66.00 66.00 0 0 1 37.23 120.40 A66.00 66.00 0 0 1 35.17 112.37 L4.61 110.83 A96.00 96.00 0 0 1 4.12 95.18 L34.52 91.73 A66.00 66.00 0 0 1 37.23 79.60 A66.00 66.00 0 0 1 40.28 71.90 L16.46 52.70 A96.00 96.00 0 0 1 25.27 39.74 L51.89 54.82 A66.00 66.00 0 0 1 61.21 46.60 A66.00 66.00 0 0 1 68.20 42.16 L60.22 12.63 A96.00 96.00 0 0 1 74.96 7.32 L87.63 35.17 A66.00 66.00 0 0 1 100.00 34.00 A66.00 66.00 0 0 1 108.27 34.52 L119.17 5.93 A96.00 96.00 0 0 1 134.22 10.30 L128.10 40.28 A66.00 66.00 0 0 1 138.79 46.60 A66.00 66.00 0 0 1 145.18 51.89 L170.80 35.17 A96.00 96.00 0 0 1 180.40 47.55 L157.84 68.20 A66.00 66.00 0 0 1 162.77 79.60 A66.00 66.00 0 0 1 164.83 87.63 L195.39 89.17 A96.00 96.00 0 0 1 195.88 104.82 L165.48 108.27 A66.00 66.00 0 0 1 162.77 120.40Z M126.00 100.00 A26.00 26.00 0 1 0 74.00 100.00 A26.00 26.00 0 1 0 126.00 100.00Z" fill-rule="evenodd"/></svg>
+        <p class="methode-compte"><span data-methode-compte>01</span> / 05</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="pannes clair" id="pannes">
+  <div class="conteneur pannes-grille">
+    <figure class="media pannes-media" data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/expertise-ouverture-mobile-640.webp 640w, /assets/images/expertise-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 50vw">
+    <img src="/assets/images/expertise-ouverture-1280.webp" srcset="/assets/images/expertise-ouverture-640.webp 640w, /assets/images/expertise-ouverture-1280.webp 1280w, /assets/images/expertise-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Inspection d&#39;un carter de réducteur par sa trappe de visite, annotations à la craie" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <p class="surtitre" data-anime>Analyse des engrenages et des pannes</p>
+      <h2 class="titre-section" data-anime="lignes">Trouver la cause, pas seulement changer la pièce</h2>
+      <p data-anime>La surveillance de l&#39;état de vos entraînements, combinée à nos autres services, évite les interruptions de production.</p>
+      <ul class="coches" data-anime="cascade">
+        <li>Savoir quand une pièce doit être remplacée</li><li>Repérer la paire d&#39;engrenages défectueuse, machine en marche</li><li>Un fonctionnement plus sûr, moins de pièces de rechange</li>
+      </ul>
+      <p data-anime><a href="/expertise" class="lien-fleche" data-libelle="Expertise">Notre expertise</a></p>
+    </div>
+  </div>
+</section>
+<section class="secteurs clair" id="secteurs">
+  <div class="mots-geants" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel data-audit-ignorer>
+    <p data-fx-rangee><span>Pâte et papier</span><span>Mines et manutention</span><span>Broyeurs à billes</span><span>Acier et métaux</span><span>Énergie</span><span>Énergie éolienne</span><span>Pétrochimie</span><span>Pâte et papier</span><span>Mines et manutention</span><span>Broyeurs à billes</span><span>Acier et métaux</span><span>Énergie</span><span>Énergie éolienne</span><span>Pétrochimie</span></p>
+    <p data-fx-rangee data-sens="-1"><span>Portuaire</span><span>Marin</span><span>Traitement de l&#39;eau</span><span>Transformation alimentaire</span><span>Aérospatial</span><span>Espace</span><span>Militaire</span><span>Portuaire</span><span>Marin</span><span>Traitement de l&#39;eau</span><span>Transformation alimentaire</span><span>Aérospatial</span><span>Espace</span><span>Militaire</span></p>
+  </div>
+  <div class="conteneur secteurs-bas">
+    <h2 class="secteurs-titre" data-anime="lignes">14 secteurs servis</h2>
+    <p class="secteurs-ligne" data-anime>Pâte et papier · Mines et manutention · Broyeurs à billes · Acier et métaux · Énergie · Énergie éolienne · Pétrochimie · Portuaire · Marin · Traitement de l&#39;eau · Transformation alimentaire · Aérospatial · Espace · Militaire</p>
+  </div>
+</section>
+<section class="centres clair" id="centres" data-effet="carte-centres">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Centres de services</p>
+      <h2 class="titre-section" data-anime="lignes">Du Québec à l&#39;Ontario, aux États-Unis et en Europe</h2>
+      <p class="chapo" data-anime>Six centres de services régionaux. Adresse principale : Sainte-Sophie (Québec).</p>
+    </div>
+    <figure class="reseau" data-visuel>
+      <svg viewBox="0 0 1000 300" class="reseau-svg" role="img" aria-label="Réseau des centres de services, de la Colombie-Britannique à l&#39;Allemagne">
+        <path class="reseau-ocean" d="M800 30 C 840 120, 840 200, 800 280"/>
+        <text class="reseau-ocean-texte" x="842" y="270">Atlantique</text>
+        <path class="reseau-ligne" d="M600 138 Q330 15 60 120"/><path class="reseau-ligne" d="M600 138 Q515 78 430 192"/><path class="reseau-ligne" d="M600 138 Q585 46 570 90"/><path class="reseau-ligne" d="M600 138 Q630 91 660 228"/><path class="reseau-ligne" d="M600 138 Q765 40 930 120"/>
+        <g class="reseau-point" transform="translate(60 120)"><circle r="14" class="reseau-halo"/><circle r="6"/></g><text class="reseau-nom" x="74" y="106" text-anchor="start">Colombie-Britannique</text><g class="reseau-point" transform="translate(430 192)"><circle r="14" class="reseau-halo"/><circle r="6"/></g><text class="reseau-nom" x="444" y="178" text-anchor="start">Toronto</text><g class="reseau-point reseau-hub" transform="translate(600 138)"><circle r="14" class="reseau-halo"/><circle r="9"/></g><text class="reseau-nom" x="614" y="124" text-anchor="start">Montréal</text><g class="reseau-point" transform="translate(570 90)"><circle r="14" class="reseau-halo"/><circle r="6"/></g><text class="reseau-nom" x="556" y="76" text-anchor="end">Saint-Jérôme</text><g class="reseau-point" transform="translate(660 228)"><circle r="14" class="reseau-halo"/><circle r="6"/></g><text class="reseau-nom" x="674" y="214" text-anchor="start">Plattsburgh</text><g class="reseau-point" transform="translate(930 120)"><circle r="14" class="reseau-halo"/><circle r="6"/></g><text class="reseau-nom" x="944" y="106" text-anchor="start">Allemagne</text>
+      </svg>
+    </figure>
+    <ul class="centres-liste" data-anime="cascade"><li><strong>Colombie-Britannique</strong><span>Canada</span></li><li><strong>Toronto</strong><span>Ontario</span><a href="tel:+14166283792">416-628-3792</a></li><li><strong>Montréal</strong><span>Québec</span><a href="tel:+14505829413">450-582-9413</a></li><li><strong>Saint-Jérôme</strong><span>Québec</span></li><li><strong>Plattsburgh</strong><span>État de New York</span><a href="tel:+15189074267">518-907-4267</a></li><li><strong>Allemagne</strong><span>Europe</span></li></ul>
+  </div>
+</section>
+<section class="appel sombre" id="appel">
+  <canvas class="etincelles appel-etincelles" data-etincelles="appel" data-audit-ignorer aria-hidden="true"></canvas>
+  <div class="conteneur appel-grille">
+    <div class="appel-roues" data-effet="roue-appel" data-visuel aria-hidden="true">
+      <svg class="appel-roue" viewBox="0 0 300 300"><path d="M282.00 150.00 A132.00 132.00 0 0 1 281.90 155.18 L295.71 159.17 A146.00 146.00 0 0 1 295.05 166.59 L280.76 168.09 A132.00 132.00 0 0 1 279.46 175.75 A132.00 132.00 0 0 1 278.35 180.81 L291.12 187.42 A146.00 146.00 0 0 1 289.03 194.57 L274.71 193.25 A132.00 132.00 0 0 1 271.95 200.51 A132.00 132.00 0 0 1 269.87 205.26 L281.11 214.23 A146.00 146.00 0 0 1 277.66 220.84 L263.88 216.75 A132.00 132.00 0 0 1 259.75 223.34 A132.00 132.00 0 0 1 256.79 227.59 L266.06 238.58 A146.00 146.00 0 0 1 261.39 244.38 L248.67 237.68 A132.00 132.00 0 0 1 243.34 243.34 A132.00 132.00 0 0 1 239.60 246.93 L246.55 259.52 A146.00 146.00 0 0 1 240.84 264.30 L229.67 255.25 A132.00 132.00 0 0 1 223.34 259.75 A132.00 132.00 0 0 1 218.97 262.55 L223.33 276.25 A146.00 146.00 0 0 1 216.79 279.83 L207.61 268.77 A132.00 132.00 0 0 1 200.51 271.95 A132.00 132.00 0 0 1 195.69 273.84 L197.29 288.13 A146.00 146.00 0 0 1 190.18 290.36 L183.33 277.72 A132.00 132.00 0 0 1 175.75 279.46 A132.00 132.00 0 0 1 170.65 280.37 L169.44 294.70 A146.00 146.00 0 0 1 162.03 295.50 L157.77 281.77 A132.00 132.00 0 0 1 150.00 282.00 A132.00 132.00 0 0 1 144.82 281.90 L140.83 295.71 A146.00 146.00 0 0 1 133.41 295.05 L131.91 280.76 A132.00 132.00 0 0 1 124.25 279.46 A132.00 132.00 0 0 1 119.19 278.35 L112.58 291.12 A146.00 146.00 0 0 1 105.43 289.03 L106.75 274.71 A132.00 132.00 0 0 1 99.49 271.95 A132.00 132.00 0 0 1 94.74 269.87 L85.77 281.11 A146.00 146.00 0 0 1 79.16 277.66 L83.25 263.88 A132.00 132.00 0 0 1 76.66 259.75 A132.00 132.00 0 0 1 72.41 256.79 L61.42 266.06 A146.00 146.00 0 0 1 55.62 261.39 L62.32 248.67 A132.00 132.00 0 0 1 56.66 243.34 A132.00 132.00 0 0 1 53.07 239.60 L40.48 246.55 A146.00 146.00 0 0 1 35.70 240.84 L44.75 229.67 A132.00 132.00 0 0 1 40.25 223.34 A132.00 132.00 0 0 1 37.45 218.97 L23.75 223.33 A146.00 146.00 0 0 1 20.17 216.79 L31.23 207.61 A132.00 132.00 0 0 1 28.05 200.51 A132.00 132.00 0 0 1 26.16 195.69 L11.87 197.29 A146.00 146.00 0 0 1 9.64 190.18 L22.28 183.33 A132.00 132.00 0 0 1 20.54 175.75 A132.00 132.00 0 0 1 19.63 170.65 L5.30 169.44 A146.00 146.00 0 0 1 4.50 162.03 L18.23 157.77 A132.00 132.00 0 0 1 18.00 150.00 A132.00 132.00 0 0 1 18.10 144.82 L4.29 140.83 A146.00 146.00 0 0 1 4.95 133.41 L19.24 131.91 A132.00 132.00 0 0 1 20.54 124.25 A132.00 132.00 0 0 1 21.65 119.19 L8.88 112.58 A146.00 146.00 0 0 1 10.97 105.43 L25.29 106.75 A132.00 132.00 0 0 1 28.05 99.49 A132.00 132.00 0 0 1 30.13 94.74 L18.89 85.77 A146.00 146.00 0 0 1 22.34 79.16 L36.12 83.25 A132.00 132.00 0 0 1 40.25 76.66 A132.00 132.00 0 0 1 43.21 72.41 L33.94 61.42 A146.00 146.00 0 0 1 38.61 55.62 L51.33 62.32 A132.00 132.00 0 0 1 56.66 56.66 A132.00 132.00 0 0 1 60.40 53.07 L53.45 40.48 A146.00 146.00 0 0 1 59.16 35.70 L70.33 44.75 A132.00 132.00 0 0 1 76.66 40.25 A132.00 132.00 0 0 1 81.03 37.45 L76.67 23.75 A146.00 146.00 0 0 1 83.21 20.17 L92.39 31.23 A132.00 132.00 0 0 1 99.49 28.05 A132.00 132.00 0 0 1 104.31 26.16 L102.71 11.87 A146.00 146.00 0 0 1 109.82 9.64 L116.67 22.28 A132.00 132.00 0 0 1 124.25 20.54 A132.00 132.00 0 0 1 129.35 19.63 L130.56 5.30 A146.00 146.00 0 0 1 137.97 4.50 L142.23 18.23 A132.00 132.00 0 0 1 150.00 18.00 A132.00 132.00 0 0 1 155.18 18.10 L159.17 4.29 A146.00 146.00 0 0 1 166.59 4.95 L168.09 19.24 A132.00 132.00 0 0 1 175.75 20.54 A132.00 132.00 0 0 1 180.81 21.65 L187.42 8.88 A146.00 146.00 0 0 1 194.57 10.97 L193.25 25.29 A132.00 132.00 0 0 1 200.51 28.05 A132.00 132.00 0 0 1 205.26 30.13 L214.23 18.89 A146.00 146.00 0 0 1 220.84 22.34 L216.75 36.12 A132.00 132.00 0 0 1 223.34 40.25 A132.00 132.00 0 0 1 227.59 43.21 L238.58 33.94 A146.00 146.00 0 0 1 244.38 38.61 L237.68 51.33 A132.00 132.00 0 0 1 243.34 56.66 A132.00 132.00 0 0 1 246.93 60.40 L259.52 53.45 A146.00 146.00 0 0 1 264.30 59.16 L255.25 70.33 A132.00 132.00 0 0 1 259.75 76.66 A132.00 132.00 0 0 1 262.55 81.03 L276.25 76.67 A146.00 146.00 0 0 1 279.83 83.21 L268.77 92.39 A132.00 132.00 0 0 1 271.95 99.49 A132.00 132.00 0 0 1 273.84 104.31 L288.13 102.71 A146.00 146.00 0 0 1 290.36 109.82 L277.72 116.67 A132.00 132.00 0 0 1 279.46 124.25 A132.00 132.00 0 0 1 280.37 129.35 L294.70 130.56 A146.00 146.00 0 0 1 295.50 137.97 L281.77 142.23 A132.00 132.00 0 0 1 282.00 150.00Z M190.00 150.00 A40.00 40.00 0 1 0 110.00 150.00 A40.00 40.00 0 1 0 190.00 150.00Z" fill-rule="evenodd"/></svg>
+      <svg class="appel-pignon" viewBox="0 0 150 150"><path d="M133.00 75.00 A58.00 58.00 0 0 1 132.82 79.55 L146.43 84.02 A72.00 72.00 0 0 1 145.14 91.26 L130.82 90.74 A58.00 58.00 0 0 1 128.59 97.20 A58.00 58.00 0 0 1 126.68 101.33 L137.54 110.67 A72.00 72.00 0 0 1 133.58 116.86 L120.55 110.91 A58.00 58.00 0 0 1 116.01 116.01 A58.00 58.00 0 0 1 112.67 119.10 L119.13 131.89 A72.00 72.00 0 0 1 113.10 136.09 L103.34 125.60 A58.00 58.00 0 0 1 97.20 128.59 A58.00 58.00 0 0 1 92.92 130.16 L94.00 144.45 A72.00 72.00 0 0 1 86.82 146.02 L81.82 132.60 A58.00 58.00 0 0 1 75.00 133.00 A58.00 58.00 0 0 1 70.45 132.82 L65.98 146.43 A72.00 72.00 0 0 1 58.74 145.14 L59.26 130.82 A58.00 58.00 0 0 1 52.80 128.59 A58.00 58.00 0 0 1 48.67 126.68 L39.33 137.54 A72.00 72.00 0 0 1 33.14 133.58 L39.09 120.55 A58.00 58.00 0 0 1 33.99 116.01 A58.00 58.00 0 0 1 30.90 112.67 L18.11 119.13 A72.00 72.00 0 0 1 13.91 113.10 L24.40 103.34 A58.00 58.00 0 0 1 21.41 97.20 A58.00 58.00 0 0 1 19.84 92.92 L5.55 94.00 A72.00 72.00 0 0 1 3.98 86.82 L17.40 81.82 A58.00 58.00 0 0 1 17.00 75.00 A58.00 58.00 0 0 1 17.18 70.45 L3.57 65.98 A72.00 72.00 0 0 1 4.86 58.74 L19.18 59.26 A58.00 58.00 0 0 1 21.41 52.80 A58.00 58.00 0 0 1 23.32 48.67 L12.46 39.33 A72.00 72.00 0 0 1 16.42 33.14 L29.45 39.09 A58.00 58.00 0 0 1 33.99 33.99 A58.00 58.00 0 0 1 37.33 30.90 L30.87 18.11 A72.00 72.00 0 0 1 36.90 13.91 L46.66 24.40 A58.00 58.00 0 0 1 52.80 21.41 A58.00 58.00 0 0 1 57.08 19.84 L56.00 5.55 A72.00 72.00 0 0 1 63.18 3.98 L68.18 17.40 A58.00 58.00 0 0 1 75.00 17.00 A58.00 58.00 0 0 1 79.55 17.18 L84.02 3.57 A72.00 72.00 0 0 1 91.26 4.86 L90.74 19.18 A58.00 58.00 0 0 1 97.20 21.41 A58.00 58.00 0 0 1 101.33 23.32 L110.67 12.46 A72.00 72.00 0 0 1 116.86 16.42 L110.91 29.45 A58.00 58.00 0 0 1 116.01 33.99 A58.00 58.00 0 0 1 119.10 37.33 L131.89 30.87 A72.00 72.00 0 0 1 136.09 36.90 L125.60 46.66 A58.00 58.00 0 0 1 128.59 52.80 A58.00 58.00 0 0 1 130.16 57.08 L144.45 56.00 A72.00 72.00 0 0 1 146.02 63.18 L132.60 68.18 A58.00 58.00 0 0 1 133.00 75.00Z M95.00 75.00 A20.00 20.00 0 1 0 55.00 75.00 A20.00 20.00 0 1 0 95.00 75.00Z" fill-rule="evenodd"/></svg>
+    </div>
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Une pièce à refaire, une machine à l&#39;arrêt ?</h2>
+      <p data-anime>Décrivez-nous la pièce : nous vous répondons avec une soumission. Pour une panne, appelez la ligne d&#39;urgence, 24 h sur 24.</p>
+      <p class="appel-actions" data-anime>
+        <a href="/contact#soumission" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander une soumission</a>
+        <a class="bouton bouton--contour" href="tel:+15148056350">Urgence 24 h · 514-805-6350</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-fx-clair.png" alt="FX Technologie" width="210" height="79" loading="lazy">
+      <p>Engrenages et transmission de puissance : fabrication, réparation, usinage et service sur place.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Nous joindre</p>
+      <p>267, rue de la Rivière, Sainte-Sophie (Québec) J5J 1B6<br><a href="tel:+14505829413">450-582-9413</a> · téléc. 450-582-9105<br><a href="mailto:info@fxtechnologie.com">info@fxtechnologie.com</a></p>
+      <p class="pied-urgence"><a href="tel:+15148056350">Urgence 24 h · 514-805-6350</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/produits" data-libelle="Produits">Produits</a></li><li><a href="/services" data-libelle="Services">Services</a></li><li><a href="/expertise" data-libelle="Expertise">Expertise</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre</p>
+      <ul>
+        <li><a href="https://twitter.com/fxtechnologie" target="_blank" rel="noopener">Twitter @fxtechnologie</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : formulaires simulés, rien n&#39;est envoyé.</p><p>© FX Technologie</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+15148056350">Urgence 24 h</a>
+  <a class="bouton" href="/contact#soumission" data-libelle="Contact">Demander une soumission</a>
+</div>
+<div class="engrenement" aria-hidden="true" data-audit-ignorer><svg class="eg-grande" viewBox="0 0 100 100"><path d="M88.00 50.00 A38.00 38.00 0 0 1 87.88 52.98 L97.62 56.02 A48.00 48.00 0 0 1 96.76 60.84 L86.57 60.31 A38.00 38.00 0 0 1 85.11 64.54 A38.00 38.00 0 0 1 83.86 67.25 L91.69 73.78 A48.00 48.00 0 0 1 89.05 77.91 L79.84 73.53 A38.00 38.00 0 0 1 76.87 76.87 A38.00 38.00 0 0 1 74.68 78.90 L79.42 87.93 A48.00 48.00 0 0 1 75.40 90.73 L68.57 83.15 A38.00 38.00 0 0 1 64.54 85.11 A38.00 38.00 0 0 1 61.74 86.14 L62.67 96.30 A48.00 48.00 0 0 1 57.88 97.35 L54.47 87.74 A38.00 38.00 0 0 1 50.00 88.00 A38.00 38.00 0 0 1 47.02 87.88 L43.98 97.62 A48.00 48.00 0 0 1 39.16 96.76 L39.69 86.57 A38.00 38.00 0 0 1 35.46 85.11 A38.00 38.00 0 0 1 32.75 83.86 L26.22 91.69 A48.00 48.00 0 0 1 22.09 89.05 L26.47 79.84 A38.00 38.00 0 0 1 23.13 76.87 A38.00 38.00 0 0 1 21.10 74.68 L12.07 79.42 A48.00 48.00 0 0 1 9.27 75.40 L16.85 68.57 A38.00 38.00 0 0 1 14.89 64.54 A38.00 38.00 0 0 1 13.86 61.74 L3.70 62.67 A48.00 48.00 0 0 1 2.65 57.88 L12.26 54.47 A38.00 38.00 0 0 1 12.00 50.00 A38.00 38.00 0 0 1 12.12 47.02 L2.38 43.98 A48.00 48.00 0 0 1 3.24 39.16 L13.43 39.69 A38.00 38.00 0 0 1 14.89 35.46 A38.00 38.00 0 0 1 16.14 32.75 L8.31 26.22 A48.00 48.00 0 0 1 10.95 22.09 L20.16 26.47 A38.00 38.00 0 0 1 23.13 23.13 A38.00 38.00 0 0 1 25.32 21.10 L20.58 12.07 A48.00 48.00 0 0 1 24.60 9.27 L31.43 16.85 A38.00 38.00 0 0 1 35.46 14.89 A38.00 38.00 0 0 1 38.26 13.86 L37.33 3.70 A48.00 48.00 0 0 1 42.12 2.65 L45.53 12.26 A38.00 38.00 0 0 1 50.00 12.00 A38.00 38.00 0 0 1 52.98 12.12 L56.02 2.38 A48.00 48.00 0 0 1 60.84 3.24 L60.31 13.43 A38.00 38.00 0 0 1 64.54 14.89 A38.00 38.00 0 0 1 67.25 16.14 L73.78 8.31 A48.00 48.00 0 0 1 77.91 10.95 L73.53 20.16 A38.00 38.00 0 0 1 76.87 23.13 A38.00 38.00 0 0 1 78.90 25.32 L87.93 20.58 A48.00 48.00 0 0 1 90.73 24.60 L83.15 31.43 A38.00 38.00 0 0 1 85.11 35.46 A38.00 38.00 0 0 1 86.14 38.26 L96.30 37.33 A48.00 48.00 0 0 1 97.35 42.12 L87.74 45.53 A38.00 38.00 0 0 1 88.00 50.00Z M62.00 50.00 A12.00 12.00 0 1 0 38.00 50.00 A12.00 12.00 0 1 0 62.00 50.00Z" fill-rule="evenodd"/></svg><svg class="eg-petite" viewBox="0 0 100 100"><path d="M80.00 50.00 A30.00 30.00 0 0 1 79.63 54.69 L94.55 61.44 A46.00 46.00 0 0 1 91.31 70.24 L75.58 65.67 A30.00 30.00 0 0 1 71.21 71.21 A30.00 30.00 0 0 1 67.63 74.27 L73.42 89.59 A46.00 46.00 0 0 1 64.90 93.52 L57.00 79.17 A30.00 30.00 0 0 1 50.00 80.00 A30.00 30.00 0 0 1 45.31 79.63 L38.56 94.55 A46.00 46.00 0 0 1 29.76 91.31 L34.33 75.58 A30.00 30.00 0 0 1 28.79 71.21 A30.00 30.00 0 0 1 25.73 67.63 L10.41 73.42 A46.00 46.00 0 0 1 6.48 64.90 L20.83 57.00 A30.00 30.00 0 0 1 20.00 50.00 A30.00 30.00 0 0 1 20.37 45.31 L5.45 38.56 A46.00 46.00 0 0 1 8.69 29.76 L24.42 34.33 A30.00 30.00 0 0 1 28.79 28.79 A30.00 30.00 0 0 1 32.37 25.73 L26.58 10.41 A46.00 46.00 0 0 1 35.10 6.48 L43.00 20.83 A30.00 30.00 0 0 1 50.00 20.00 A30.00 30.00 0 0 1 54.69 20.37 L61.44 5.45 A46.00 46.00 0 0 1 70.24 8.69 L65.67 24.42 A30.00 30.00 0 0 1 71.21 28.79 A30.00 30.00 0 0 1 74.27 32.37 L89.59 26.58 A46.00 46.00 0 0 1 93.52 35.10 L79.17 43.00 A30.00 30.00 0 0 1 80.00 50.00Z M64.00 50.00 A14.00 14.00 0 1 0 36.00 50.00 A14.00 14.00 0 1 0 64.00 50.00Z" fill-rule="evenodd"/></svg></div>
+</body>
+</html>

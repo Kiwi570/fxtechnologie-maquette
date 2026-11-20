@@ -1,0 +1,2911 @@
+{
+  "site": "https://www.fxtechnologie.com/?lang=fr",
+  "date": "2026-11-20T17:30:28.635Z",
+  "pages": [
+    "https://www.fxtechnologie.com/",
+    "https://www.fxtechnologie.com/contact",
+    "https://www.fxtechnologie.com/gallery",
+    "https://www.fxtechnologie.com/food-processing",
+    "https://www.fxtechnologie.com/water-treatment",
+    "https://www.fxtechnologie.com/steel-and-metal-processing",
+    "https://www.fxtechnologie.com/ball-mill",
+    "https://www.fxtechnologie.com/mining-and-material-handling",
+    "https://www.fxtechnologie.com/pulp-and-paper",
+    "https://www.fxtechnologie.com/portuaire",
+    "https://www.fxtechnologie.com/petrochemical",
+    "https://www.fxtechnologie.com/wind-power",
+    "https://www.fxtechnologie.com/energy",
+    "https://www.fxtechnologie.com/marine",
+    "https://www.fxtechnologie.com/military",
+    "https://www.fxtechnologie.com/aerospace",
+    "https://www.fxtechnologie.com/space",
+    "https://www.fxtechnologie.com/industry-solutions",
+    "https://www.fxtechnologie.com/roll-covering-repair",
+    "https://www.fxtechnologie.com/hydraulic-repair",
+    "https://www.fxtechnologie.com/blower-repair",
+    "https://www.fxtechnologie.com/pump-repair",
+    "https://www.fxtechnologie.com/gear-repair",
+    "https://www.fxtechnologie.com/gear-box-repair",
+    "https://www.fxtechnologie.com/electrical-motor",
+    "https://www.fxtechnologie.com/metal-cutting",
+    "https://www.fxtechnologie.com/metalizing-hvof-chrome",
+    "https://www.fxtechnologie.com/welding-fabrication",
+    "https://www.fxtechnologie.com/on-site-services",
+    "https://www.fxtechnologie.com/machining-conventional-cnc",
+    "https://www.fxtechnologie.com/services",
+    "https://www.fxtechnologie.com/gear-reducer",
+    "https://www.fxtechnologie.com/dryer-gear",
+    "https://www.fxtechnologie.com/large-ring-gear",
+    "https://www.fxtechnologie.com/gears",
+    "https://www.fxtechnologie.com/products",
+    "https://www.fxtechnologie.com/news",
+    "https://www.fxtechnologie.com/gear-and-failure-analysis",
+    "https://www.fxtechnologie.com/power-through-process",
+    "https://www.fxtechnologie.com/service-center",
+    "https://www.fxtechnologie.com/our-mission",
+    "https://www.fxtechnologie.com/home"
+  ],
+  "images": [
+    {
+      "fichier": "logo-sombre.png",
+      "nom": "logo-sombre",
+      "origine": "https://static.wixstatic.com/media/36f4da_a39790d6f2fc42eaa048472c56882f4e.png",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 42,
+      "emplacement": "img (entete)",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 210,
+      "hauteur": 79,
+      "poids": 28972,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "logo",
+      "marque": "principale"
+    },
+    {
+      "fichier": "services.jpg",
+      "nom": "services",
+      "origine": "https://static.wixstatic.com/media/b25591_6635b50cbbbd44bca28db3cae17a6fbc.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "SERVICES",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1333,
+      "largeur_origine": 5760,
+      "hauteur_origine": 3840,
+      "poids": 225904,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-reussite.jpg",
+      "nom": "engrenage-reussite",
+      "origine": "https://static.wixstatic.com/media/36f4da_66bde40565cb41f9a6433749a5d912fd.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "DANS L'ENGRENAGE DE LA RÉUSSITE",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1536,
+      "largeur_origine": 3000,
+      "hauteur_origine": 2304,
+      "poids": 359414,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-boite-reduction.jpg",
+      "nom": "reparation-boite-reduction",
+      "origine": "https://static.wixstatic.com/media/36f4da_340f866af32d4147ad4659983e8d33f3.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 4,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation de boîte de réduction",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1328,
+      "largeur_origine": 3216,
+      "hauteur_origine": 2136,
+      "poids": 466248,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "remise-neuf-boite-reduction.jpg",
+      "nom": "remise-neuf-boite-reduction",
+      "origine": "https://static.wixstatic.com/media/36f4da_cd6c0172ace646748bb98a3976368e7f.jpg",
+      "page": "https://www.fxtechnologie.com/gallery",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "remise a neuf de boîte de réduction",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "fx technologie gallerie",
+        "fichier_origine": ""
+      },
+      "largeur": 1328,
+      "hauteur": 2000,
+      "largeur_origine": 2136,
+      "hauteur_origine": 3216,
+      "poids": 503323,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "usa.jpg",
+      "nom": "usa",
+      "origine": "https://static.wixstatic.com/media/36f4da_d393ae1f88934a839e24cf4bd7a24c20.jpg",
+      "page": "https://www.fxtechnologie.com/service-center",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "usa",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRES DE SERVICES RÉGIONAL",
+        "page": "CENTRES DE SERVICES RÉGIONAL",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3000,
+      "hauteur_origine": 2250,
+      "poids": 398495,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-ventilateur.jpg",
+      "nom": "reparation-ventilateur",
+      "origine": "https://static.wixstatic.com/media/36f4da_7d28bd5ba85d4d188a46b644da6d71ca.jpg",
+      "page": "https://www.fxtechnologie.com/blower-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "RÉPARATION DU VENTILATEUR",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 2816,
+      "hauteur_origine": 2112,
+      "poids": 303579,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "verification-specifications-boite.jpg",
+      "nom": "verification-specifications-boite",
+      "origine": "https://static.wixstatic.com/media/36f4da_94d87e5e5b834e129ef8ce28578797b5.jpg",
+      "page": "https://www.fxtechnologie.com/gear-and-failure-analysis",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "vérification spécifications boîte de réductions",
+        "legende": "",
+        "titre": "",
+        "section": "ANALYSE DES ENGRENAGES ET DES DÉFAILLANCES",
+        "page": "ANALYSE DES ENGRENAGES ET DES DÉFAILLANCES",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 2816,
+      "hauteur_origine": 2112,
+      "poids": 507453,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "nouvelles.jpg",
+      "nom": "nouvelles",
+      "origine": "https://static.wixstatic.com/media/36f4da_0987d12f0366451f85dce9cddec0cd54.jpg",
+      "page": "https://www.fxtechnologie.com/news",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "NOUVELLES",
+        "fichier_origine": ""
+      },
+      "largeur": 1310,
+      "hauteur": 2000,
+      "largeur_origine": 1320,
+      "hauteur_origine": 2016,
+      "poids": 292012,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "fx-technologie-gallerie.jpg",
+      "nom": "fx-technologie-gallerie",
+      "origine": "https://static.wixstatic.com/media/11062b_6a134fc09ea34833a17d295e295ab517f000.jpg",
+      "page": "https://www.fxtechnologie.com/gallery",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "fx technologie gallerie",
+        "fichier_origine": ""
+      },
+      "largeur": 1920,
+      "hauteur": 1080,
+      "poids": 72536,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "recherche-excellence.jpg",
+      "nom": "recherche-excellence",
+      "origine": "https://static.wixstatic.com/media/36f4da_d86610c5bc1545f496c6c0ec86862915f000.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "À LA RECHERCHE DE L'EXCELLENCE",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1920,
+      "hauteur": 1080,
+      "poids": 314994,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "energie-eolienne-fx-technologie.jpg",
+      "nom": "energie-eolienne-fx-technologie",
+      "origine": "https://static.wixstatic.com/media/36f4da_6c4ab67f4d8248ddb73350d037966f5d.jpg",
+      "page": "https://www.fxtechnologie.com/wind-power",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Energie Eolienne - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1806,
+      "hauteur": 1108,
+      "poids": 1188054,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "usinage-precision.jpg",
+      "nom": "usinage-precision",
+      "origine": "https://static.wixstatic.com/media/36f4da_1d39d06c80144ec1943d7ab9049ab996.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "usinage de précision",
+        "legende": "",
+        "titre": "",
+        "section": "SERVICES",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1734,
+      "hauteur": 1154,
+      "poids": 1567681,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-moteur-electrique.jpg",
+      "nom": "reparation-moteur-electrique",
+      "origine": "https://static.wixstatic.com/media/36f4da_b568055bbca04767a3ee0745f4349f83.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation de moteur électrique",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1732,
+      "hauteur": 1155,
+      "poids": 2174175,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "exploitation-miniere-manutention-fx.jpg",
+      "nom": "exploitation-miniere-manutention-fx",
+      "origine": "https://static.wixstatic.com/media/36f4da_3f85421da3244c6caa459c0396fee4af.jpg",
+      "page": "https://www.fxtechnologie.com/mining-and-material-handling",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Exploitation Miniere et Manutention - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1732,
+      "hauteur": 1155,
+      "poids": 2693308,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "environnement-recyclage-engrenage.jpg",
+      "nom": "environnement-recyclage-engrenage",
+      "origine": "https://static.wixstatic.com/media/36f4da_b1cf3f3396b241c59dde1889699e62b6.jpg",
+      "page": "https://www.fxtechnologie.com/water-treatment",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Environnement et Recyclage - Engrenage - Reducteur - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1732,
+      "hauteur": 1155,
+      "poids": 2794453,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "hydro-electrique-reducteur-engrenage.jpg",
+      "nom": "hydro-electrique-reducteur-engrenage",
+      "origine": "https://static.wixstatic.com/media/36f4da_e2556edbcf1141a4abecb4aa98b4509a.jpg",
+      "page": "https://www.fxtechnologie.com/energy",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Hydro Electrique - Reducteur - Engrenage - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1732,
+      "hauteur": 1155,
+      "poids": 1769955,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "industrie-portuaire-fx-technologie.jpg",
+      "nom": "industrie-portuaire-fx-technologie",
+      "origine": "https://static.wixstatic.com/media/36f4da_4c2c897d42954b60852cfbd0aaa5a1a2.jpg",
+      "page": "https://www.fxtechnologie.com/portuaire",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Industrie Portuaire - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1732,
+      "hauteur": 1155,
+      "poids": 1440512,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "fabrication-soudure-personnalisees.jpg",
+      "nom": "fabrication-soudure-personnalisees",
+      "origine": "https://static.wixstatic.com/media/36f4da_a3ea7e1273a94956a2ae54e2b8957182.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 1732,
+      "hauteur": 1155,
+      "poids": 2123783,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "industrie-maritime-fx-technologie.jpg",
+      "nom": "industrie-maritime-fx-technologie",
+      "origine": "https://static.wixstatic.com/media/36f4da_adf1ddaef383497d9e388a33b19a4aa5.jpg",
+      "page": "https://www.fxtechnologie.com/marine",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Industrie Maritime - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1729,
+      "hauteur": 1157,
+      "poids": 1369304,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "fabricant-engrenage-broyeur-billes.jpg",
+      "nom": "fabricant-engrenage-broyeur-billes",
+      "origine": "https://static.wixstatic.com/media/36f4da_00541964900d4998bcfd8cea3cfaa6e4.jpg",
+      "page": "https://www.fxtechnologie.com/ball-mill",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Fabricant d'Engrenage pour Broyeur a Billes - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1633,
+      "hauteur": 1225,
+      "poids": 2852494,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "traitement-acier-metal-fx.jpg",
+      "nom": "traitement-acier-metal-fx",
+      "origine": "https://static.wixstatic.com/media/36f4da_599d6bd79e714612bf01382777f751c9.jpg",
+      "page": "https://www.fxtechnologie.com/steel-and-metal-processing",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Traitement de l'Acier et du Metal - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1225,
+      "hauteur": 1633,
+      "poids": 2585387,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "industrie-alimentaire-acier-inoxydable.jpg",
+      "nom": "industrie-alimentaire-acier-inoxydable",
+      "origine": "https://static.wixstatic.com/media/36f4da_bf3648622e164df68956496b9f5e4f10.jpg",
+      "page": "https://www.fxtechnologie.com/food-processing",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Industrie Alimentaire - Acier Inoxydable - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1753,
+      "hauteur": 1141,
+      "poids": 1766709,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "militaire-fx-technologie.jpg",
+      "nom": "militaire-fx-technologie",
+      "origine": "https://static.wixstatic.com/media/36f4da_371b523f02ba4e2caf2d1522ece6b6dd.jpg",
+      "page": "https://www.fxtechnologie.com/military",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Militaire - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1885,
+      "hauteur": 1061,
+      "poids": 1694334,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "coupe-metal.jpg",
+      "nom": "coupe-metal",
+      "origine": "https://static.wixstatic.com/media/36f4da_1037f01d025e44828f2a0320b2361cb1.jpg",
+      "page": "https://www.fxtechnologie.com/metal-cutting",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "COUPE DE MÉTAL",
+        "fichier_origine": ""
+      },
+      "largeur": 1650,
+      "hauteur": 1212,
+      "poids": 1436019,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "pates-papiers-engrenage-sechoir.jpg",
+      "nom": "pates-papiers-engrenage-sechoir",
+      "origine": "https://static.wixstatic.com/media/36f4da_73385668e33a400f96ddd7a8aee817de.jpg",
+      "page": "https://www.fxtechnologie.com/pulp-and-paper",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Pates et Papiers - Engrenage de Sechoir - Reducteur - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1734,
+      "hauteur": 1153,
+      "poids": 1544952,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "pignon-papetiere.jpg",
+      "nom": "pignon-papetiere",
+      "origine": "https://static.wixstatic.com/media/36f4da_f97900138eb341eaa831ecf348c863a8.jpg",
+      "page": "https://www.fxtechnologie.com/gears",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "pignon de papetière",
+        "legende": "",
+        "titre": "",
+        "section": "TOUS TYPES D'ENGRENAGES",
+        "page": "TOUS TYPES D'ENGRENAGES",
+        "fichier_origine": ""
+      },
+      "largeur": 1600,
+      "hauteur": 1200,
+      "poids": 133660,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "petrochimie-reducteur-engrenage-fx.jpg",
+      "nom": "petrochimie-reducteur-engrenage-fx",
+      "origine": "https://static.wixstatic.com/media/36f4da_cb3dd8261aa7415d8f174a0d77f52e55.jpg",
+      "page": "https://www.fxtechnologie.com/petrochemical",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Petrochimie - Reducteur - Engrenage - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1500,
+      "hauteur": 1000,
+      "poids": 783240,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-pompes.jpg",
+      "nom": "reparation-pompes",
+      "origine": "https://static.wixstatic.com/media/36f4da_901d2f7b123e4ac2a2e445f9c3c34653.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation de pompes",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1448,
+      "hauteur": 968,
+      "poids": 312372,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "puissance-production.jpg",
+      "nom": "puissance-production",
+      "origine": "https://static.wixstatic.com/media/36f4da_a4f368f22239428ebe8729f653a972ad.jpg",
+      "page": "https://www.fxtechnologie.com/power-through-process",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "PUISSANCE DANS LA PRODUCTION!",
+        "fichier_origine": ""
+      },
+      "largeur": 1750,
+      "hauteur": 800,
+      "poids": 585342,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "service-mecanique-place.jpg",
+      "nom": "service-mecanique-place",
+      "origine": "https://static.wixstatic.com/media/36f4da_4512964119c5462cadd1f1d28d90dff5.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 4,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "service mécanique en place",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1500,
+      "hauteur": 900,
+      "poids": 292972,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "exact-drop-unit.jpg",
+      "nom": "exact-drop-unit",
+      "origine": "https://static.wixstatic.com/media/36f4da_daff7a98fbe845c8ba000921308665d6.jpeg",
+      "page": "https://www.fxtechnologie.com/service-center",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "exact drop in unit",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRES DE SERVICES RÉGIONAL",
+        "page": "CENTRES DE SERVICES RÉGIONAL",
+        "fichier_origine": ""
+      },
+      "largeur": 1280,
+      "hauteur": 960,
+      "poids": 372333,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "toronto.png",
+      "nom": "toronto",
+      "origine": "https://static.wixstatic.com/media/36f4da_fcaedbef186944988b1c0fdaf1813045~mv2.png",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "toronto",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1522,
+      "hauteur": 785,
+      "poids": 1658854,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-engrenage-tout-genre.jpg",
+      "nom": "reparation-engrenage-tout-genre",
+      "origine": "https://static.wixstatic.com/media/36f4da_a35024db94b2411d933c0a58a2b632aa.jpg",
+      "page": "https://www.fxtechnologie.com/gallery",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation engrenage de tout genre",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "fx technologie gallerie",
+        "fichier_origine": ""
+      },
+      "largeur": 1000,
+      "hauteur": 1149,
+      "poids": 138779,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "service-mecanique-place-2.png",
+      "nom": "service-mecanique-place-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_36ae3548af6c45bc9b486c90b82e436a.png",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 4,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "service mécanique en place",
+        "legende": "",
+        "titre": "",
+        "section": "LE SPÉCIALISTE EN ENGRENAGE",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1072,
+      "hauteur": 712,
+      "poids": 1063678,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "fabricant-boite-reduction-mesure.jpg",
+      "nom": "fabricant-boite-reduction-mesure",
+      "origine": "https://static.wixstatic.com/media/36f4da_5333b035efd44a21bf6a972c04b944b6.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "fabricant de boîte de réduction sur mesure",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1000,
+      "hauteur": 750,
+      "poids": 660010,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "analyse-engrenages-pannes.jpg",
+      "nom": "analyse-engrenages-pannes",
+      "origine": "https://static.wixstatic.com/media/36f4da_f68617e8ec714649b351a6497ca166e1.jpg",
+      "page": "https://www.fxtechnologie.com/gallery",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "analyse des engrenages et des pannes",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "fx technologie gallerie",
+        "fichier_origine": ""
+      },
+      "largeur": 1000,
+      "hauteur": 500,
+      "poids": 499217,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-helicoidale.jpg",
+      "nom": "engrenage-helicoidale",
+      "origine": "https://static.wixstatic.com/media/36f4da_0e400a5a2a70444fbc0421d15396d233.jpg",
+      "page": "https://www.fxtechnologie.com/gears",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage hélicoïdale",
+        "legende": "",
+        "titre": "",
+        "section": "TOUS TYPES D'ENGRENAGES",
+        "page": "TOUS TYPES D'ENGRENAGES",
+        "fichier_origine": ""
+      },
+      "largeur": 800,
+      "hauteur": 600,
+      "poids": 101679,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-hydraulique.jpg",
+      "nom": "reparation-hydraulique",
+      "origine": "https://static.wixstatic.com/media/36f4da_fbc94620de9445bba28558ed7343f7de.jpg",
+      "page": "https://www.fxtechnologie.com/hydraulic-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "RÉPARATION HYDRAULIQUE",
+        "fichier_origine": ""
+      },
+      "largeur": 800,
+      "hauteur": 538,
+      "poids": 75047,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "remise-neuf-boite-reduction-2.jpg",
+      "nom": "remise-neuf-boite-reduction-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_70f5d354d22649aab282589912e5435d~mv2.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "remise a neuf de boîte de réduction",
+        "legende": "",
+        "titre": "",
+        "section": "SERVICES",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 565,
+      "hauteur": 659,
+      "poids": 80401,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "first-class-people-first.jpg",
+      "nom": "first-class-people-first",
+      "origine": "https://static.wixstatic.com/media/36f4da_fb3f7fea643047e0aa49c78870380490.jpg",
+      "page": "https://www.fxtechnologie.com/service-center",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "first class people first class gear",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRES DE SERVICES RÉGIONAL",
+        "page": "CENTRES DE SERVICES RÉGIONAL",
+        "fichier_origine": ""
+      },
+      "largeur": 733,
+      "hauteur": 481,
+      "poids": 394766,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "fabricant-engrenage-grande-taille.jpg",
+      "nom": "fabricant-engrenage-grande-taille",
+      "origine": "https://static.wixstatic.com/media/36f4da_562218d120d34616a10fdf5b7a30e40d.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "fabricant engrenage de grande taille",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 722,
+      "hauteur": 480,
+      "poids": 115435,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-spiro-conique.jpg",
+      "nom": "engrenage-spiro-conique",
+      "origine": "https://static.wixstatic.com/media/36f4da_6f6f4997ac7448fabf5a8e07a3a10971.jpg",
+      "page": "https://www.fxtechnologie.com/gears",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage spiro conique",
+        "legende": "",
+        "titre": "",
+        "section": "TOUS TYPES D'ENGRENAGES",
+        "page": "TOUS TYPES D'ENGRENAGES",
+        "fichier_origine": ""
+      },
+      "largeur": 659,
+      "hauteur": 480,
+      "poids": 64526,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-reducteur-vis-sans.jpg",
+      "nom": "reparation-reducteur-vis-sans",
+      "origine": "https://static.wixstatic.com/media/36f4da_bd731cb4a7894f3b80401fa358d88347.jpg",
+      "page": "https://www.fxtechnologie.com/gear-box-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation réducteur vis sans fin",
+        "legende": "",
+        "titre": "",
+        "section": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "page": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "fichier_origine": ""
+      },
+      "largeur": 642,
+      "hauteur": 480,
+      "poids": 51131,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "jet-sable.jpg",
+      "nom": "jet-sable",
+      "origine": "https://static.wixstatic.com/media/36f4da_8123bc3bd67a4068ba089320360e720a.jpg",
+      "page": "https://www.fxtechnologie.com/gear-box-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "jet de sable",
+        "legende": "",
+        "titre": "",
+        "section": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "page": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "fichier_origine": ""
+      },
+      "largeur": 642,
+      "hauteur": 480,
+      "poids": 73094,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-grande-taille.jpg",
+      "nom": "engrenage-grande-taille",
+      "origine": "https://static.wixstatic.com/media/36f4da_594db5cf1f494ec18304d8c1ffa7e467.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 4,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de grande taille",
+        "legende": "",
+        "titre": "",
+        "section": "SERVICES",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 70321,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "atlas-steel-22-t.jpg",
+      "nom": "atlas-steel-22-t",
+      "origine": "https://static.wixstatic.com/media/36f4da_21f47f5ddc604b7980c2562a2b1993c8.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Atlas Steel 22 T Gear box machining (Sma",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 52179,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "metalisation-small.jpg",
+      "nom": "metalisation-small",
+      "origine": "https://static.wixstatic.com/media/36f4da_c2db72709f42456e9693eef5a00068cb.jpg",
+      "page": "https://www.fxtechnologie.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "métalisation_(Small)",
+        "legende": "",
+        "titre": "",
+        "section": "TRAVAUX SPÉCIALISÉS",
+        "page": "LE SPÉCIALISTE EN ENGRENAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 44030,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "metalisation-hvof.jpg",
+      "nom": "metalisation-hvof",
+      "origine": "https://static.wixstatic.com/media/36f4da_2a09d7a3f8374be5a17b0036199e39dc.jpg",
+      "page": "https://www.fxtechnologie.com/gallery",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "métalisation hvof",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "fx technologie gallerie",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 46333,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "hydra-pulper.jpg",
+      "nom": "hydra-pulper",
+      "origine": "https://static.wixstatic.com/media/36f4da_0ae55e3800eb44fa8838c1d1734ce0ed.jpg",
+      "page": "https://www.fxtechnologie.com/pulp-and-paper",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "hydra pulper",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Pates et Papiers - Engrenage de Sechoir - Reducteur - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 52094,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "dryer-gear-before-repair.jpg",
+      "nom": "dryer-gear-before-repair",
+      "origine": "https://static.wixstatic.com/media/36f4da_3120d50d274048a0ac463857f8911633.jpg",
+      "page": "https://www.fxtechnologie.com/pulp-and-paper",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "dryer gear before repair",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Pates et Papiers - Engrenage de Sechoir - Reducteur - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 63222,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "dryer-gear.jpg",
+      "nom": "dryer-gear",
+      "origine": "https://static.wixstatic.com/media/36f4da_847cf86ea5df473f8d11338d2ec446a2.jpg",
+      "page": "https://www.fxtechnologie.com/pulp-and-paper",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "dryer gear",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Pates et Papiers - Engrenage de Sechoir - Reducteur - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 45732,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-ventilateur-2.jpg",
+      "nom": "reparation-ventilateur-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_1363996b83b743ee88937ab2f47494de.jpg",
+      "page": "https://www.fxtechnologie.com/blower-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation ventilateur",
+        "legende": "",
+        "titre": "",
+        "section": "RÉPARATION DU VENTILATEUR",
+        "page": "RÉPARATION DU VENTILATEUR",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 71088,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-ventilateur-3.jpg",
+      "nom": "reparation-ventilateur-3",
+      "origine": "https://static.wixstatic.com/media/36f4da_cfca8ab6b70b4b50a1b178d1212afe11.jpg",
+      "page": "https://www.fxtechnologie.com/blower-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation ventilateur",
+        "legende": "",
+        "titre": "",
+        "section": "RÉPARATION DU VENTILATEUR",
+        "page": "RÉPARATION DU VENTILATEUR",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 78867,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "remise-neuf-reducteur-arbres.jpg",
+      "nom": "remise-neuf-reducteur-arbres",
+      "origine": "https://static.wixstatic.com/media/36f4da_36f613a5cb5348cbb4eaf786d2f7b31d.jpg",
+      "page": "https://www.fxtechnologie.com/gear-box-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "remise a neuf réducteur a arbres parallèles",
+        "legende": "",
+        "titre": "",
+        "section": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "page": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 60108,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "remise-neuf-reducteur-arbres-2.jpg",
+      "nom": "remise-neuf-reducteur-arbres-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_b8a11d1f7c2c4d609d11e0d2c4a3424e.jpg",
+      "page": "https://www.fxtechnologie.com/gear-box-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "remise a neuf réducteur a arbres parallèles",
+        "legende": "",
+        "titre": "",
+        "section": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "page": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 47993,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reducteur-motorize.jpg",
+      "nom": "reducteur-motorize",
+      "origine": "https://static.wixstatic.com/media/36f4da_ac6893dcb5c34e598d38e944b2c6f2ff.jpg",
+      "page": "https://www.fxtechnologie.com/gear-box-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réducteur motorizé",
+        "legende": "",
+        "titre": "",
+        "section": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "page": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 30807,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-reducteur-engrenages-type.jpg",
+      "nom": "reparation-reducteur-engrenages-type",
+      "origine": "https://static.wixstatic.com/media/36f4da_ac47bf51d7e04378a31252eba4e79372.jpg",
+      "page": "https://www.fxtechnologie.com/gear-box-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation réducteur a engrenages de type spiro coniques",
+        "legende": "",
+        "titre": "",
+        "section": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "page": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 44782,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "remise-neuf-boite-reduction-3.jpg",
+      "nom": "remise-neuf-boite-reduction-3",
+      "origine": "https://static.wixstatic.com/media/36f4da_37fae50d8343478d99f6e72711c773f3.jpg",
+      "page": "https://www.fxtechnologie.com/gear-box-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "remise a neuf de boîte de réduction",
+        "legende": "",
+        "titre": "",
+        "section": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "page": "SPÉCIALISTE DE LA RECONSTRUCTION",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 70378,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "metalisation-hvof-2.jpg",
+      "nom": "metalisation-hvof-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_2b92af33641343fda5c70031e6389e73.jpg",
+      "page": "https://www.fxtechnologie.com/metalizing-hvof-chrome",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "métalisation hvof",
+        "legende": "",
+        "titre": "",
+        "section": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "page": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 59108,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "welding.jpg",
+      "nom": "welding",
+      "origine": "https://static.wixstatic.com/media/36f4da_d4b7579abf4c4c85b968e853c20f5edb.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "welding",
+        "legende": "",
+        "titre": "",
+        "section": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 68176,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "roll-finished-welding.jpg",
+      "nom": "roll-finished-welding",
+      "origine": "https://static.wixstatic.com/media/36f4da_fb4538e366b545c0accd4678a4e23fc0.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "roll finished welding",
+        "legende": "",
+        "titre": "",
+        "section": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 51330,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "welding-2.jpg",
+      "nom": "welding-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_6727341c7271438b9a4746a6f38fb38b.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "welding",
+        "legende": "",
+        "titre": "",
+        "section": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 65418,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "accouplement-usinage-speciaux.jpg",
+      "nom": "accouplement-usinage-speciaux",
+      "origine": "https://static.wixstatic.com/media/36f4da_a2d972282367447aaeac8f792f42ab98.jpg",
+      "page": "https://www.fxtechnologie.com/machining-conventional-cnc",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "accouplement usinage spéciaux",
+        "legende": "",
+        "titre": "",
+        "section": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "page": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 52885,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "livraison-rapide.jpg",
+      "nom": "livraison-rapide",
+      "origine": "https://static.wixstatic.com/media/36f4da_b1d90cf3d4034da684811789f8e58554.jpg",
+      "page": "https://www.fxtechnologie.com/machining-conventional-cnc",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "livraison rapide",
+        "legende": "",
+        "titre": "",
+        "section": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "page": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 46919,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "usinage-conventionnel.jpg",
+      "nom": "usinage-conventionnel",
+      "origine": "https://static.wixstatic.com/media/36f4da_e1f06f58c3c5408693b0d871b08e0af8.jpg",
+      "page": "https://www.fxtechnologie.com/machining-conventional-cnc",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "usinage conventionnel",
+        "legende": "",
+        "titre": "",
+        "section": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "page": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 54194,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "usinage-conventionnel-2.jpg",
+      "nom": "usinage-conventionnel-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_1da68e7d78a54825b6893ee920bd288a.jpg",
+      "page": "https://www.fxtechnologie.com/machining-conventional-cnc",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "usinage conventionnel",
+        "legende": "",
+        "titre": "",
+        "section": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "page": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 42285,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "usinage-conventionnel-grande-capacite.jpg",
+      "nom": "usinage-conventionnel-grande-capacite",
+      "origine": "https://static.wixstatic.com/media/36f4da_a9e2778a71ae4cce9f5ff5b9e268caf7.jpg",
+      "page": "https://www.fxtechnologie.com/machining-conventional-cnc",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "usinage conventionnel de grande capacité",
+        "legende": "",
+        "titre": "",
+        "section": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "page": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 64246,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-fonte.jpg",
+      "nom": "engrenage-secherie-fonte",
+      "origine": "https://static.wixstatic.com/media/36f4da_df7adfe6fa25421f95cacc918d98ad6f.jpg",
+      "page": "https://www.fxtechnologie.com/dryer-gear",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie en fonte",
+        "legende": "",
+        "titre": "",
+        "section": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "page": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 72392,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-2.jpg",
+      "nom": "engrenage-secherie-fonte-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_2d90576e8f7f4493a42d0503975405e9.jpg",
+      "page": "https://www.fxtechnologie.com/dryer-gear",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie en fonte",
+        "legende": "",
+        "titre": "",
+        "section": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "page": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 64191,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-3.jpg",
+      "nom": "engrenage-secherie-fonte-3",
+      "origine": "https://static.wixstatic.com/media/36f4da_ba52658dc37b45a7b705de52f9e5cd40.jpg",
+      "page": "https://www.fxtechnologie.com/dryer-gear",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie en fonte",
+        "legende": "",
+        "titre": "",
+        "section": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "page": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 68386,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-nylon.jpg",
+      "nom": "engrenage-secherie-nylon",
+      "origine": "https://static.wixstatic.com/media/36f4da_fbbe7b8a4cb34bfea0e6c741e8a7f108.jpg",
+      "page": "https://www.fxtechnologie.com/dryer-gear",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie en nylon",
+        "legende": "",
+        "titre": "",
+        "section": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "page": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 63008,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "mag-gear-cutting.jpg",
+      "nom": "mag-gear-cutting",
+      "origine": "https://static.wixstatic.com/media/36f4da_671d702e273f4c3997f076fb5e6a3435.jpg",
+      "page": "https://www.fxtechnologie.com/service-center",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "mag gear cutting",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRES DE SERVICES RÉGIONAL",
+        "page": "CENTRES DE SERVICES RÉGIONAL",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 76351,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "roll-welding.jpg",
+      "nom": "roll-welding",
+      "origine": "https://static.wixstatic.com/media/36f4da_e9f4dd9c46a44bf581547dceb83df88c.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "roll welding",
+        "legende": "",
+        "titre": "",
+        "section": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 478,
+      "poids": 62313,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "pipe-welding.jpg",
+      "nom": "pipe-welding",
+      "origine": "https://static.wixstatic.com/media/36f4da_80709bc4535744e3bf1932258e3556b3.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "pipe welding",
+        "legende": "",
+        "titre": "",
+        "section": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 478,
+      "poids": 46430,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-ventilateur-4.jpg",
+      "nom": "reparation-ventilateur-4",
+      "origine": "https://static.wixstatic.com/media/36f4da_298467a9a25d417a95264eb50feb4c0c.jpg",
+      "page": "https://www.fxtechnologie.com/blower-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation ventilateur",
+        "legende": "",
+        "titre": "",
+        "section": "RÉPARATION DU VENTILATEUR",
+        "page": "RÉPARATION DU VENTILATEUR",
+        "fichier_origine": ""
+      },
+      "largeur": 700,
+      "hauteur": 432,
+      "poids": 78813,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "metalisation-hvof-3.jpg",
+      "nom": "metalisation-hvof-3",
+      "origine": "https://static.wixstatic.com/media/36f4da_8d7fa4b31b28484f80be66d0623a60de.jpg",
+      "page": "https://www.fxtechnologie.com/metalizing-hvof-chrome",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "métalisation hvof",
+        "legende": "",
+        "titre": "",
+        "section": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "page": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "fichier_origine": ""
+      },
+      "largeur": 617,
+      "hauteur": 480,
+      "poids": 39955,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "couverture-rouleaux.jpg",
+      "nom": "couverture-rouleaux",
+      "origine": "https://static.wixstatic.com/media/36f4da_3768449c2cc949dfb5ba402bb03c35f1.jpg",
+      "page": "https://www.fxtechnologie.com/roll-covering-repair",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "COUVERTURE DE ROULEAUX",
+        "fichier_origine": ""
+      },
+      "largeur": 667,
+      "hauteur": 424,
+      "poids": 147402,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "hydra-pulper-2.jpg",
+      "nom": "hydra-pulper-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_ca2632203fe547a1904c950f37e5169f.jpg",
+      "page": "https://www.fxtechnologie.com/pulp-and-paper",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "hydra pulper",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Pates et Papiers - Engrenage de Sechoir - Reducteur - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 425,
+      "poids": 59313,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "hard-facing.jpg",
+      "nom": "hard-facing",
+      "origine": "https://static.wixstatic.com/media/36f4da_d0af7b7170a04231aa44044621e7ee57.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "hard facing",
+        "legende": "",
+        "titre": "",
+        "section": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 418,
+      "poids": 47679,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "analyse-engrenages-pannes-2.png",
+      "nom": "analyse-engrenages-pannes-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_45d00aea1ca24283a7f530d2beb5b88f.png",
+      "page": "https://www.fxtechnologie.com/gear-and-failure-analysis",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "analyse des engrenages et des pannes",
+        "legende": "",
+        "titre": "",
+        "section": "ANALYSE DES ENGRENAGES ET DES DÉFAILLANCES",
+        "page": "ANALYSE DES ENGRENAGES ET DES DÉFAILLANCES",
+        "fichier_origine": ""
+      },
+      "largeur": 560,
+      "hauteur": 465,
+      "poids": 452084,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "embrayage.jpg",
+      "nom": "embrayage",
+      "origine": "https://static.wixstatic.com/media/36f4da_2be4fe2963ed4666a94124c0e992ef32.jpg",
+      "page": "https://www.fxtechnologie.com/machining-conventional-cnc",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "embrayage",
+        "legende": "",
+        "titre": "",
+        "section": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "page": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "fichier_origine": ""
+      },
+      "largeur": 496,
+      "hauteur": 480,
+      "poids": 50915,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "couronne-bronze.jpg",
+      "nom": "couronne-bronze",
+      "origine": "https://static.wixstatic.com/media/36f4da_ff10d6c06fa44573998f3467ca03b5b1.jpg",
+      "page": "https://www.fxtechnologie.com/gears",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "couronne en bronze",
+        "legende": "",
+        "titre": "",
+        "section": "TOUS TYPES D'ENGRENAGES",
+        "page": "TOUS TYPES D'ENGRENAGES",
+        "fichier_origine": ""
+      },
+      "largeur": 674,
+      "hauteur": 345,
+      "poids": 78698,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "technologie-metalisation-hvof.jpg",
+      "nom": "technologie-metalisation-hvof",
+      "origine": "https://static.wixstatic.com/media/36f4da_250fe50903c7450c9c5213b41f227344.jpg",
+      "page": "https://www.fxtechnologie.com/metalizing-hvof-chrome",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "fichier_origine": ""
+      },
+      "largeur": 895,
+      "hauteur": 171,
+      "poids": 100214,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "dryer-gear-2.jpg",
+      "nom": "dryer-gear-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_5d779e7e4d364b0896750c0f8b5f99a8.jpg",
+      "page": "https://www.fxtechnologie.com/pulp-and-paper",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "dryer gear",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Pates et Papiers - Engrenage de Sechoir - Reducteur - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 52819,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "industrie-aerospatiale-fx-technologie.jpg",
+      "nom": "industrie-aerospatiale-fx-technologie",
+      "origine": "https://static.wixstatic.com/media/36f4da_c1d683925a5c41db94f04e83b6daba83.jpg",
+      "page": "https://www.fxtechnologie.com/aerospace",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Industrie Aerospatiale - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 1920,
+      "hauteur": 600,
+      "poids": 116940,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "industrie-spatiale-fx-technologie.jpg",
+      "nom": "industrie-spatiale-fx-technologie",
+      "origine": "https://static.wixstatic.com/media/36f4da_4ce0e7c91525402b9ba43281f8f6ac9c.jpg",
+      "page": "https://www.fxtechnologie.com/space",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "Industrie Spatiale - Fx Technologie",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1364,
+      "largeur_origine": 2421,
+      "hauteur_origine": 1651,
+      "poids": 494569,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-ventilateur-5.jpg",
+      "nom": "reparation-ventilateur-5",
+      "origine": "https://static.wixstatic.com/media/36f4da_b7e99dfaa9fd43b9924e5f148b01ee8e.jpg",
+      "page": "https://www.fxtechnologie.com/blower-repair",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation ventilateur",
+        "legende": "",
+        "titre": "",
+        "section": "RÉPARATION DU VENTILATEUR",
+        "page": "RÉPARATION DU VENTILATEUR",
+        "fichier_origine": ""
+      },
+      "largeur": 642,
+      "hauteur": 480,
+      "poids": 38889,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "reparation-ventilateur-6.jpg",
+      "nom": "reparation-ventilateur-6",
+      "origine": "https://static.wixstatic.com/media/36f4da_e1369f1316ae4614accc97b7860ee63d.jpg",
+      "page": "https://www.fxtechnologie.com/blower-repair",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "réparation ventilateur",
+        "legende": "",
+        "titre": "",
+        "section": "RÉPARATION DU VENTILATEUR",
+        "page": "RÉPARATION DU VENTILATEUR",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 72733,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "metalisation-hvof-4.jpg",
+      "nom": "metalisation-hvof-4",
+      "origine": "https://static.wixstatic.com/media/36f4da_550e814af8384449bc4d18f9e9101acd.jpg",
+      "page": "https://www.fxtechnologie.com/metalizing-hvof-chrome",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "métalisation hvof",
+        "legende": "",
+        "titre": "",
+        "section": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "page": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 51748,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "metalisation-hvof-5.jpg",
+      "nom": "metalisation-hvof-5",
+      "origine": "https://static.wixstatic.com/media/36f4da_d9d8a60d764c402298f223076140ab71.jpg",
+      "page": "https://www.fxtechnologie.com/metalizing-hvof-chrome",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "métalisation hvof",
+        "legende": "",
+        "titre": "",
+        "section": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "page": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 58210,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "metalisation-hvof-6.jpg",
+      "nom": "metalisation-hvof-6",
+      "origine": "https://static.wixstatic.com/media/36f4da_0badc441d0324c46915ccefb9acb460a.jpg",
+      "page": "https://www.fxtechnologie.com/metalizing-hvof-chrome",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "métalisation hvof",
+        "legende": "",
+        "titre": "",
+        "section": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "page": "TECHNOLOGIE DE MÉTALISATION HVOF",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 52084,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "welding-3.jpg",
+      "nom": "welding-3",
+      "origine": "https://static.wixstatic.com/media/36f4da_1de72914436847f6a29a001a76cc8880.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "welding",
+        "legende": "",
+        "titre": "",
+        "section": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 81741,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "welding-4.jpg",
+      "nom": "welding-4",
+      "origine": "https://static.wixstatic.com/media/36f4da_2f7db85f816a4b708a4c333e947d0d1e.jpg",
+      "page": "https://www.fxtechnologie.com/welding-fabrication",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "welding",
+        "legende": "",
+        "titre": "",
+        "section": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "page": "FABRICATION ET SOUDURE PERSONNALISÉES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 65047,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "usinage-haute-precision.jpg",
+      "nom": "usinage-haute-precision",
+      "origine": "https://static.wixstatic.com/media/36f4da_79cb985187ac4b629da1718eed9f8570.jpg",
+      "page": "https://www.fxtechnologie.com/machining-conventional-cnc",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "usinage de haute précision",
+        "legende": "",
+        "titre": "",
+        "section": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "page": "USINAGE CONVENTIONNEL ET CNC SELON LES BESOINS DU CLIENT",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 55698,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenages-sechage-engrenages-sechage.jpg",
+      "nom": "engrenages-sechage-engrenages-sechage",
+      "origine": "https://static.wixstatic.com/media/36f4da_c927e7a1a9fd45eb99f9852d6152b120.jpg",
+      "page": "https://www.fxtechnologie.com/dryer-gear",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 1600,
+      "hauteur": 1000,
+      "poids": 276976,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-nylon-2.jpg",
+      "nom": "engrenage-secherie-nylon-2",
+      "origine": "https://static.wixstatic.com/media/36f4da_d0e3896fb8c24e6dbefea778223d4169.jpg",
+      "page": "https://www.fxtechnologie.com/gears",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie en nylon",
+        "legende": "",
+        "titre": "",
+        "section": "TOUS TYPES D'ENGRENAGES",
+        "page": "TOUS TYPES D'ENGRENAGES",
+        "fichier_origine": ""
+      },
+      "largeur": 1024,
+      "hauteur": 768,
+      "poids": 498573,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-4.jpg",
+      "nom": "engrenage-secherie-fonte-4",
+      "origine": "https://static.wixstatic.com/media/36f4da_5845ee09ce7c4d3887db722f9c086236.jpg",
+      "page": "https://www.fxtechnologie.com/dryer-gear",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie en fonte",
+        "legende": "",
+        "titre": "",
+        "section": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "page": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 480,
+      "hauteur": 640,
+      "poids": 68992,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-5.jpg",
+      "nom": "engrenage-secherie-fonte-5",
+      "origine": "https://static.wixstatic.com/media/36f4da_44c0ac6817b647f5a697bfd883deb5a0.jpg",
+      "page": "https://www.fxtechnologie.com/dryer-gear",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie en fonte",
+        "legende": "",
+        "titre": "",
+        "section": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "page": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 65058,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-avant.jpg",
+      "nom": "engrenage-secherie-avant",
+      "origine": "https://static.wixstatic.com/media/36f4da_6eb6591a283c48e38486db306c10966f.jpg",
+      "page": "https://www.fxtechnologie.com/dryer-gear",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie avant",
+        "legende": "",
+        "titre": "",
+        "section": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "page": "ENGRENAGES DE SÉCHAGE ET ENGRENAGES DE SÉCHAGE",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 60802,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-6.jpg",
+      "nom": "engrenage-secherie-fonte-6",
+      "origine": "https://static.wixstatic.com/media/36f4da_bec5d9e4d0ed4fac95898dbe9b6ac790.jpg",
+      "page": "https://www.fxtechnologie.com/gears",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "engrenage de sècherie en fonte",
+        "legende": "",
+        "titre": "",
+        "section": "TOUS TYPES D'ENGRENAGES",
+        "page": "TOUS TYPES D'ENGRENAGES",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 404978,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "pignon.jpg",
+      "nom": "pignon",
+      "origine": "https://static.wixstatic.com/media/36f4da_2e554223b8e04f8086167b44d778dafe.jpg",
+      "page": "https://www.fxtechnologie.com/gears",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "pignon",
+        "legende": "",
+        "titre": "",
+        "section": "TOUS TYPES D'ENGRENAGES",
+        "page": "TOUS TYPES D'ENGRENAGES",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 70844,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "maritimes.jpg",
+      "nom": "maritimes",
+      "origine": "https://static.wixstatic.com/media/36f4da_ee8950e8850946e58be4ba17f2c13f1a.jpg",
+      "page": "https://www.fxtechnologie.com/service-center",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "maritimes",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRES DE SERVICES RÉGIONAL",
+        "page": "CENTRES DE SERVICES RÉGIONAL",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1328,
+      "largeur_origine": 4288,
+      "hauteur_origine": 2848,
+      "poids": 563203,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "montreal.jpg",
+      "nom": "montreal",
+      "origine": "https://static.wixstatic.com/media/36f4da_0475af3feb0946ee9e23bfe899bc562a.jpg",
+      "page": "https://www.fxtechnologie.com/service-center",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "montreal",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRES DE SERVICES RÉGIONAL",
+        "page": "CENTRES DE SERVICES RÉGIONAL",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1758,
+      "largeur_origine": 2202,
+      "hauteur_origine": 1936,
+      "poids": 408455,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "site-jobs.jpg",
+      "nom": "site-jobs",
+      "origine": "https://static.wixstatic.com/media/36f4da_3c6ffed6dc5942ab9c8d1203617eff95.jpg",
+      "page": "https://www.fxtechnologie.com/service-center",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "on site jobs",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRES DE SERVICES RÉGIONAL",
+        "page": "CENTRES DE SERVICES RÉGIONAL",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1191,
+      "largeur_origine": 2142,
+      "hauteur_origine": 1276,
+      "poids": 343053,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "large-size-machining.jpg",
+      "nom": "large-size-machining",
+      "origine": "https://static.wixstatic.com/media/36f4da_ee89e673485c42688f470d82a3c2265c.jpg",
+      "page": "https://www.fxtechnologie.com/service-center",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "large size machining",
+        "legende": "",
+        "titre": "",
+        "section": "CENTRES DE SERVICES RÉGIONAL",
+        "page": "CENTRES DE SERVICES RÉGIONAL",
+        "fichier_origine": ""
+      },
+      "largeur": 640,
+      "hauteur": 480,
+      "poids": 49197,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    }
+  ],
+  "ecartees": [
+    {
+      "url": "https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/CAN_2x.png",
+      "raison": "drapeau"
+    },
+    {
+      "url": "https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/USA_2x.png",
+      "raison": "drapeau"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/da00086a27cc2c52ec7a11ec468c4d29.wix_mp",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/89b1d2497b29ccbb7d37be1ec6ef0052.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/3ba48f6dde3eec5c30a46f1337500f50.wix_mp",
+      "raison": "repetee sur 42/42 pages"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_c94aec90b7c04a3f9ef873e2456fe294.jpg",
+      "raison": "repetee sur 42/42 pages"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_5b99bb512ac041afbb96bc60181fb098f000.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_75cacda58b0842978016e76bbe9942b4.jpg",
+      "raison": "314 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0da768_880a3209e3744cd0a96b66835a01b8c5.png",
+      "raison": "256 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_6c68202d5b33404088ccec65031620bf.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_ad9583d56648439fa68b91c784c86d99.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_f8dd49b873fd4fc2a09da08e28248f7e.jpg",
+      "raison": "318 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_d587f0b80d7f4cb585fbdab9ed7f37ad.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_74a74b79d5b34894bd69f36195aea2e2.jpg",
+      "raison": "358 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_07be18e2306540c8bd68e80e782264ef.jpg",
+      "raison": "358 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_025233d646694288b62f76cb74a44c96.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_37b647fff63048aa81706058ff9486bf.jpg",
+      "raison": "358 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_0edd025f77ae47299f380d00f03f5533.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_c67bfb2400b141daab9b022e60c80217.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_c19f33e018fc442198dc01e7a60737e5.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_5dec9de1f28c42d382b4f292f1978d0f.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_834bd13cb08142ea8e4f1f0e9e15f361.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_b1f20dbe81464c768efc813fc8cd097e.jpg",
+      "raison": "355 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_7dc257b64cda4c3e90dd205f8f469a09.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_26189acb6c5a44e5bf89338cf2f6b764.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_9f91a2bb3d7b4eeea00bfa50d224236c.jpg",
+      "raison": "225 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_f9e395410e6c4fdfafb5402ae3ebcc19.jpg",
+      "raison": "360 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_6b0b05b268b540239e06e282d1efc9b9.jpg",
+      "raison": "318 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_4c81420119514ff0b8ce2bf2dac892ac.png",
+      "raison": "208 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_fdec6f46644a48daab79d14292dcd579.png",
+      "raison": "180 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_9e6253bda21f498a83beee93592b6f4b.png",
+      "raison": "318 px de large"
+    },
+    {
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=Ax_7aCh9VP8K0U",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2F&cb=1795195625660",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2F&cb=1795195625734",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fcontact&cb=1795195630052",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgallery&cb=1795195634356",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fcontact&cb=1795195630111",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Ffood-processing&cb=1795195639027",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgallery&cb=1795195634323",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Ffood-processing&cb=1795195639295",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fwater-treatment&cb=1795195644465",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fwater-treatment&cb=1795195644498",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fsteel-and-metal-processing&cb=1795195649518",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fball-mill&cb=1795195654314",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fball-mill&cb=1795195654282",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fsteel-and-metal-processing&cb=1795195649485",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmining-and-material-handling&cb=1795195658824",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmining-and-material-handling&cb=1795195658858",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fpulp-and-paper&cb=1795195664202",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fpulp-and-paper&cb=1795195664235",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fportuaire&cb=1795195668675",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fpetrochemical&cb=1795195673099",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fportuaire&cb=1795195668639",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fpetrochemical&cb=1795195673132",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fwind-power&cb=1795195677734",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fwind-power&cb=1795195677770",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fenergy&cb=1795195681869",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmarine&cb=1795195686564",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmilitary&cb=1795195691129",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmarine&cb=1795195686596",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmilitary&cb=1795195691161",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Faerospace&cb=1795195695401",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fenergy&cb=1795195681912",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Faerospace&cb=1795195695668",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fspace&cb=1795195699509",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fspace&cb=1795195699541",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Findustry-solutions&cb=1795195704337",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Findustry-solutions&cb=1795195704374",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Froll-covering-repair&cb=1795195708198",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Froll-covering-repair&cb=1795195708231",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fhydraulic-repair&cb=1795195712475",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://dls7rxd829s2x.cloudfront.net/data/9/416cfbf9.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fhydraulic-repair&cb=1795195712508",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fblower-repair&cb=1795195716830",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fblower-repair&cb=1795195716797",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fpump-repair&cb=1795195721097",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fpump-repair&cb=1795195721129",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgear-repair&cb=1795195725486",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgear-box-repair&cb=1795195730090",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgear-box-repair&cb=1795195730122",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://dls7rxd829s2x.cloudfront.net/data/8/5b294b18.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Felectrical-motor&cb=1795195733964",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmetal-cutting&cb=1795195738220",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Felectrical-motor&cb=1795195733931",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmetal-cutting&cb=1795195738250",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgear-repair&cb=1795195725519",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://dls7rxd829s2x.cloudfront.net/data/1/32d7c2e1.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmetalizing-hvof-chrome&cb=1795195743114",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmetalizing-hvof-chrome&cb=1795195743144",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fwelding-fabrication&cb=1795195747853",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fwelding-fabrication&cb=1795195747887",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://dls7rxd829s2x.cloudfront.net/data/3/74e4bcd3.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fon-site-services&cb=1795195752434",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fon-site-services&cb=1795195752465",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmachining-conventional-cnc&cb=1795195757262",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fmachining-conventional-cnc&cb=1795195757228",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fservices&cb=1795195761305",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fservices&cb=1795195761337",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgear-reducer&cb=1795195765836",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://dls7rxd829s2x.cloudfront.net/data/b/3dceda4b.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgear-reducer&cb=1795195765869",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fdryer-gear&cb=1795195770843",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://dls7rxd829s2x.cloudfront.net/data/9/2f664769.jpg",
+      "raison": "320 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fdryer-gear&cb=1795195770885",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Flarge-ring-gear&cb=1795195775529",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Flarge-ring-gear&cb=1795195775561",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgears&cb=1795195781283",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgears&cb=1795195781348",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fproducts&cb=1795195785247",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fproducts&cb=1795195785280",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fnews&cb=1795195789500",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fnews&cb=1795195789534",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgear-and-failure-analysis&cb=1795195794087",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fgear-and-failure-analysis&cb=1795195794120",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fpower-through-process&cb=1795195798390",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fpower-through-process&cb=1795195798422",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fservice-center&cb=1795195802680",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fservice-center&cb=1795195802712",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Four-mission&cb=1795195807243",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Four-mission&cb=1795195807277",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=24&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fhome&cb=1795195811432",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://uct.service.usercentrics.eu/uct?sid=Ax_7aCh9VP8K0U&t=1&abv=&r=https%3A%2F%2Fwww.fxtechnologie.com%2Fhome&cb=1795195811465",
+      "raison": "1 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_31ea99cc00cf4d6aa0c1ea07c7d36628.png",
+      "raison": "meme image que https://static.wixstatic.com/media/36f4da_fcaedbef186944988b1c0fdaf1813045~mv2.png en 1522x785"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_fc36d8338d7a44ce8fbe50e49e5d0ed6.png",
+      "raison": "meme image que https://static.wixstatic.com/media/36f4da_36ae3548af6c45bc9b486c90b82e436a.png en 1072x712"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/36f4da_4c70938082414b1c85747268492f6db5.jpg",
+      "raison": "meme image que https://static.wixstatic.com/media/36f4da_d0e3896fb8c24e6dbefea778223d4169.jpg en 640x480"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+… fichiers
+  fait en 0 s
+… mesures
+  14/195
+  37/195
+  61/195
+  88/195
+  114/195
+  135/195
+  162/195
+  183/195
+  fait en 256 s
+… mesures:balayage
+  fait en 46 s
+… ecran
+  fait en 43 s
+
+Échecs : 1 · À regarder : 40 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --complet --pages=/,/contact --seulement=fichiers,mesures
+Rapport : /home/claude/fxtechnologie-maquette/_audit/rapport/rapport.md (passe 20261120-185718-complet-cible-partiel)
+fin 1

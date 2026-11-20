@@ -1,0 +1,3133 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-sombre.png",
+    "role": "logo",
+    "alt": "FX Technologie",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "6b436c7562ad9677",
+    "ratio": null,
+    "largeurs": [],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [],
+    "poids": {},
+    "media": "c.media({ nom: 'logo', alt: \"FX Technologie\", sizes: '240px' })"
+  },
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Grande couronne d'engrenage dressée dans un atelier de mécanique lourde, la nuit",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "ba66e37e9744595d",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 57%"
+    },
+    "cadrage": "70% 47%",
+    "sujet": {
+      "x": 43.8,
+      "y": 7.7,
+      "l": 53.1,
+      "h": 92.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.9,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 126,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-1280.webp",
+      "grok/accueil-ouverture-1920.webp",
+      "grok/accueil-ouverture-mobile-640.webp",
+      "grok/accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-640.webp": 28642,
+      "grok/accueil-ouverture-1280.webp": 86782,
+      "grok/accueil-ouverture-1920.webp": 137324,
+      "grok/accueil-ouverture-mobile-640.webp": 72158,
+      "grok/accueil-ouverture-mobile-1080.webp": 136416
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Grande couronne d'engrenage dressée dans un atelier de mécanique lourde, la nuit\", cadrage: '70% 47%', cadrageMobile: '50% 57%', sizes: '100vw', priorite: true })"
+  },
+  "grok/accueil-atelier": {
+    "nom": "grok/accueil-atelier",
+    "source": "recu/grok/accueil-atelier.jpg",
+    "role": "section-fond",
+    "alt": "Un pont roulant soulève un carter de réducteur dans un atelier, un technicien guide la charge",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4f7aa18bcacf123e",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "54% 29%",
+    "sujet": {
+      "x": 18.8,
+      "y": 0,
+      "l": 71.9,
+      "h": 59.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.66,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-atelier-640.webp",
+      "grok/accueil-atelier-1280.webp",
+      "grok/accueil-atelier-1920.webp"
+    ],
+    "poids": {
+      "grok/accueil-atelier-640.webp": 37422,
+      "grok/accueil-atelier-1280.webp": 105900,
+      "grok/accueil-atelier-1920.webp": 165750
+    },
+    "media": "c.media({ nom: 'grok/accueil-atelier', alt: \"Un pont roulant soulève un carter de réducteur dans un atelier, un technicien guide la charge\", cadrage: '54% 29%', sizes: '100vw' })"
+  },
+  "grok/carte-engrenages": {
+    "nom": "grok/carte-engrenages",
+    "source": "recu/grok/carte-engrenages.jpg",
+    "role": "produit",
+    "alt": "Gros plan sur la denture d'un engrenage hélicoïdal rectifié",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b49164d6fdaae2f6",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "40% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 10.1,
+      "l": 95.5,
+      "h": 78.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 80,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1320 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/carte-engrenages-480.webp",
+      "grok/carte-engrenages-640.webp",
+      "grok/carte-engrenages-1600.webp"
+    ],
+    "poids": {
+      "grok/carte-engrenages-480.webp": 43990,
+      "grok/carte-engrenages-640.webp": 71388,
+      "grok/carte-engrenages-1600.webp": 222372
+    },
+    "media": "c.media({ nom: 'grok/carte-engrenages', alt: \"Gros plan sur la denture d'un engrenage hélicoïdal rectifié\", cadrage: '40% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "grok/carte-couronne": {
+    "nom": "grok/carte-couronne",
+    "source": "recu/grok/carte-couronne.jpg",
+    "role": "produit",
+    "alt": "Couronne segmentée posée sur des cales dans un atelier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5a0b16bd6dc0ef0d",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "58% 64%",
+    "sujet": {
+      "x": 9.1,
+      "y": 0,
+      "l": 86.4,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1967
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1320 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/carte-couronne-480.webp",
+      "grok/carte-couronne-640.webp",
+      "grok/carte-couronne-1600.webp"
+    ],
+    "poids": {
+      "grok/carte-couronne-480.webp": 51498,
+      "grok/carte-couronne-640.webp": 85660,
+      "grok/carte-couronne-1600.webp": 264168
+    },
+    "media": "c.media({ nom: 'grok/carte-couronne', alt: \"Couronne segmentée posée sur des cales dans un atelier\", cadrage: '58% 64%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "grok/produits-ouverture": {
+    "nom": "grok/produits-ouverture",
+    "source": "recu/grok/produits-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Engrenage à double hélice en chevrons sur un support d'atelier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d18bb268fbe49b79",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "42% 47%"
+    },
+    "cadrage": "67% 38%",
+    "sujet": {
+      "x": 25,
+      "y": 0,
+      "l": 65.6,
+      "h": 97.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.7,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/produits-ouverture-640.webp",
+      "grok/produits-ouverture-1280.webp",
+      "grok/produits-ouverture-1920.webp",
+      "grok/produits-ouverture-mobile-640.webp",
+      "grok/produits-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/produits-ouverture-640.webp": 29202,
+      "grok/produits-ouverture-1280.webp": 93376,
+      "grok/produits-ouverture-1920.webp": 148398,
+      "grok/produits-ouverture-mobile-640.webp": 88002,
+      "grok/produits-ouverture-mobile-1080.webp": 165584
+    },
+    "media": "c.media({ nom: 'grok/produits-ouverture', alt: \"Engrenage à double hélice en chevrons sur un support d'atelier\", cadrage: '67% 38%', cadrageMobile: '42% 47%', sizes: '100vw', priorite: true })"
+  },
+  "grok/services-ouverture": {
+    "nom": "grok/services-ouverture",
+    "source": "recu/grok/services-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Un tour vertical usine l'intérieur d'une grande bague d'acier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "9f31ba4fe5226307",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "47% 67%"
+    },
+    "cadrage": "62% 38%",
+    "sujet": {
+      "x": 12.5,
+      "y": 13.2,
+      "l": 59.4,
+      "h": 37.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.77,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.65,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.56,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 174,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/services-ouverture-640.webp",
+      "grok/services-ouverture-1280.webp",
+      "grok/services-ouverture-1920.webp",
+      "grok/services-ouverture-mobile-640.webp",
+      "grok/services-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/services-ouverture-640.webp": 26048,
+      "grok/services-ouverture-1280.webp": 76160,
+      "grok/services-ouverture-1920.webp": 121224,
+      "grok/services-ouverture-mobile-640.webp": 79452,
+      "grok/services-ouverture-mobile-1080.webp": 147352
+    },
+    "media": "c.media({ nom: 'grok/services-ouverture', alt: \"Un tour vertical usine l'intérieur d'une grande bague d'acier\", cadrage: '62% 38%', cadrageMobile: '47% 67%', sizes: '100vw', priorite: true })"
+  },
+  "grok/services-hvof": {
+    "nom": "grok/services-hvof",
+    "source": "recu/grok/services-hvof.jpg",
+    "role": "section-fond",
+    "alt": "Projection thermique à haute vitesse sur un arbre en rotation",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "5785e19ad02946be",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "69% 51%",
+    "sujet": {
+      "x": 62.5,
+      "y": 36,
+      "l": 12.5,
+      "h": 32
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.94,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.78,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.73,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.44,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 7,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/services-hvof-640.webp",
+      "grok/services-hvof-1280.webp",
+      "grok/services-hvof-1920.webp"
+    ],
+    "poids": {
+      "grok/services-hvof-640.webp": 25102,
+      "grok/services-hvof-1280.webp": 80344,
+      "grok/services-hvof-1920.webp": 127158
+    },
+    "media": "c.media({ nom: 'grok/services-hvof', alt: \"Projection thermique à haute vitesse sur un arbre en rotation\", cadrage: '69% 51%', sizes: '100vw' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Un engrenage auquel il manque une dent",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4a29bc41d81530af",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "71% 47%",
+    "sujet": {
+      "x": 37.5,
+      "y": 0,
+      "l": 56.3,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.61,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 36838,
+      "grok/page-404-1600.webp": 103382
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Un engrenage auquel il manque une dent\", cadrage: '71% 47%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "expertise-ouverture": {
+    "nom": "expertise-ouverture",
+    "source": "recu/verification-specifications-boite.jpg",
+    "role": "ouverture",
+    "alt": "Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "762f548305fdfce4",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 45%"
+    },
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 27.5,
+      "y": 13,
+      "l": 44.3,
+      "h": 82.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 113,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "expertise-ouverture-640.webp",
+      "expertise-ouverture-1280.webp",
+      "expertise-ouverture-1920.webp",
+      "expertise-ouverture-mobile-640.webp",
+      "expertise-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "expertise-ouverture-640.webp": 26386,
+      "expertise-ouverture-1280.webp": 78734,
+      "expertise-ouverture-1920.webp": 148074,
+      "expertise-ouverture-mobile-640.webp": 51846,
+      "expertise-ouverture-mobile-1080.webp": 103040
+    },
+    "media": "c.media({ nom: 'expertise-ouverture', alt: \"Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie\", cadrage: '49% 50%', cadrageMobile: '50% 45%', sizes: '100vw', priorite: true })"
+  },
+  "produit-secherie": {
+    "nom": "produit-secherie",
+    "source": "recu/engrenage-secherie-fonte-6.jpg",
+    "role": "produit",
+    "alt": "Engrenage de sécherie en fonte, moyeu usiné",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7021cdb35d7f4c47",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 4.6,
+      "l": 100,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 420,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "produit-secherie-480.webp",
+      "produit-secherie-640.webp",
+      "produit-secherie-1600.webp"
+    ],
+    "poids": {
+      "produit-secherie-480.webp": 27386,
+      "produit-secherie-640.webp": 41268,
+      "produit-secherie-1600.webp": 132232
+    },
+    "media": "c.media({ nom: 'produit-secherie', alt: \"Engrenage de sécherie en fonte, moyeu usiné\", cadrage: '50% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "produit-reducteur": {
+    "nom": "produit-reducteur",
+    "source": "recu/reparation-boite-reduction.jpg",
+    "role": "produit",
+    "alt": "Réducteur remis à neuf, peint en blanc, à l'atelier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "02a2c81c15d29832",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      1000
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 4.2,
+      "y": 28.6,
+      "l": 94.9,
+      "h": 70.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 869,
+      "top": 0,
+      "width": 1062,
+      "height": 1328,
+      "source": [
+        2000,
+        1328
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "produit-reducteur-480.webp",
+      "produit-reducteur-640.webp",
+      "produit-reducteur-1000.webp"
+    ],
+    "poids": {
+      "produit-reducteur-480.webp": 37482,
+      "produit-reducteur-640.webp": 54210,
+      "produit-reducteur-1000.webp": 95248
+    },
+    "media": "c.media({ nom: 'produit-reducteur', alt: \"Réducteur remis à neuf, peint en blanc, à l'atelier\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "reducteur-portrait": {
+    "nom": "reducteur-portrait",
+    "source": "recu/remise-neuf-boite-reduction.jpg",
+    "role": "carte-service",
+    "alt": "Carter de réducteur remis à neuf",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a45331d8d018fb2a",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 44%",
+    "sujet": {
+      "x": 10.3,
+      "y": 7.2,
+      "l": 80.8,
+      "h": 86.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1328,
+      "height": 1992,
+      "source": [
+        1328,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "reducteur-portrait-480.webp",
+      "reducteur-portrait-640.webp",
+      "reducteur-portrait-784.webp"
+    ],
+    "poids": {
+      "reducteur-portrait-480.webp": 55350,
+      "reducteur-portrait-640.webp": 87548,
+      "reducteur-portrait-784.webp": 119352
+    },
+    "media": "c.media({ nom: 'reducteur-portrait', alt: \"Carter de réducteur remis à neuf\", cadrage: '52% 44%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "drop-in": {
+    "nom": "drop-in",
+    "source": "recu/exact-drop-unit.jpg",
+    "role": "produit",
+    "alt": "Réducteur de remplacement exact, prêt à poser",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c5d13d06246c4218",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 18.5,
+      "y": 18.5,
+      "l": 66.6,
+      "h": 59.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 6,
+      "width": 1280,
+      "height": 853,
+      "source": [
+        1280,
+        960
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 1280 px après recadrage)"
+    ],
+    "fichiers": [
+      "drop-in-480.webp",
+      "drop-in-640.webp",
+      "drop-in-1600.webp"
+    ],
+    "poids": {
+      "drop-in-480.webp": 24622,
+      "drop-in-640.webp": 37896,
+      "drop-in-1600.webp": 124908
+    },
+    "media": "c.media({ nom: 'drop-in', alt: \"Réducteur de remplacement exact, prêt à poser\", cadrage: '47% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-soufflante": {
+    "nom": "service-soufflante",
+    "source": "recu/reparation-ventilateur.jpg",
+    "role": "produit",
+    "alt": "Soufflante réparée et repeinte",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "68f3629f44b8d335",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 23.9,
+      "y": 4.3,
+      "l": 54.8,
+      "h": 95.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 9,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "service-soufflante-480.webp",
+      "service-soufflante-640.webp",
+      "service-soufflante-1600.webp"
+    ],
+    "poids": {
+      "service-soufflante-480.webp": 10118,
+      "service-soufflante-640.webp": 15396,
+      "service-soufflante-1600.webp": 58860
+    },
+    "media": "c.media({ nom: 'service-soufflante', alt: \"Soufflante réparée et repeinte\", cadrage: '52% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-sur-place": {
+    "nom": "service-sur-place",
+    "source": "recu/site-jobs.jpg",
+    "role": "galerie",
+    "alt": "Technicien au travail à l'intérieur d'une installation, chez le client",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "73f9be4d38a0c815",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 3.1,
+      "y": 46.4,
+      "l": 88.2,
+      "h": 44.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.69,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.56,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 514,
+      "top": 0,
+      "width": 893,
+      "height": 1191,
+      "source": [
+        2000,
+        1191
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,08 fois (source de 893 px après recadrage)",
+      "recadrage fort : 45 % de l'image gardée"
+    ],
+    "fichiers": [
+      "service-sur-place-480.webp",
+      "service-sur-place-640.webp",
+      "service-sur-place-960.webp"
+    ],
+    "poids": {
+      "service-sur-place-480.webp": 29468,
+      "service-sur-place-640.webp": 45476,
+      "service-sur-place-960.webp": 73348
+    },
+    "media": "c.media({ nom: 'service-sur-place', alt: \"Technicien au travail à l'intérieur d'une installation, chez le client\", cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "technicien": {
+    "nom": "technicien",
+    "source": "recu/nouvelles.jpg",
+    "role": "portrait",
+    "alt": "Technicien en combinaison au travail sur une machine",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b038f467ec2bfcfa",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "69% 38%",
+    "sujet": {
+      "x": 57.4,
+      "y": 26.9,
+      "l": 23.5,
+      "h": 23.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 118,
+      "width": 1310,
+      "height": 1638,
+      "source": [
+        1310,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "technicien-480.webp",
+      "technicien-640.webp",
+      "technicien-784.webp"
+    ],
+    "poids": {
+      "technicien-480.webp": 23138,
+      "technicien-640.webp": 32622,
+      "technicien-784.webp": 42148
+    },
+    "media": "c.media({ nom: 'technicien', alt: \"Technicien en combinaison au travail sur une machine\", cadrage: '69% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "sur-place-2": {
+    "nom": "sur-place-2",
+    "source": "recu/service-mecanique-place.jpg",
+    "role": "vignette",
+    "alt": "Intervention mécanique sur place",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "cde1dfacbb2a2ff7",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 42%",
+    "sujet": {
+      "x": 37.4,
+      "y": 15.5,
+      "l": 30.9,
+      "h": 39.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 150,
+      "top": 0,
+      "width": 1350,
+      "height": 900,
+      "source": [
+        1500,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sur-place-2-480.webp",
+      "sur-place-2-640.webp",
+      "sur-place-2-800.webp"
+    ],
+    "poids": {
+      "sur-place-2-480.webp": 39056,
+      "sur-place-2-640.webp": 59824,
+      "sur-place-2-800.webp": 80554
+    },
+    "media": "c.media({ nom: 'sur-place-2', alt: \"Intervention mécanique sur place\", cadrage: '51% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-pompe": {
+    "nom": "service-pompe",
+    "source": "recu/reparation-pompes.jpg",
+    "role": "vignette",
+    "alt": "Pompe centrifuge réparée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "23a2507a518b6df7",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 43%",
+    "sujet": {
+      "x": 10.7,
+      "y": 6.8,
+      "l": 79.4,
+      "h": 86
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1448,
+      "height": 965,
+      "source": [
+        1448,
+        968
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "service-pompe-480.webp",
+      "service-pompe-640.webp",
+      "service-pompe-800.webp"
+    ],
+    "poids": {
+      "service-pompe-480.webp": 34780,
+      "service-pompe-640.webp": 53526,
+      "service-pompe-800.webp": 73790
+    },
+    "media": "c.media({ nom: 'service-pompe', alt: \"Pompe centrifuge réparée\", cadrage: '49% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-moteur": {
+    "nom": "service-moteur",
+    "source": "recu/reparation-moteur-electrique.jpg",
+    "role": "vignette",
+    "alt": "Moteurs électriques",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5dadaae90dfd52e9",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 7.2,
+      "y": 39.4,
+      "l": 75.1,
+      "h": 54.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1732,
+      "height": 1155,
+      "source": [
+        1732,
+        1155
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "service-moteur-480.webp",
+      "service-moteur-640.webp",
+      "service-moteur-800.webp"
+    ],
+    "poids": {
+      "service-moteur-480.webp": 36632,
+      "service-moteur-640.webp": 57120,
+      "service-moteur-800.webp": 79428
+    },
+    "media": "c.media({ nom: 'service-moteur', alt: \"Moteurs électriques\", cadrage: '50% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-coupe": {
+    "nom": "service-coupe",
+    "source": "recu/coupe-metal.jpg",
+    "role": "vignette",
+    "alt": "Coupe de métal",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "752ce165558b9ecc",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "30% 43%",
+    "sujet": {
+      "x": 9.1,
+      "y": 13.3,
+      "l": 33.3,
+      "h": 53.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1650,
+      "height": 1100,
+      "source": [
+        1650,
+        1212
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "service-coupe-480.webp",
+      "service-coupe-640.webp",
+      "service-coupe-800.webp"
+    ],
+    "poids": {
+      "service-coupe-480.webp": 12568,
+      "service-coupe-640.webp": 18944,
+      "service-coupe-800.webp": 26706
+    },
+    "media": "c.media({ nom: 'service-coupe', alt: \"Coupe de métal\", cadrage: '30% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-soudure": {
+    "nom": "service-soudure",
+    "source": "recu/recherche-excellence.jpg",
+    "role": "vignette",
+    "alt": "Atelier de soudure",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d2f19ff9af0300f4",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 90.4,
+      "y": 22.1,
+      "l": 9.6,
+      "h": 40.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 296,
+      "top": 0,
+      "width": 1620,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "service-soudure-480.webp",
+      "service-soudure-640.webp",
+      "service-soudure-800.webp"
+    ],
+    "poids": {
+      "service-soudure-480.webp": 20920,
+      "service-soudure-640.webp": 31228,
+      "service-soudure-800.webp": 41866
+    },
+    "media": "c.media({ nom: 'service-soudure', alt: \"Atelier de soudure\", cadrage: '47% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-usinage": {
+    "nom": "service-usinage",
+    "source": "recu/usinage-precision.jpg",
+    "role": "vignette",
+    "alt": "Usinage de précision",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6f3b856afb35705d",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 47%",
+    "sujet": {
+      "x": 27.4,
+      "y": 8.7,
+      "l": 50.6,
+      "h": 85.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 3,
+      "top": 0,
+      "width": 1731,
+      "height": 1154,
+      "source": [
+        1734,
+        1154
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "service-usinage-480.webp",
+      "service-usinage-640.webp",
+      "service-usinage-800.webp"
+    ],
+    "poids": {
+      "service-usinage-480.webp": 17538,
+      "service-usinage-640.webp": 26808,
+      "service-usinage-800.webp": 37594
+    },
+    "media": "c.media({ nom: 'service-usinage', alt: \"Usinage de précision\", cadrage: '53% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-hvof": {
+    "nom": "service-hvof",
+    "source": "recu/metalisation-small.jpg",
+    "role": "vignette",
+    "alt": "Métallisation, gerbe d'étincelles",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "1d1bc8f9c865c695",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "72% 57%",
+    "sujet": {
+      "x": 62.2,
+      "y": 36.9,
+      "l": 37.2,
+      "h": 37.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.5,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 53,
+      "width": 640,
+      "height": 427,
+      "source": [
+        640,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 640 px après recadrage)"
+    ],
+    "fichiers": [
+      "service-hvof-480.webp",
+      "service-hvof-640.webp",
+      "service-hvof-800.webp"
+    ],
+    "poids": {
+      "service-hvof-480.webp": 23240,
+      "service-hvof-640.webp": 31614,
+      "service-hvof-800.webp": 39848
+    },
+    "media": "c.media({ nom: 'service-hvof', alt: \"Métallisation, gerbe d'étincelles\", cadrage: '72% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "hvof-flamme": {
+    "nom": "hvof-flamme",
+    "source": "recu/metalisation-hvof-3.jpg",
+    "role": "vignette",
+    "alt": "Métallisation HVOF d'une pièce",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "900be701969ee82f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 50%",
+    "sujet": {
+      "x": 19.2,
+      "y": 32.5,
+      "l": 69.5,
+      "h": 48.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.49,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.42,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 30,
+      "width": 617,
+      "height": 411,
+      "source": [
+        617,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "617 px de large",
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,3 fois (source de 617 px après recadrage)"
+    ],
+    "fichiers": [
+      "hvof-flamme-480.webp",
+      "hvof-flamme-640.webp",
+      "hvof-flamme-800.webp"
+    ],
+    "poids": {
+      "hvof-flamme-480.webp": 11148,
+      "hvof-flamme-640.webp": 15860,
+      "hvof-flamme-800.webp": 20806
+    },
+    "media": "c.media({ nom: 'hvof-flamme', alt: \"Métallisation HVOF d'une pièce\", cadrage: '45% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-rouleaux": {
+    "nom": "service-rouleaux",
+    "source": "recu/roll-welding.jpg",
+    "role": "vignette",
+    "alt": "Rechargement d'un rouleau",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "03eed05845f9725f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 46%",
+    "sujet": {
+      "x": 11.2,
+      "y": 3.3,
+      "l": 66.5,
+      "h": 96.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 51,
+      "width": 640,
+      "height": 427,
+      "source": [
+        640,
+        478
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 640 px après recadrage)"
+    ],
+    "fichiers": [
+      "service-rouleaux-480.webp",
+      "service-rouleaux-640.webp",
+      "service-rouleaux-800.webp"
+    ],
+    "poids": {
+      "service-rouleaux-480.webp": 28886,
+      "service-rouleaux-640.webp": 48224,
+      "service-rouleaux-800.webp": 58230
+    },
+    "media": "c.media({ nom: 'service-rouleaux', alt: \"Rechargement d'un rouleau\", cadrage: '46% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "service-hydraulique": {
+    "nom": "service-hydraulique",
+    "source": "recu/reparation-hydraulique.jpg",
+    "role": "vignette",
+    "alt": "Composant hydraulique réparé",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "1e4a3e8e7fb2ea3a",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 54%",
+    "sujet": {
+      "x": 0.1,
+      "y": 21.2,
+      "l": 99,
+      "h": 78.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 5,
+      "width": 800,
+      "height": 533,
+      "source": [
+        800,
+        538
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "service-hydraulique-480.webp",
+      "service-hydraulique-640.webp",
+      "service-hydraulique-800.webp"
+    ],
+    "poids": {
+      "service-hydraulique-480.webp": 18948,
+      "service-hydraulique-640.webp": 28028,
+      "service-hydraulique-800.webp": 38462
+    },
+    "media": "c.media({ nom: 'service-hydraulique', alt: \"Composant hydraulique réparé\", cadrage: '46% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "reparation-engrenage": {
+    "nom": "reparation-engrenage",
+    "source": "recu/reparation-engrenage-tout-genre.jpg",
+    "role": "vignette",
+    "alt": "Grand engrenage réparé, à côté d'un technicien",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ed12ae7fccd7f6ca",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "12% 35%",
+    "sujet": {
+      "x": 3.6,
+      "y": 13.4,
+      "l": 18,
+      "h": 86.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 446,
+      "width": 1000,
+      "height": 667,
+      "source": [
+        1000,
+        1149
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "reparation-engrenage-480.webp",
+      "reparation-engrenage-640.webp",
+      "reparation-engrenage-800.webp"
+    ],
+    "poids": {
+      "reparation-engrenage-480.webp": 16602,
+      "reparation-engrenage-640.webp": 25602,
+      "reparation-engrenage-800.webp": 35082
+    },
+    "media": "c.media({ nom: 'reparation-engrenage', alt: \"Grand engrenage réparé, à côté d'un technicien\", cadrage: '12% 35%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "engrenage-helicoidal": {
+    "nom": "engrenage-helicoidal",
+    "source": "recu/engrenage-helicoidale.jpg",
+    "role": "vignette",
+    "alt": "Engrenages hélicoïdaux dans un carter ouvert",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "38bee0f7612b8954",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "36% 47%",
+    "sujet": {
+      "x": 0.2,
+      "y": 19.8,
+      "l": 64.2,
+      "h": 80.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 67,
+      "width": 800,
+      "height": 533,
+      "source": [
+        800,
+        600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "engrenage-helicoidal-480.webp",
+      "engrenage-helicoidal-640.webp",
+      "engrenage-helicoidal-800.webp"
+    ],
+    "poids": {
+      "engrenage-helicoidal-480.webp": 29412,
+      "engrenage-helicoidal-640.webp": 44716,
+      "engrenage-helicoidal-800.webp": 62598
+    },
+    "media": "c.media({ nom: 'engrenage-helicoidal', alt: \"Engrenages hélicoïdaux dans un carter ouvert\", cadrage: '36% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "engrenage-spiro": {
+    "nom": "engrenage-spiro",
+    "source": "recu/engrenage-spiro-conique.jpg",
+    "role": "vignette",
+    "alt": "Engrenage spiro-conique",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "08cb40bbe141d274",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 34%",
+    "sujet": {
+      "x": 3.7,
+      "y": 1.3,
+      "l": 84.9,
+      "h": 43.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 659,
+      "height": 439,
+      "source": [
+        659,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "659 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 659 px après recadrage)"
+    ],
+    "fichiers": [
+      "engrenage-spiro-480.webp",
+      "engrenage-spiro-640.webp",
+      "engrenage-spiro-800.webp"
+    ],
+    "poids": {
+      "engrenage-spiro-480.webp": 24272,
+      "engrenage-spiro-640.webp": 36344,
+      "engrenage-spiro-800.webp": 45880
+    },
+    "media": "c.media({ nom: 'engrenage-spiro', alt: \"Engrenage spiro-conique\", cadrage: '51% 34%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "couronne-bronze": {
+    "nom": "couronne-bronze",
+    "source": "recu/couronne-bronze.jpg",
+    "role": "vignette",
+    "alt": "Couronne en bronze pour vis sans fin",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "b357a04a0dfa03df",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 28.5,
+      "l": 100,
+      "h": 67.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 58,
+      "top": 0,
+      "width": 518,
+      "height": 345,
+      "source": [
+        674,
+        345
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 800",
+      "674 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,24 fois (source de 518 px après recadrage)"
+    ],
+    "fichiers": [
+      "couronne-bronze-480.webp",
+      "couronne-bronze-640.webp"
+    ],
+    "poids": {
+      "couronne-bronze-480.webp": 22312,
+      "couronne-bronze-640.webp": 30588
+    },
+    "media": "c.media({ nom: 'couronne-bronze', alt: \"Couronne en bronze pour vis sans fin\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "pignon": {
+    "nom": "pignon",
+    "source": "recu/pignon.jpg",
+    "role": "vignette",
+    "alt": "Arbres-pignons usinés",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "ac97c8c27afa8e61",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 54%",
+    "sujet": {
+      "x": 16.8,
+      "y": 0,
+      "l": 66.3,
+      "h": 99.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 53,
+      "width": 640,
+      "height": 427,
+      "source": [
+        640,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 640 px après recadrage)"
+    ],
+    "fichiers": [
+      "pignon-480.webp",
+      "pignon-640.webp",
+      "pignon-800.webp"
+    ],
+    "poids": {
+      "pignon-480.webp": 30238,
+      "pignon-640.webp": 45828,
+      "pignon-800.webp": 55490
+    },
+    "media": "c.media({ nom: 'pignon', alt: \"Arbres-pignons usinés\", cadrage: '54% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "couronne-segments": {
+    "nom": "couronne-segments",
+    "source": "recu/fabricant-engrenage-grande-taille.jpg",
+    "role": "vignette",
+    "alt": "Segments de grande couronne",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "684d996f956d18a5",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 10.3,
+      "y": 17.6,
+      "l": 67.8,
+      "h": 63.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 720,
+      "height": 480,
+      "source": [
+        722,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "722 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,11 fois (source de 720 px après recadrage)"
+    ],
+    "fichiers": [
+      "couronne-segments-480.webp",
+      "couronne-segments-640.webp",
+      "couronne-segments-800.webp"
+    ],
+    "poids": {
+      "couronne-segments-480.webp": 32690,
+      "couronne-segments-640.webp": 48690,
+      "couronne-segments-800.webp": 60700
+    },
+    "media": "c.media({ nom: 'couronne-segments', alt: \"Segments de grande couronne\", cadrage: '47% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "engrenage-grand": {
+    "nom": "engrenage-grand",
+    "source": "recu/engrenage-grande-taille.jpg",
+    "role": "vignette",
+    "alt": "Engrenages de grande taille à l'atelier",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "f7bcb4b22bfc09dc",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 50%",
+    "sujet": {
+      "x": 14.1,
+      "y": 19.2,
+      "l": 75.1,
+      "h": 64
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 17,
+      "width": 640,
+      "height": 427,
+      "source": [
+        640,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 640 px après recadrage)"
+    ],
+    "fichiers": [
+      "engrenage-grand-480.webp",
+      "engrenage-grand-640.webp",
+      "engrenage-grand-800.webp"
+    ],
+    "poids": {
+      "engrenage-grand-480.webp": 29642,
+      "engrenage-grand-640.webp": 43378,
+      "engrenage-grand-800.webp": 53228
+    },
+    "media": "c.media({ nom: 'engrenage-grand', alt: \"Engrenages de grande taille à l'atelier\", cadrage: '55% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "secherie-nylon": {
+    "nom": "secherie-nylon",
+    "source": "recu/engrenage-secherie-nylon-2.jpg",
+    "role": "vignette",
+    "alt": "Engrenages de sécherie en nylon",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9749e2f2f4b9a8f1",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 16.4,
+      "y": 12,
+      "l": 64.1,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 12,
+      "width": 1024,
+      "height": 683,
+      "source": [
+        1024,
+        768
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "secherie-nylon-480.webp",
+      "secherie-nylon-640.webp",
+      "secherie-nylon-800.webp"
+    ],
+    "poids": {
+      "secherie-nylon-480.webp": 21592,
+      "secherie-nylon-640.webp": 33000,
+      "secherie-nylon-800.webp": 45410
+    },
+    "media": "c.media({ nom: 'secherie-nylon', alt: \"Engrenages de sécherie en nylon\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "sechage-machine": {
+    "nom": "sechage-machine",
+    "source": "recu/engrenages-sechage-engrenages-sechage.jpg",
+    "role": "vignette",
+    "alt": "Entraînement par engrenages d'une section de sécherie",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7614dcd03ea45a1e",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 66%",
+    "sujet": {
+      "x": 42.1,
+      "y": 52.6,
+      "l": 40.2,
+      "h": 43.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 100,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1600,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sechage-machine-480.webp",
+      "sechage-machine-640.webp",
+      "sechage-machine-800.webp"
+    ],
+    "poids": {
+      "sechage-machine-480.webp": 35764,
+      "sechage-machine-640.webp": 59166,
+      "sechage-machine-800.webp": 85112
+    },
+    "media": "c.media({ nom: 'sechage-machine', alt: \"Entraînement par engrenages d'une section de sécherie\", cadrage: '53% 66%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "atlas": {
+    "nom": "atlas",
+    "source": "recu/atlas-steel-22-t.jpg",
+    "role": "vignette",
+    "alt": "Usinage d'une boîte de réduction de 22 tonnes",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "a076db75031f4f2f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "44% 50%",
+    "sujet": {
+      "x": 22.1,
+      "y": 27.4,
+      "l": 42.6,
+      "h": 42.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 17,
+      "width": 640,
+      "height": 427,
+      "source": [
+        640,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 640 px après recadrage)"
+    ],
+    "fichiers": [
+      "atlas-480.webp",
+      "atlas-640.webp",
+      "atlas-800.webp"
+    ],
+    "poids": {
+      "atlas-480.webp": 24498,
+      "atlas-640.webp": 37026,
+      "atlas-800.webp": 45458
+    },
+    "media": "c.media({ nom: 'atlas', alt: \"Usinage d'une boîte de réduction de 22 tonnes\", cadrage: '44% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "pannes-macro": {
+    "nom": "pannes-macro",
+    "source": "recu/analyse-engrenages-pannes-2.png",
+    "role": "vignette",
+    "alt": "Denture usée vue de près",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "b6cd6134b29954ce",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 49%",
+    "sujet": {
+      "x": 29.4,
+      "y": 25.7,
+      "l": 42.6,
+      "h": 47.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 560,
+      "height": 373,
+      "source": [
+        560,
+        465
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "560 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,43 fois (source de 560 px après recadrage)"
+    ],
+    "fichiers": [
+      "pannes-macro-480.webp",
+      "pannes-macro-640.webp",
+      "pannes-macro-800.webp"
+    ],
+    "poids": {
+      "pannes-macro-480.webp": 19366,
+      "pannes-macro-640.webp": 26764,
+      "pannes-macro-800.webp": 34544
+    },
+    "media": "c.media({ nom: 'pannes-macro', alt: \"Denture usée vue de près\", cadrage: '51% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "pannes-carter": {
+    "nom": "pannes-carter",
+    "source": "recu/analyse-engrenages-pannes.jpg",
+    "role": "vignette",
+    "alt": "Analyse d'un réducteur ouvert",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "441f984e4f99f075",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "27% 27%",
+    "sujet": {
+      "x": 11.9,
+      "y": 5.6,
+      "l": 19.6,
+      "h": 75.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 750,
+      "height": 500,
+      "source": [
+        1000,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 750 px après recadrage)"
+    ],
+    "fichiers": [
+      "pannes-carter-480.webp",
+      "pannes-carter-640.webp",
+      "pannes-carter-800.webp"
+    ],
+    "poids": {
+      "pannes-carter-480.webp": 21180,
+      "pannes-carter-640.webp": 32410,
+      "pannes-carter-800.webp": 41952
+    },
+    "media": "c.media({ nom: 'pannes-carter', alt: \"Analyse d'un réducteur ouvert\", cadrage: '27% 27%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "reducteur-arbres": {
+    "nom": "reducteur-arbres",
+    "source": "recu/remise-neuf-reducteur-arbres-2.jpg",
+    "role": "vignette",
+    "alt": "Réducteur à arbres parallèles remis à neuf",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "79aa3c967d1bd9b3",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 43%",
+    "sujet": {
+      "x": 13.7,
+      "y": 4.8,
+      "l": 73.5,
+      "h": 95.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 640,
+      "height": 427,
+      "source": [
+        640,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "640 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 640 px après recadrage)"
+    ],
+    "fichiers": [
+      "reducteur-arbres-480.webp",
+      "reducteur-arbres-640.webp",
+      "reducteur-arbres-800.webp"
+    ],
+    "poids": {
+      "reducteur-arbres-480.webp": 13532,
+      "reducteur-arbres-640.webp": 21460,
+      "reducteur-arbres-800.webp": 25624
+    },
+    "media": "c.media({ nom: 'reducteur-arbres', alt: \"Réducteur à arbres parallèles remis à neuf\", cadrage: '48% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "reducteur-vis": {
+    "nom": "reducteur-vis",
+    "source": "recu/reparation-reducteur-vis-sans.jpg",
+    "role": "vignette",
+    "alt": "Réducteur à vis sans fin",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "7cc5b5c9b9541b5e",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "53% 43%",
+    "sujet": {
+      "x": 16.1,
+      "y": 1.7,
+      "l": 69.8,
+      "h": 98.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 50,
+      "width": 642,
+      "height": 428,
+      "source": [
+        642,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "642 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 642 px après recadrage)"
+    ],
+    "fichiers": [
+      "reducteur-vis-480.webp",
+      "reducteur-vis-640.webp",
+      "reducteur-vis-800.webp"
+    ],
+    "poids": {
+      "reducteur-vis-480.webp": 15914,
+      "reducteur-vis-640.webp": 23980,
+      "reducteur-vis-800.webp": 30104
+    },
+    "media": "c.media({ nom: 'reducteur-vis', alt: \"Réducteur à vis sans fin\", cadrage: '53% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "jet-sable": {
+    "nom": "jet-sable",
+    "source": "recu/jet-sable.jpg",
+    "role": "vignette",
+    "alt": "Carter après jet de sable",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "956e56bd2e5d829c",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "32% 41%",
+    "sujet": {
+      "x": 6.6,
+      "y": 11.3,
+      "l": 43.6,
+      "h": 40
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.49,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 642,
+      "height": 428,
+      "source": [
+        642,
+        480
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "642 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 642 px après recadrage)"
+    ],
+    "fichiers": [
+      "jet-sable-480.webp",
+      "jet-sable-640.webp",
+      "jet-sable-800.webp"
+    ],
+    "poids": {
+      "jet-sable-480.webp": 28326,
+      "jet-sable-640.webp": 43246,
+      "jet-sable-800.webp": 52944
+    },
+    "media": "c.media({ nom: 'jet-sable', alt: \"Carter après jet de sable\", cadrage: '32% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "enseigne": {
+    "nom": "enseigne",
+    "source": "recu/montreal.jpg",
+    "role": "vignette",
+    "alt": "Enseigne d'un centre de services FX Technologie",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c567027c184060d9",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 20,
+      "y": 23.7,
+      "l": 66.9,
+      "h": 50
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.65,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.58,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1758
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "enseigne-480.webp",
+      "enseigne-640.webp",
+      "enseigne-800.webp"
+    ],
+    "poids": {
+      "enseigne-480.webp": 17918,
+      "enseigne-640.webp": 27240,
+      "enseigne-800.webp": 36478
+    },
+    "media": "c.media({ nom: 'enseigne', alt: \"Enseigne d'un centre de services FX Technologie\", cadrage: '50% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  }
+}

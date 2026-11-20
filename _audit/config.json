@@ -1,0 +1,26 @@
+{
+  "siteActuel": "www.fxtechnologie.com",
+  "pagesTypes": [
+    "/",
+    "/produits",
+    "/services",
+    "/expertise",
+    "/contact"
+  ],
+  "effets": [
+    "etincelles",
+    "couronne-echelle",
+    "index-services",
+    "denture",
+    "carte-centres",
+    "roue-appel",
+    "capacites",
+    "hvof",
+    "inspection",
+    "cadran-urgence",
+    "dent-manquante"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

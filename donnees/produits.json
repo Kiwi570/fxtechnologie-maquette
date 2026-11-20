@@ -1,0 +1,14 @@
+[
+  { "id": "engrenages", "num": "01", "titre": "Engrenages", "image": "grok/carte-engrenages",
+    "accroche": "Droits, hélicoïdaux, double hélice, vis sans fin, spiro-coniques : taillés selon les normes AGMA.",
+    "points": ["Trempés et rectifiés", "Acier, fonte, bronze, nylon", "Contrôle à chaque étape"] },
+  { "id": "grande-couronne", "num": "02", "titre": "Grande couronne", "image": "grok/carte-couronne",
+    "accroche": "Couronnes segmentées pour fours rotatifs, tambours et broyeurs à billes, jusqu'à 320 po de diamètre.",
+    "points": ["Expédition facilitée", "Installation plus simple", "Segments remplaçables"] },
+  { "id": "sechage", "num": "03", "titre": "Engrenage de sécherie", "image": "produit-secherie",
+    "accroche": "Engrenages de séchoirs et réducteurs pour les sections de sécherie des machines à papier.",
+    "points": ["Fonte ductile ou nylon", "Réducteurs montés sur arbre", "Réducteurs intégrés spéciaux"] },
+  { "id": "reducteur", "num": "04", "titre": "Réducteur sur mesure", "image": "produit-reducteur",
+    "accroche": "Boîtes de réduction fabriquées selon vos spécifications, en remplacement exact de l'unité en place.",
+    "points": ["Remplacement exact", "Bruit réduit", "Puissance thermique élevée"] }
+]

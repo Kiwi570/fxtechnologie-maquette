@@ -1,0 +1,346 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Demander une soumission",
+    "appeler": "Appeler",
+    "urgence": "Urgence 24 h",
+    "urgenceCourt": "Urgence 24 h",
+    "sommaire": "Sommaire",
+    "suivre": "Suivre",
+    "retourHaut": "Retour en haut",
+    "piedAccroche": "Engrenages et transmission de puissance : fabrication, réparation, usinage et service sur place.",
+    "piedJoindre": "Nous joindre",
+    "telecopieur": "téléc.",
+    "legal": "Mentions légales · Politique de confidentialité : à compléter",
+    "maquette": "Maquette de démonstration : formulaires simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Le spécialiste de l'engrenage",
+    "soumissionCourt": "Soumission",
+    "reducteurArbres": "Réducteur à arbres parallèles remis à neuf"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "FX Technologie : le spécialiste de l'engrenage au Québec",
+      "description": "Fabrication, réparation et usinage d'engrenages, de grandes couronnes et de réducteurs, en atelier ou sur place. Urgence 24 h.",
+      "nav": "Accueil",
+      "partageAlt": "FX Technologie, le spécialiste de l'engrenage : grande couronne dans un atelier",
+      "accroche": "Le spécialiste de l'engrenage"
+    },
+    "produits": {
+      "titre": "Produits : engrenages, grandes couronnes, sécherie, réducteurs | FX Technologie",
+      "description": "Engrenages selon les normes AGMA, couronnes segmentées jusqu'à 320 po, engrenages de sécherie et réducteurs sur mesure.",
+      "nav": "Produits",
+      "partageAlt": "Produits FX Technologie : engrenage à double hélice",
+      "accroche": "Engrenages, couronnes, réducteurs"
+    },
+    "services": {
+      "titre": "Services : réparation, usinage, métallisation HVOF, service sur place | FX Technologie",
+      "description": "Douze services : réparation de réducteurs, d'engrenages, de pompes et de soufflantes, usinage CNC, soudure, métallisation HVOF, interventions sur place.",
+      "nav": "Services",
+      "partageAlt": "Services FX Technologie : usinage d'une grande bague",
+      "accroche": "Réparer, usiner, revêtir, intervenir"
+    },
+    "expertise": {
+      "titre": "Expertise : analyse des engrenages et des pannes | FX Technologie",
+      "description": "Analyse des pannes, méthode en cinq temps, normes AGMA, centres de services et secteurs industriels servis.",
+      "nav": "Expertise",
+      "partageAlt": "Expertise FX Technologie : inspection d'un carter de réducteur",
+      "accroche": "Trouver la cause"
+    },
+    "contact": {
+      "titre": "Contact et soumission | FX Technologie",
+      "description": "Demandez une soumission en quatre étapes, ou appelez la ligne d'urgence 24 h. Centres de Montréal, Toronto et Plattsburgh.",
+      "nav": "Contact",
+      "partageAlt": "Contacter FX Technologie",
+      "accroche": "Parlons de votre pièce"
+    },
+    "404": {
+      "titre": "Page introuvable | FX Technologie",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Engrenages · transmission de puissance · Québec",
+      "titre1": "Le spécialiste",
+      "titre2a": "de l'",
+      "titre2b": "engrenage",
+      "texte": "Fabrication, réparation et usinage, de la petite pièce à la couronne de 320 po. Dans nos ateliers ou directement dans votre usine.",
+      "alt": "Grande couronne d'engrenage dressée dans un atelier de mécanique lourde, la nuit"
+    },
+    "chiffres": {
+      "titre": "Repères",
+      "annees": "ans d'expérience en transmission de puissance",
+      "couronne": "de diamètre pour nos plus grandes couronnes",
+      "services": "services, de l'usinage à la métallisation",
+      "secteurs": "secteurs industriels servis",
+      "norme": "Fabrication selon les normes AGMA, contrôle de qualité à chaque étape."
+    },
+    "produits": {
+      "surtitre": "Produits",
+      "titre": "Quatre familles de pièces, une seule exigence",
+      "texte": "Chaque pièce est conçue pour son application, puis fabriquée et contrôlée dans nos ateliers.",
+      "fiche": "Voir la fiche",
+      "glisser": "Faites glisser →"
+    },
+    "couronne": {
+      "surtitre": "Capacités",
+      "titre": "Jusqu'à 8,13 m de diamètre",
+      "texte": "Nos couronnes segmentées pour fours rotatifs, tambours et broyeurs atteignent 320 po. Choisissez un type pour voir sa largeur de face.",
+      "tableau": "Capacités maximales des grandes couronnes",
+      "type": "Type",
+      "diametre": "Diamètre max",
+      "face": "Largeur de face",
+      "droit": "Droit",
+      "helicoidal": "Hélicoïdal simple",
+      "double": "Double hélice",
+      "selonProjet": "selon le projet",
+      "totale": "au total",
+      "note": "Conversions en mètres arrondies.",
+      "alt": "Couronne de 320 po dessinée à l'échelle à côté d'une silhouette humaine",
+      "legende": "À l'échelle : une silhouette de 1,75 m à côté d'une couronne de 320 po."
+    },
+    "services": {
+      "surtitre": "Services",
+      "titre": "Douze savoir-faire sous le même toit",
+      "tous": "Tous les services"
+    },
+    "atelier": {
+      "mot1": "Dans nos ateliers",
+      "mot2": "ou chez vous",
+      "titre": "On vient à la machine quand elle ne peut pas venir à nous",
+      "texte": "Nos équipes interviennent sur place pour réduire vos arrêts de production. En cas de panne, la ligne d'urgence répond 24 h sur 24.",
+      "lien": "Prestations sur place",
+      "alt": "Un pont roulant soulève un carter de réducteur dans un atelier, un technicien guide la charge"
+    },
+    "methode": {
+      "surtitre": "Méthode",
+      "titre": "Cinq temps, une dent à la fois"
+    },
+    "pannes": {
+      "surtitre": "Analyse des engrenages et des pannes",
+      "titre": "Trouver la cause, pas seulement changer la pièce",
+      "texte": "La surveillance de l'état de vos entraînements, combinée à nos autres services, évite les interruptions de production.",
+      "p1": "Savoir quand une pièce doit être remplacée",
+      "p2": "Repérer la paire d'engrenages défectueuse, machine en marche",
+      "p3": "Un fonctionnement plus sûr, moins de pièces de rechange",
+      "lien": "Notre expertise",
+      "alt": "Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie"
+    },
+    "secteurs": {
+      "titre": "14 secteurs servis"
+    },
+    "centres": {
+      "surtitre": "Centres de services",
+      "titre": "Du Québec à l'Ontario, aux États-Unis et en Europe",
+      "texte": "Six centres de services régionaux. Adresse principale : Sainte-Sophie (Québec).",
+      "alt": "Réseau des centres de services, de la Colombie-Britannique à l'Allemagne",
+      "ocean": "Atlantique"
+    },
+    "appel": {
+      "titre": "Une pièce à refaire, une machine à l'arrêt ?",
+      "texte": "Décrivez-nous la pièce : nous vous répondons avec une soumission. Pour une panne, appelez la ligne d'urgence, 24 h sur 24."
+    }
+  },
+  "produits": {
+    "tete": {
+      "surtitre": "Produits",
+      "titre1": "La pièce exacte,",
+      "titre2": "à la bonne taille",
+      "texte": "Engrenages, grandes couronnes segmentées, engrenages de sécherie et réducteurs sur mesure, conçus et fabriqués selon les normes AGMA.",
+      "info": "Couronnes jusqu'à 320 po",
+      "alt": "Engrenage à double hélice en chevrons sur un support d'atelier",
+      "sommaire": "Sur cette page"
+    },
+    "engrenages": {
+      "texte": "Nous taillons tous les grands types d'engrenages, trempés et rectifiés au besoin, avec des contrôles de qualité à chaque étape.",
+      "types": "Types",
+      "materiaux": "Matériaux",
+      "typesListe": "Droits · Hélicoïdaux · Double hélice · Vis sans fin · Spiro-coniques · Couronnes · Engrenages de broche · Pignons de papetière",
+      "materiauxListe": "Acier · Fonte · Bronze · Nylon"
+    },
+    "couronne": {
+      "texte": "Une couronne dentée conçue pour les fours rotatifs, les tambours et les broyeurs à billes : mines, cimenteries, aciéries, secteur pétrolier. Sa conception en segments change tout à l'installation.",
+      "avantages": "Pourquoi segmentée",
+      "a1": "Expédition facilitée",
+      "a2": "Installation plus simple",
+      "a3": "Coût inférieur à une couronne d'une pièce",
+      "a4": "Peu de pièces de rechange",
+      "a5": "Remplacement facile d'un segment"
+    },
+    "sechage": {
+      "texte": "Pour les sections de sécherie des machines à papier : engrenages de séchoirs, réducteurs montés sur arbre et réducteurs intégrés spéciaux. Tous les types d'engrenages de rouleaux, en fonte ductile ou en nylon.",
+      "legende": "Engrenages de sécherie en nylon"
+    },
+    "reducteur": {
+      "texte": "Une boîte de réduction fabriquée selon vos spécifications, qui prend exactement la place de l'unité en place : pas de modification de la machine.",
+      "p1": "Remplacement exact de l'unité existante",
+      "p2": "Bruit réduit",
+      "p3": "Puissances thermiques élevées",
+      "reparer": "Votre réducteur est à réparer plutôt qu'à remplacer ?",
+      "lienReparer": "Réparation de boîtes de vitesses"
+    }
+  },
+  "services": {
+    "tete": {
+      "surtitre": "Services",
+      "titre1": "Réparer, usiner,",
+      "titre2": "revêtir, intervenir",
+      "texte": "Douze services pour remettre vos équipements en marche et les faire durer, en atelier ou dans votre usine.",
+      "alt": "Un tour vertical usine l'intérieur d'une grande bague d'acier"
+    },
+    "reparer": {
+      "texte": "Nous remplaçons les engrenages défectueux, modifions le rapport des réducteurs existants et cherchons des solutions qui font économiser à l'usage.",
+      "types": "Réducteurs remis à neuf",
+      "typesListe": "À arbres parallèles · À vis sans fin · Planétaires · À engrenages spiro-coniques · Motorisés"
+    },
+    "usiner": {
+      "texte": "Des équipements de pointe et un personnel expérimenté, de l'usinage de petites pièces à la fabrication de gros composants.",
+      "materiaux": "Acier · Acier inoxydable · Aluminium · Fibre de carbone · Inconel ·"
+    },
+    "hvof": {
+      "titre": "La métallisation HVOF, en quatre temps",
+      "texte": "Le procédé HVOF (projection à haute vitesse par combustion d'oxygène et de carburant) dépose des revêtements très denses et fortement adhérents. Il remplace couramment le chrome dur.",
+      "e1t": "La combustion",
+      "e1": "Un carburant, kérosène ou hydrogène, est mélangé à de l'oxygène puis enflammé dans une chambre de combustion.",
+      "e2t": "L'accélération",
+      "e2": "Une buse accélère les gaz de combustion.",
+      "e3t": "La poudre",
+      "e3": "La poudre est injectée dans ce flux, où elle se ramollit et prend de la vitesse.",
+      "e4t": "Le dépôt",
+      "e4": "Elle frappe la surface et forme un revêtement dense et adhérent.",
+      "alt": "Projection thermique à haute vitesse sur un arbre en rotation"
+    },
+    "surPlace": {
+      "texte": "Assistance technique et service mécanique dans votre usine : nous venons à la machine pour augmenter sa disponibilité et optimiser ses performances.",
+      "urgence": "Une panne ? La ligne d'urgence répond 24 h sur 24."
+    },
+    "appel": {
+      "titre": "Dites-nous ce qui ne tourne plus rond",
+      "texte": "Une soumission en quatre étapes, ou la ligne d'urgence pour une panne."
+    }
+  },
+  "expertise": {
+    "tete": {
+      "surtitre": "Expertise",
+      "titre1": "Trouver",
+      "titre2": "la cause",
+      "texte": "Plus de 25 ans comme spécialiste de la transmission de puissance : nous analysons les engrenages et les pannes pour remonter à l'origine du problème.",
+      "alt": "Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie"
+    },
+    "analyse": {
+      "titre": "L'analyse des engrenages et des pannes",
+      "texte": "La surveillance de l'état, combinée à nos autres services, évite les interruptions de production.",
+      "a1t": "Quand remplacer",
+      "a1": "Elle indique quand une pièce doit être remplacée, avant la casse.",
+      "a2t": "Quelle paire",
+      "a2": "Sur un entraînement en marche, elle repère la paire d'engrenages défectueuse.",
+      "a3t": "Moins de rechanges",
+      "a3": "Le fonctionnement est plus sûr et l'on consomme moins de pièces de rechange.",
+      "legende1": "Denture usée vue de près",
+      "legende2": "Réducteur ouvert pour analyse"
+    },
+    "methode": {
+      "titre": "Une seule équipe, du besoin à la livraison"
+    },
+    "normes": {
+      "titre": "Normes et références",
+      "agma": "Engrenages fabriqués selon les normes AGMA, contrôles de qualité à chaque étape.",
+      "atlas": "Usinage d'une boîte de réduction de 22 tonnes pour Atlas Steel.",
+      "legende": "Boîte de réduction de 22 t en usinage",
+      "annees": "Plus de 25 ans comme spécialiste de la transmission de puissance."
+    },
+    "centres": {
+      "titre": "Six centres de services régionaux"
+    },
+    "secteurs": {
+      "titre": "Les secteurs que nous servons",
+      "texte": "Les mêmes exigences de fiabilité, de la papetière au port."
+    },
+    "appel": {
+      "titre": "Une panne à comprendre ?",
+      "texte": "Décrivez les symptômes : nous vous proposons une analyse et une soumission."
+    }
+  },
+  "contact": {
+    "tete": {
+      "surtitre": "Contact",
+      "titre": "Parlons de votre pièce",
+      "texte": "Une soumission en quatre étapes, ou la ligne d'urgence si une machine est à l'arrêt.",
+      "urgenceTitre": "Ligne d'urgence",
+      "urgenceTexte": "24 h sur 24, 7 jours sur 7"
+    },
+    "form": {
+      "titre": "Demande de soumission",
+      "simule": "Formulaire de démonstration : rien n'est envoyé.",
+      "etape": "Étape",
+      "sur": "sur",
+      "e1": "Votre besoin",
+      "e2": "La pièce",
+      "e3": "Le délai",
+      "e4": "Vos coordonnées",
+      "besoin": "De quoi avez-vous besoin ?",
+      "bFabrication": "Fabriquer une pièce",
+      "bReparation": "Réparer ou remettre à neuf",
+      "bSurPlace": "Intervention sur place",
+      "bAnalyse": "Analyse d'une panne",
+      "piece": "Type de pièce",
+      "pEngrenage": "Engrenage",
+      "pCouronne": "Grande couronne",
+      "pSechage": "Engrenage de sécherie",
+      "pReducteur": "Réducteur ou boîte de vitesses",
+      "pPompe": "Pompe, soufflante, hydraulique",
+      "pMoteur": "Moteur électrique",
+      "pAutre": "Autre pièce",
+      "dimensions": "Dimensions approximatives (diamètre, longueur, poids)",
+      "dimensionsAide": "Exemple : diamètre 48 po, 1 200 lb",
+      "quantite": "Quantité",
+      "description": "Décrivez la pièce ou le problème",
+      "delai": "Quel délai ?",
+      "dUrgent": "Machine à l'arrêt, c'est urgent",
+      "dPlanifie": "Arrêt planifié",
+      "dSouple": "Pas d'urgence",
+      "dateArret": "Date de l'arrêt planifié (facultatif)",
+      "secteur": "Votre secteur (facultatif)",
+      "nom": "Nom",
+      "entreprise": "Entreprise",
+      "courriel": "Courriel",
+      "tel": "Téléphone",
+      "donnees": "Vos renseignements servent uniquement à répondre à votre demande (Loi 25). Politique de confidentialité : à compléter.",
+      "precedent": "Étape précédente",
+      "suivant": "Étape suivante",
+      "envoyer": "Envoyer la demande",
+      "recap": "Votre demande",
+      "recapVide": "Vos choix s'affichent ici.",
+      "urgentNote": "Machine à l'arrêt : appelez aussi le 514-805-6350.",
+      "err1": "Choisissez une option pour continuer.",
+      "err2": "Décrivez la pièce ou le problème pour continuer.",
+      "err3": "Choisissez un délai pour continuer.",
+      "err4": "Indiquez votre nom et un courriel valide.",
+      "choisir": "Choisir un type de pièce"
+    },
+    "coord": {
+      "titre": "Nos coordonnées",
+      "adresse": "Adresse principale",
+      "courriel": "Courriel",
+      "telecopieur": "Télécopieur",
+      "centres": "Centres de services",
+      "enseigne": "Enseigne d'un centre de services FX Technologie"
+    }
+  },
+  "introuvable": {
+    "titre": "Il manque une dent à cette page",
+    "texte": "Elle n'existe pas ou plus. L'accueil, lui, tourne rond.",
+    "retour": "Revenir à l'accueil",
+    "alt": "Un engrenage auquel il manque une dent"
+  }
+}

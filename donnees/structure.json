@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "FX Technologie",
+  "url": "https://fxtechnologie-maquette.vercel.app/",
+  "description": "Fabrication, réparation et usinage d'engrenages et de composants de transmission de puissance.",
+  "telephone": "+1-450-582-9413",
+  "faxNumber": "+1-450-582-9105",
+  "email": "info@fxtechnologie.com",
+  "address": { "@type": "PostalAddress", "streetAddress": "267, rue de la Rivière", "addressLocality": "Sainte-Sophie", "addressRegion": "QC", "postalCode": "J5J 1B6", "addressCountry": "CA" },
+  "sameAs": ["https://twitter.com/fxtechnologie"]
+}

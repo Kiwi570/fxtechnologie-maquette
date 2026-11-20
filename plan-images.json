@@ -1,0 +1,372 @@
+[
+ {
+  "source": "recu/logo-sombre.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "FX Technologie"
+ },
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "nom": "grok/accueil-ouverture",
+  "role": "ouverture",
+  "page": "accueil",
+  "emplacement": "Ouverture de l'accueil, version ordinateur, texte à gauche",
+  "priorite": "Indispensable",
+  "consigne_scene": "Wide low-angle shot inside a large heavy-industry machine shop at night: a giant segmented steel ring gear, much taller than a person, standing upright on timber blocks in the right half of the frame, its freshly cut teeth catching warm orange sodium light, an overhead crane hook and chains hanging above it, the left half of the frame falling into calm deep graphite shadow, a few faint sparks far in the background, empty scene, nobody in the frame",
+  "alt": "Grande couronne d'engrenage dressée dans un atelier de mécanique lourde, la nuit",
+  "beaute": 5,
+  "zone_texte": "gauche",
+  "mobile": true,
+  "source_mobile": "recu/grok/accueil-ouverture-mobile.jpg"
+ },
+ {
+  "source": "recu/grok/accueil-atelier.jpg",
+  "nom": "grok/accueil-atelier",
+  "role": "section-fond",
+  "page": "accueil",
+  "emplacement": "Grande photo pleine largeur au milieu de l'accueil (« Dans nos ateliers ou chez vous »)",
+  "priorite": "Indispensable",
+  "consigne_scene": "Wide shot of a heavy machine shop: an overhead crane lifting a large industrial gearbox housing with chains, one technician seen from behind in full protective equipment guiding the load with a gloved hand, warm work lights, worn concrete floor, steel columns, depth and haze, face never visible",
+  "alt": "Un pont roulant soulève un carter de réducteur dans un atelier, un technicien guide la charge",
+  "beaute": 4,
+  "zone_texte": "bas"
+ },
+ {
+  "source": "recu/grok/carte-engrenages.jpg",
+  "nom": "grok/carte-engrenages",
+  "role": "produit",
+  "page": "accueil",
+  "emplacement": "Carte produit « Engrenages » (accueil et page Produits)",
+  "priorite": "Indispensable",
+  "consigne_scene": "Macro photograph of a freshly ground helical steel gear, the slanted teeth in razor-sharp focus, thin oil film, warm raking light from the side, background falling into dark graphite shadow",
+  "alt": "Gros plan sur la denture d'un engrenage hélicoïdal rectifié",
+  "beaute": 4,
+  "ratio": "4:5"
+ },
+ {
+  "source": "recu/grok/carte-couronne.jpg",
+  "nom": "grok/carte-couronne",
+  "role": "produit",
+  "page": "accueil",
+  "emplacement": "Carte produit « Grande couronne » (accueil et page Produits)",
+  "priorite": "Indispensable",
+  "consigne_scene": "A very large segmented steel ring gear made of several curved segments with bolted flanges, laid flat on timber blocks on a workshop floor, seen from above at a steep angle, warm work light, machined teeth catching highlights, empty scene",
+  "alt": "Couronne segmentée posée sur des cales dans un atelier",
+  "beaute": 4,
+  "ratio": "4:5"
+ },
+ {
+  "source": "recu/grok/produits-ouverture.jpg",
+  "nom": "grok/produits-ouverture",
+  "role": "ouverture",
+  "page": "produits",
+  "emplacement": "Ouverture de la page Produits, version ordinateur, image à droite",
+  "priorite": "Indispensable",
+  "consigne_scene": "Close-up three-quarter view of a large double helical herringbone gear standing on a workshop stand, the chevron teeth gleaming with oil, warm orange rim light, dark machine shop softly blurred behind, the left third of the frame calm and dark",
+  "alt": "Engrenage à double hélice en chevrons sur un support d'atelier",
+  "beaute": 4,
+  "zone_texte": "gauche",
+  "mobile": true,
+  "source_mobile": "recu/grok/produits-ouverture-mobile.jpg"
+ },
+ {
+  "source": "recu/grok/services-ouverture.jpg",
+  "nom": "grok/services-ouverture",
+  "role": "ouverture",
+  "page": "services",
+  "emplacement": "Ouverture de la page Services, plein cadre, texte en bas à gauche",
+  "priorite": "Indispensable",
+  "consigne_scene": "A large vertical turning lathe machining the inside of a huge steel ring, long metal chips curling off the cutting tool, a light coolant mist, warm orange work light against a dark shop, the lower left of the frame calm and dark, empty scene, nobody in the frame",
+  "alt": "Un tour vertical usine l'intérieur d'une grande bague d'acier",
+  "beaute": 4,
+  "zone_texte": "bas",
+  "mobile": true,
+  "source_mobile": "recu/grok/services-ouverture-mobile.jpg"
+ },
+ {
+  "source": "recu/grok/services-hvof.jpg",
+  "nom": "grok/services-hvof",
+  "role": "section-fond",
+  "page": "services",
+  "emplacement": "Grande scène du chapitre « Traiter les surfaces » (métallisation HVOF)",
+  "priorite": "Indispensable",
+  "consigne_scene": "Thermal spray coating inside a dark spray booth: a bright narrow supersonic flame jet hitting a rotating steel shaft held in a lathe, a fan of glowing orange particles bouncing off the surface, the spray gun mounted on a robotic arm, the operator out of frame, deep shadows around",
+  "alt": "Projection thermique à haute vitesse sur un arbre en rotation",
+  "beaute": 5,
+  "zone_texte": "gauche"
+ },
+ {
+  "source": "recu/grok/page-404.jpg",
+  "nom": "grok/page-404",
+  "role": "404",
+  "page": "404",
+  "emplacement": "Image de la page 404",
+  "priorite": "Conseillée",
+  "consigne_scene": "A single steel spur gear lying flat on a dark oiled workbench with exactly one tooth missing, the broken tooth lying a little apart beside it, warm side light, calm dark background on the left",
+  "alt": "Un engrenage auquel il manque une dent",
+  "beaute": 4,
+  "zone_texte": "gauche"
+ },
+ {
+  "source": "recu/verification-specifications-boite.jpg",
+  "nom": "expertise-ouverture",
+  "role": "ouverture",
+  "alt": "Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie",
+  "beaute": 4,
+  "mobile": true
+ },
+ {
+  "source": "recu/engrenage-secherie-fonte-6.jpg",
+  "nom": "produit-secherie",
+  "role": "produit",
+  "alt": "Engrenage de sécherie en fonte, moyeu usiné",
+  "beaute": 4,
+  "ratio": "4:5"
+ },
+ {
+  "source": "recu/reparation-boite-reduction.jpg",
+  "nom": "produit-reducteur",
+  "role": "produit",
+  "alt": "Réducteur remis à neuf, peint en blanc, à l'atelier",
+  "beaute": 4,
+  "ratio": "4:5",
+  "cadrage": [
+   70,
+   52
+  ],
+  "largeurs": [
+   480,
+   640,
+   1000
+  ]
+ },
+ {
+  "source": "recu/remise-neuf-boite-reduction.jpg",
+  "nom": "reducteur-portrait",
+  "role": "carte-service",
+  "alt": "Carter de réducteur remis à neuf",
+  "beaute": 3
+ },
+ {
+  "source": "recu/exact-drop-unit.jpg",
+  "nom": "drop-in",
+  "role": "produit",
+  "alt": "Réducteur de remplacement exact, prêt à poser",
+  "beaute": 3
+ },
+ {
+  "source": "recu/reparation-ventilateur.jpg",
+  "nom": "service-soufflante",
+  "role": "produit",
+  "alt": "Soufflante réparée et repeinte",
+  "beaute": 4,
+  "cadrage": [
+   52,
+   45
+  ]
+ },
+ {
+  "source": "recu/site-jobs.jpg",
+  "nom": "service-sur-place",
+  "role": "galerie",
+  "alt": "Technicien au travail à l'intérieur d'une installation, chez le client",
+  "beaute": 3
+ },
+ {
+  "source": "recu/nouvelles.jpg",
+  "nom": "technicien",
+  "role": "portrait",
+  "alt": "Technicien en combinaison au travail sur une machine",
+  "beaute": 3
+ },
+ {
+  "source": "recu/service-mecanique-place.jpg",
+  "nom": "sur-place-2",
+  "role": "vignette",
+  "alt": "Intervention mécanique sur place",
+  "beaute": 3
+ },
+ {
+  "source": "recu/reparation-pompes.jpg",
+  "nom": "service-pompe",
+  "role": "vignette",
+  "alt": "Pompe centrifuge réparée",
+  "beaute": 3
+ },
+ {
+  "source": "recu/reparation-moteur-electrique.jpg",
+  "nom": "service-moteur",
+  "role": "vignette",
+  "alt": "Moteurs électriques",
+  "beaute": 3
+ },
+ {
+  "source": "recu/coupe-metal.jpg",
+  "nom": "service-coupe",
+  "role": "vignette",
+  "alt": "Coupe de métal",
+  "beaute": 3
+ },
+ {
+  "source": "recu/recherche-excellence.jpg",
+  "nom": "service-soudure",
+  "role": "vignette",
+  "alt": "Atelier de soudure",
+  "beaute": 3,
+  "cadrage": [
+   55,
+   50
+  ]
+ },
+ {
+  "source": "recu/usinage-precision.jpg",
+  "nom": "service-usinage",
+  "role": "vignette",
+  "alt": "Usinage de précision",
+  "beaute": 3
+ },
+ {
+  "source": "recu/metalisation-small.jpg",
+  "nom": "service-hvof",
+  "role": "vignette",
+  "alt": "Métallisation, gerbe d'étincelles",
+  "beaute": 2
+ },
+ {
+  "source": "recu/metalisation-hvof-3.jpg",
+  "nom": "hvof-flamme",
+  "role": "vignette",
+  "alt": "Métallisation HVOF d'une pièce",
+  "beaute": 2
+ },
+ {
+  "source": "recu/roll-welding.jpg",
+  "nom": "service-rouleaux",
+  "role": "vignette",
+  "alt": "Rechargement d'un rouleau",
+  "beaute": 2
+ },
+ {
+  "source": "recu/reparation-hydraulique.jpg",
+  "nom": "service-hydraulique",
+  "role": "vignette",
+  "alt": "Composant hydraulique réparé",
+  "beaute": 2
+ },
+ {
+  "source": "recu/reparation-engrenage-tout-genre.jpg",
+  "nom": "reparation-engrenage",
+  "role": "vignette",
+  "alt": "Grand engrenage réparé, à côté d'un technicien",
+  "beaute": 3
+ },
+ {
+  "source": "recu/engrenage-helicoidale.jpg",
+  "nom": "engrenage-helicoidal",
+  "role": "vignette",
+  "alt": "Engrenages hélicoïdaux dans un carter ouvert",
+  "beaute": 3
+ },
+ {
+  "source": "recu/engrenage-spiro-conique.jpg",
+  "nom": "engrenage-spiro",
+  "role": "vignette",
+  "alt": "Engrenage spiro-conique",
+  "beaute": 2
+ },
+ {
+  "source": "recu/couronne-bronze.jpg",
+  "nom": "couronne-bronze",
+  "role": "vignette",
+  "alt": "Couronne en bronze pour vis sans fin",
+  "beaute": 2
+ },
+ {
+  "source": "recu/pignon.jpg",
+  "nom": "pignon",
+  "role": "vignette",
+  "alt": "Arbres-pignons usinés",
+  "beaute": 2
+ },
+ {
+  "source": "recu/fabricant-engrenage-grande-taille.jpg",
+  "nom": "couronne-segments",
+  "role": "vignette",
+  "alt": "Segments de grande couronne",
+  "beaute": 2
+ },
+ {
+  "source": "recu/engrenage-grande-taille.jpg",
+  "nom": "engrenage-grand",
+  "role": "vignette",
+  "alt": "Engrenages de grande taille à l'atelier",
+  "beaute": 2
+ },
+ {
+  "source": "recu/engrenage-secherie-nylon-2.jpg",
+  "nom": "secherie-nylon",
+  "role": "vignette",
+  "alt": "Engrenages de sécherie en nylon",
+  "beaute": 3
+ },
+ {
+  "source": "recu/engrenages-sechage-engrenages-sechage.jpg",
+  "nom": "sechage-machine",
+  "role": "vignette",
+  "alt": "Entraînement par engrenages d'une section de sécherie",
+  "beaute": 3
+ },
+ {
+  "source": "recu/atlas-steel-22-t.jpg",
+  "nom": "atlas",
+  "role": "vignette",
+  "alt": "Usinage d'une boîte de réduction de 22 tonnes",
+  "beaute": 2
+ },
+ {
+  "source": "recu/analyse-engrenages-pannes-2.png",
+  "nom": "pannes-macro",
+  "role": "vignette",
+  "alt": "Denture usée vue de près",
+  "beaute": 2
+ },
+ {
+  "source": "recu/analyse-engrenages-pannes.jpg",
+  "nom": "pannes-carter",
+  "role": "vignette",
+  "alt": "Analyse d'un réducteur ouvert",
+  "beaute": 2
+ },
+ {
+  "source": "recu/remise-neuf-reducteur-arbres-2.jpg",
+  "nom": "reducteur-arbres",
+  "role": "vignette",
+  "alt": "Réducteur à arbres parallèles remis à neuf",
+  "beaute": 2
+ },
+ {
+  "source": "recu/reparation-reducteur-vis-sans.jpg",
+  "nom": "reducteur-vis",
+  "role": "vignette",
+  "alt": "Réducteur à vis sans fin",
+  "beaute": 2
+ },
+ {
+  "source": "recu/jet-sable.jpg",
+  "nom": "jet-sable",
+  "role": "vignette",
+  "alt": "Carter après jet de sable",
+  "beaute": 2
+ },
+ {
+  "source": "recu/montreal.jpg",
+  "nom": "enseigne",
+  "role": "vignette",
+  "alt": "Enseigne d'un centre de services FX Technologie",
+  "beaute": 3,
+  "cadrage": [
+   50,
+   30
+  ]
+ }
+]

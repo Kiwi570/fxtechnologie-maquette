@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact et soumission | FX Technologie</title>
+<meta name="description" content="Demandez une soumission en quatre étapes, ou appelez la ligne d&#39;urgence 24 h. Centres de Montréal, Toronto et Plattsburgh.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://fxtechnologie-maquette.vercel.app/contact">
+<style>:root{--fond:#F0EDE8;--texte:#15181B;--voile-fond:#15181B;--ouverture-fond:#15181B;--menu-fond:#15181B}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bsd-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/plex-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#15181B">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FX Technologie">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Contact et soumission | FX Technologie">
+<meta property="og:description" content="Demandez une soumission en quatre étapes, ou appelez la ligne d&#39;urgence 24 h. Centres de Montréal, Toronto et Plattsburgh.">
+<meta property="og:url" content="https://fxtechnologie-maquette.vercel.app/contact">
+<meta property="og:image" content="https://fxtechnologie-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Contacter FX Technologie">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"FX Technologie","url":"https://fxtechnologie-maquette.vercel.app/","description":"Fabrication, réparation et usinage d'engrenages et de composants de transmission de puissance.","telephone":"+1-450-582-9413","faxNumber":"+1-450-582-9105","email":"info@fxtechnologie.com","address":{"@type":"PostalAddress","streetAddress":"267, rue de la Rivière","addressLocality":"Sainte-Sophie","addressRegion":"QC","postalCode":"J5J 1B6","addressCountry":"CA"},"sameAs":["https://twitter.com/fxtechnologie"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><svg class="voile-roue" viewBox="0 0 100 100" aria-hidden="true"><path d="M89.00 50.00 A39.00 39.00 0 0 1 88.95 52.04 L95.84 53.85 A46.00 46.00 0 0 1 95.47 56.96 L88.35 57.11 A39.00 39.00 0 0 1 87.67 60.09 A39.00 39.00 0 0 1 87.09 62.05 L93.28 65.58 A46.00 46.00 0 0 1 92.12 68.49 L85.20 66.79 A39.00 39.00 0 0 1 83.77 69.50 A39.00 39.00 0 0 1 82.71 71.24 L87.77 76.25 A46.00 46.00 0 0 1 85.90 78.76 L79.66 75.33 A39.00 39.00 0 0 1 77.58 77.58 A39.00 39.00 0 0 1 76.10 78.98 L79.69 85.13 A46.00 46.00 0 0 1 77.23 87.07 L72.09 82.14 A39.00 39.00 0 0 1 69.50 83.77 A39.00 39.00 0 0 1 67.71 84.75 L69.59 91.62 A46.00 46.00 0 0 1 66.71 92.86 L63.02 86.76 A39.00 39.00 0 0 1 60.09 87.67 A39.00 39.00 0 0 1 58.11 88.15 L58.15 95.27 A46.00 46.00 0 0 1 55.05 95.72 L53.06 88.88 A39.00 39.00 0 0 1 50.00 89.00 A39.00 39.00 0 0 1 47.96 88.95 L46.15 95.84 A46.00 46.00 0 0 1 43.04 95.47 L42.89 88.35 A39.00 39.00 0 0 1 39.91 87.67 A39.00 39.00 0 0 1 37.95 87.09 L34.42 93.28 A46.00 46.00 0 0 1 31.51 92.12 L33.21 85.20 A39.00 39.00 0 0 1 30.50 83.77 A39.00 39.00 0 0 1 28.76 82.71 L23.75 87.77 A46.00 46.00 0 0 1 21.24 85.90 L24.67 79.66 A39.00 39.00 0 0 1 22.42 77.58 A39.00 39.00 0 0 1 21.02 76.10 L14.87 79.69 A46.00 46.00 0 0 1 12.93 77.23 L17.86 72.09 A39.00 39.00 0 0 1 16.23 69.50 A39.00 39.00 0 0 1 15.25 67.71 L8.38 69.59 A46.00 46.00 0 0 1 7.14 66.71 L13.24 63.02 A39.00 39.00 0 0 1 12.33 60.09 A39.00 39.00 0 0 1 11.85 58.11 L4.73 58.15 A46.00 46.00 0 0 1 4.28 55.05 L11.12 53.06 A39.00 39.00 0 0 1 11.00 50.00 A39.00 39.00 0 0 1 11.05 47.96 L4.16 46.15 A46.00 46.00 0 0 1 4.53 43.04 L11.65 42.89 A39.00 39.00 0 0 1 12.33 39.91 A39.00 39.00 0 0 1 12.91 37.95 L6.72 34.42 A46.00 46.00 0 0 1 7.88 31.51 L14.80 33.21 A39.00 39.00 0 0 1 16.23 30.50 A39.00 39.00 0 0 1 17.29 28.76 L12.23 23.75 A46.00 46.00 0 0 1 14.10 21.24 L20.34 24.67 A39.00 39.00 0 0 1 22.42 22.42 A39.00 39.00 0 0 1 23.90 21.02 L20.31 14.87 A46.00 46.00 0 0 1 22.77 12.93 L27.91 17.86 A39.00 39.00 0 0 1 30.50 16.23 A39.00 39.00 0 0 1 32.29 15.25 L30.41 8.38 A46.00 46.00 0 0 1 33.29 7.14 L36.98 13.24 A39.00 39.00 0 0 1 39.91 12.33 A39.00 39.00 0 0 1 41.89 11.85 L41.85 4.73 A46.00 46.00 0 0 1 44.95 4.28 L46.94 11.12 A39.00 39.00 0 0 1 50.00 11.00 A39.00 39.00 0 0 1 52.04 11.05 L53.85 4.16 A46.00 46.00 0 0 1 56.96 4.53 L57.11 11.65 A39.00 39.00 0 0 1 60.09 12.33 A39.00 39.00 0 0 1 62.05 12.91 L65.58 6.72 A46.00 46.00 0 0 1 68.49 7.88 L66.79 14.80 A39.00 39.00 0 0 1 69.50 16.23 A39.00 39.00 0 0 1 71.24 17.29 L76.25 12.23 A46.00 46.00 0 0 1 78.76 14.10 L75.33 20.34 A39.00 39.00 0 0 1 77.58 22.42 A39.00 39.00 0 0 1 78.98 23.90 L85.13 20.31 A46.00 46.00 0 0 1 87.07 22.77 L82.14 27.91 A39.00 39.00 0 0 1 83.77 30.50 A39.00 39.00 0 0 1 84.75 32.29 L91.62 30.41 A46.00 46.00 0 0 1 92.86 33.29 L86.76 36.98 A39.00 39.00 0 0 1 87.67 39.91 A39.00 39.00 0 0 1 88.15 41.89 L95.27 41.85 A46.00 46.00 0 0 1 95.72 44.95 L88.88 46.94 A39.00 39.00 0 0 1 89.00 50.00Z M62.00 50.00 A12.00 12.00 0 1 0 38.00 50.00 A12.00 12.00 0 1 0 62.00 50.00Z"/></svg><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-train">
+    <svg class="ouverture-roue" viewBox="0 0 400 400"><path d="M378.00 200.00 A178.00 178.00 0 0 1 377.91 205.59 L395.75 209.85 A196.00 196.00 0 0 1 395.19 217.83 L376.93 219.53 A178.00 178.00 0 0 1 375.81 227.85 A178.00 178.00 0 0 1 374.85 233.35 L391.80 240.35 A196.00 196.00 0 0 1 389.99 248.15 L371.69 246.97 A178.00 178.00 0 0 1 369.29 255.01 A178.00 178.00 0 0 1 367.48 260.30 L383.13 269.86 A196.00 196.00 0 0 1 380.12 277.28 L362.23 273.25 A178.00 178.00 0 0 1 358.60 280.81 A178.00 178.00 0 0 1 355.98 285.75 L369.95 297.64 A196.00 196.00 0 0 1 365.82 304.50 L348.77 297.73 A178.00 178.00 0 0 1 344.01 304.63 A178.00 178.00 0 0 1 340.65 309.10 L352.58 323.03 A196.00 196.00 0 0 1 347.43 329.15 L331.65 319.80 A178.00 178.00 0 0 1 325.87 325.87 A178.00 178.00 0 0 1 321.85 329.76 L331.45 345.38 A196.00 196.00 0 0 1 325.41 350.63 L311.29 338.92 A178.00 178.00 0 0 1 304.63 344.01 A178.00 178.00 0 0 1 300.05 347.22 L307.09 364.16 A196.00 196.00 0 0 1 300.30 368.39 L288.19 354.62 A178.00 178.00 0 0 1 280.81 358.60 A178.00 178.00 0 0 1 275.79 361.06 L280.10 378.89 A196.00 196.00 0 0 1 272.72 382.01 L262.92 366.51 A178.00 178.00 0 0 1 255.01 369.29 A178.00 178.00 0 0 1 249.66 370.93 L251.12 389.21 A196.00 196.00 0 0 1 243.36 391.14 L236.10 374.30 A178.00 178.00 0 0 1 227.85 375.81 A178.00 178.00 0 0 1 222.31 376.60 L220.90 394.88 A196.00 196.00 0 0 1 212.92 395.57 L208.38 377.80 A178.00 178.00 0 0 1 200.00 378.00 A178.00 178.00 0 0 1 194.41 377.91 L190.15 395.75 A196.00 196.00 0 0 1 182.17 395.19 L180.47 376.93 A178.00 178.00 0 0 1 172.15 375.81 A178.00 178.00 0 0 1 166.65 374.85 L159.65 391.80 A196.00 196.00 0 0 1 151.85 389.99 L153.03 371.69 A178.00 178.00 0 0 1 144.99 369.29 A178.00 178.00 0 0 1 139.70 367.48 L130.14 383.13 A196.00 196.00 0 0 1 122.72 380.12 L126.75 362.23 A178.00 178.00 0 0 1 119.19 358.60 A178.00 178.00 0 0 1 114.25 355.98 L102.36 369.95 A196.00 196.00 0 0 1 95.50 365.82 L102.27 348.77 A178.00 178.00 0 0 1 95.37 344.01 A178.00 178.00 0 0 1 90.90 340.65 L76.97 352.58 A196.00 196.00 0 0 1 70.85 347.43 L80.20 331.65 A178.00 178.00 0 0 1 74.13 325.87 A178.00 178.00 0 0 1 70.24 321.85 L54.62 331.45 A196.00 196.00 0 0 1 49.37 325.41 L61.08 311.29 A178.00 178.00 0 0 1 55.99 304.63 A178.00 178.00 0 0 1 52.78 300.05 L35.84 307.09 A196.00 196.00 0 0 1 31.61 300.30 L45.38 288.19 A178.00 178.00 0 0 1 41.40 280.81 A178.00 178.00 0 0 1 38.94 275.79 L21.11 280.10 A196.00 196.00 0 0 1 17.99 272.72 L33.49 262.92 A178.00 178.00 0 0 1 30.71 255.01 A178.00 178.00 0 0 1 29.07 249.66 L10.79 251.12 A196.00 196.00 0 0 1 8.86 243.36 L25.70 236.10 A178.00 178.00 0 0 1 24.19 227.85 A178.00 178.00 0 0 1 23.40 222.31 L5.12 220.90 A196.00 196.00 0 0 1 4.43 212.92 L22.20 208.38 A178.00 178.00 0 0 1 22.00 200.00 A178.00 178.00 0 0 1 22.09 194.41 L4.25 190.15 A196.00 196.00 0 0 1 4.81 182.17 L23.07 180.47 A178.00 178.00 0 0 1 24.19 172.15 A178.00 178.00 0 0 1 25.15 166.65 L8.20 159.65 A196.00 196.00 0 0 1 10.01 151.85 L28.31 153.03 A178.00 178.00 0 0 1 30.71 144.99 A178.00 178.00 0 0 1 32.52 139.70 L16.87 130.14 A196.00 196.00 0 0 1 19.88 122.72 L37.77 126.75 A178.00 178.00 0 0 1 41.40 119.19 A178.00 178.00 0 0 1 44.02 114.25 L30.05 102.36 A196.00 196.00 0 0 1 34.18 95.50 L51.23 102.27 A178.00 178.00 0 0 1 55.99 95.37 A178.00 178.00 0 0 1 59.35 90.90 L47.42 76.97 A196.00 196.00 0 0 1 52.57 70.85 L68.35 80.20 A178.00 178.00 0 0 1 74.13 74.13 A178.00 178.00 0 0 1 78.15 70.24 L68.55 54.62 A196.00 196.00 0 0 1 74.59 49.37 L88.71 61.08 A178.00 178.00 0 0 1 95.37 55.99 A178.00 178.00 0 0 1 99.95 52.78 L92.91 35.84 A196.00 196.00 0 0 1 99.70 31.61 L111.81 45.38 A178.00 178.00 0 0 1 119.19 41.40 A178.00 178.00 0 0 1 124.21 38.94 L119.90 21.11 A196.00 196.00 0 0 1 127.28 17.99 L137.08 33.49 A178.00 178.00 0 0 1 144.99 30.71 A178.00 178.00 0 0 1 150.34 29.07 L148.88 10.79 A196.00 196.00 0 0 1 156.64 8.86 L163.90 25.70 A178.00 178.00 0 0 1 172.15 24.19 A178.00 178.00 0 0 1 177.69 23.40 L179.10 5.12 A196.00 196.00 0 0 1 187.08 4.43 L191.62 22.20 A178.00 178.00 0 0 1 200.00 22.00 A178.00 178.00 0 0 1 205.59 22.09 L209.85 4.25 A196.00 196.00 0 0 1 217.83 4.81 L219.53 23.07 A178.00 178.00 0 0 1 227.85 24.19 A178.00 178.00 0 0 1 233.35 25.15 L240.35 8.20 A196.00 196.00 0 0 1 248.15 10.01 L246.97 28.31 A178.00 178.00 0 0 1 255.01 30.71 A178.00 178.00 0 0 1 260.30 32.52 L269.86 16.87 A196.00 196.00 0 0 1 277.28 19.88 L273.25 37.77 A178.00 178.00 0 0 1 280.81 41.40 A178.00 178.00 0 0 1 285.75 44.02 L297.64 30.05 A196.00 196.00 0 0 1 304.50 34.18 L297.73 51.23 A178.00 178.00 0 0 1 304.63 55.99 A178.00 178.00 0 0 1 309.10 59.35 L323.03 47.42 A196.00 196.00 0 0 1 329.15 52.57 L319.80 68.35 A178.00 178.00 0 0 1 325.87 74.13 A178.00 178.00 0 0 1 329.76 78.15 L345.38 68.55 A196.00 196.00 0 0 1 350.63 74.59 L338.92 88.71 A178.00 178.00 0 0 1 344.01 95.37 A178.00 178.00 0 0 1 347.22 99.95 L364.16 92.91 A196.00 196.00 0 0 1 368.39 99.70 L354.62 111.81 A178.00 178.00 0 0 1 358.60 119.19 A178.00 178.00 0 0 1 361.06 124.21 L378.89 119.90 A196.00 196.00 0 0 1 382.01 127.28 L366.51 137.08 A178.00 178.00 0 0 1 369.29 144.99 A178.00 178.00 0 0 1 370.93 150.34 L389.21 148.88 A196.00 196.00 0 0 1 391.14 156.64 L374.30 163.90 A178.00 178.00 0 0 1 375.81 172.15 A178.00 178.00 0 0 1 376.60 177.69 L394.88 179.10 A196.00 196.00 0 0 1 395.57 187.08 L377.80 191.62 A178.00 178.00 0 0 1 378.00 200.00Z M254.00 200.00 A54.00 54.00 0 1 0 146.00 200.00 A54.00 54.00 0 1 0 254.00 200.00Z"/><g class="ouverture-rayons"><circle cx="312.0" cy="200.0" r="30"/><circle cx="256.0" cy="297.0" r="30"/><circle cx="144.0" cy="297.0" r="30"/><circle cx="88.0" cy="200.0" r="30"/><circle cx="144.0" cy="103.0" r="30"/><circle cx="256.0" cy="103.0" r="30"/></g></svg>
+    <svg class="ouverture-pignon" viewBox="0 0 160 160" data-ouverture-objet><path d="M141.00 80.00 A61.00 61.00 0 0 1 140.81 84.79 L157.38 89.78 A78.00 78.00 0 0 1 155.99 97.61 L138.71 96.56 A61.00 61.00 0 0 1 136.36 103.34 A61.00 61.00 0 0 1 134.35 107.69 L147.75 118.65 A78.00 78.00 0 0 1 143.46 125.35 L127.90 117.76 A61.00 61.00 0 0 1 123.13 123.13 A61.00 61.00 0 0 1 119.62 126.38 L127.81 141.63 A78.00 78.00 0 0 1 121.28 146.18 L109.81 133.22 A61.00 61.00 0 0 1 103.34 136.36 A61.00 61.00 0 0 1 98.85 138.01 L100.58 155.24 A78.00 78.00 0 0 1 92.81 156.94 L87.17 140.58 A61.00 61.00 0 0 1 80.00 141.00 A61.00 61.00 0 0 1 75.21 140.81 L70.22 157.38 A78.00 78.00 0 0 1 62.39 155.99 L63.44 138.71 A61.00 61.00 0 0 1 56.66 136.36 A61.00 61.00 0 0 1 52.31 134.35 L41.35 147.75 A78.00 78.00 0 0 1 34.65 143.46 L42.24 127.90 A61.00 61.00 0 0 1 36.87 123.13 A61.00 61.00 0 0 1 33.62 119.62 L18.37 127.81 A78.00 78.00 0 0 1 13.82 121.28 L26.78 109.81 A61.00 61.00 0 0 1 23.64 103.34 A61.00 61.00 0 0 1 21.99 98.85 L4.76 100.58 A78.00 78.00 0 0 1 3.06 92.81 L19.42 87.17 A61.00 61.00 0 0 1 19.00 80.00 A61.00 61.00 0 0 1 19.19 75.21 L2.62 70.22 A78.00 78.00 0 0 1 4.01 62.39 L21.29 63.44 A61.00 61.00 0 0 1 23.64 56.66 A61.00 61.00 0 0 1 25.65 52.31 L12.25 41.35 A78.00 78.00 0 0 1 16.54 34.65 L32.10 42.24 A61.00 61.00 0 0 1 36.87 36.87 A61.00 61.00 0 0 1 40.38 33.62 L32.19 18.37 A78.00 78.00 0 0 1 38.72 13.82 L50.19 26.78 A61.00 61.00 0 0 1 56.66 23.64 A61.00 61.00 0 0 1 61.15 21.99 L59.42 4.76 A78.00 78.00 0 0 1 67.19 3.06 L72.83 19.42 A61.00 61.00 0 0 1 80.00 19.00 A61.00 61.00 0 0 1 84.79 19.19 L89.78 2.62 A78.00 78.00 0 0 1 97.61 4.01 L96.56 21.29 A61.00 61.00 0 0 1 103.34 23.64 A61.00 61.00 0 0 1 107.69 25.65 L118.65 12.25 A78.00 78.00 0 0 1 125.35 16.54 L117.76 32.10 A61.00 61.00 0 0 1 123.13 36.87 A61.00 61.00 0 0 1 126.38 40.38 L141.63 32.19 A78.00 78.00 0 0 1 146.18 38.72 L133.22 50.19 A61.00 61.00 0 0 1 136.36 56.66 A61.00 61.00 0 0 1 138.01 61.15 L155.24 59.42 A78.00 78.00 0 0 1 156.94 67.19 L140.58 72.83 A61.00 61.00 0 0 1 141.00 80.00Z M98.00 80.00 A18.00 18.00 0 1 0 62.00 80.00 A18.00 18.00 0 1 0 98.00 80.00Z"/></svg>
+  </div>
+  <img class="ouverture-logo" src="/assets/images/logo-fx-clair.png" alt="" width="210" height="79">
+  <p class="ouverture-ligne">Le spécialiste de l&#39;engrenage</p>
+  <canvas class="ouverture-etincelles" width="600" height="400"></canvas>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="FX Technologie : Accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-fx-clair.png" alt="FX Technologie" width="210" height="79">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/produits" data-libelle="Produits">Produits</a></li><li><a href="/services" data-libelle="Services">Services</a></li><li><a href="/expertise" data-libelle="Expertise">Expertise</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#soumission" data-libelle="Contact">Demander une soumission</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/produits" class="menu-lien" data-libelle="Produits">Produits</a></li><li style="--i:2"><a href="/services" class="menu-lien" data-libelle="Services">Services</a></li><li style="--i:3"><a href="/expertise" class="menu-lien" data-libelle="Expertise">Expertise</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p class="menu-urgence"><a class="bouton" href="tel:+15148056350">Urgence 24 h · 514-805-6350</a></p>
+  <p class="menu-coord"><a href="tel:+14505829413">450-582-9413</a> · <a href="mailto:info@fxtechnologie.com">info@fxtechnologie.com</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="tete-contact sombre" id="debut">
+  <div class="conteneur tete-contact-grille">
+    <div>
+      <p class="surtitre" data-anime>Contact</p>
+      <h1 class="tete-titre" data-anime="lignes">Parlons de votre pièce</h1>
+      <p class="chapo" data-anime>Une soumission en quatre étapes, ou la ligne d&#39;urgence si une machine est à l&#39;arrêt.</p>
+      <p class="tete-actions" data-anime><a class="bouton" href="#soumission" data-action-principale data-sans-transition>Demander une soumission</a></p>
+    </div>
+    <a class="cadran" href="tel:+15148056350" data-info-cle data-iris-centre="disque" data-effet="cadran-urgence">
+      <svg class="urgence-roue" viewBox="0 0 300 300" aria-hidden="true"><path d="M284.00 150.00 A134.00 134.00 0 0 1 283.92 154.68 L297.77 158.26 A148.00 148.00 0 0 1 297.24 164.96 L283.00 166.33 A134.00 134.00 0 0 1 281.96 173.27 A134.00 134.00 0 0 1 281.07 177.86 L294.09 183.80 A148.00 148.00 0 0 1 292.41 190.30 L278.14 189.18 A134.00 134.00 0 0 1 275.92 195.83 A134.00 134.00 0 0 1 274.24 200.20 L286.03 208.30 A148.00 148.00 0 0 1 283.25 214.41 L269.39 210.83 A134.00 134.00 0 0 1 266.05 217.00 A134.00 134.00 0 0 1 263.64 221.01 L273.84 231.04 A148.00 148.00 0 0 1 270.04 236.57 L257.02 230.64 A134.00 134.00 0 0 1 252.65 236.13 A134.00 134.00 0 0 1 249.58 239.66 L257.89 251.31 A148.00 148.00 0 0 1 253.18 256.10 L241.39 248.00 A134.00 134.00 0 0 1 236.13 252.65 A134.00 134.00 0 0 1 232.50 255.59 L238.66 268.51 A148.00 148.00 0 0 1 233.19 272.41 L222.98 262.38 A134.00 134.00 0 0 1 217.00 266.05 A134.00 134.00 0 0 1 212.91 268.31 L216.73 282.10 A148.00 148.00 0 0 1 210.67 284.99 L202.36 273.35 A134.00 134.00 0 0 1 195.83 275.92 A134.00 134.00 0 0 1 191.41 277.44 L192.78 291.68 A148.00 148.00 0 0 1 186.31 293.48 L180.14 280.57 A134.00 134.00 0 0 1 173.27 281.96 A134.00 134.00 0 0 1 168.65 282.70 L167.52 296.96 A148.00 148.00 0 0 1 160.84 297.60 L157.01 283.82 A134.00 134.00 0 0 1 150.00 284.00 A134.00 134.00 0 0 1 145.32 283.92 L141.74 297.77 A148.00 148.00 0 0 1 135.04 297.24 L133.67 283.00 A134.00 134.00 0 0 1 126.73 281.96 A134.00 134.00 0 0 1 122.14 281.07 L116.20 294.09 A148.00 148.00 0 0 1 109.70 292.41 L110.82 278.14 A134.00 134.00 0 0 1 104.17 275.92 A134.00 134.00 0 0 1 99.80 274.24 L91.70 286.03 A148.00 148.00 0 0 1 85.59 283.25 L89.17 269.39 A134.00 134.00 0 0 1 83.00 266.05 A134.00 134.00 0 0 1 78.99 263.64 L68.96 273.84 A148.00 148.00 0 0 1 63.43 270.04 L69.36 257.02 A134.00 134.00 0 0 1 63.87 252.65 A134.00 134.00 0 0 1 60.34 249.58 L48.69 257.89 A148.00 148.00 0 0 1 43.90 253.18 L52.00 241.39 A134.00 134.00 0 0 1 47.35 236.13 A134.00 134.00 0 0 1 44.41 232.50 L31.49 238.66 A148.00 148.00 0 0 1 27.59 233.19 L37.62 222.98 A134.00 134.00 0 0 1 33.95 217.00 A134.00 134.00 0 0 1 31.69 212.91 L17.90 216.73 A148.00 148.00 0 0 1 15.01 210.67 L26.65 202.36 A134.00 134.00 0 0 1 24.08 195.83 A134.00 134.00 0 0 1 22.56 191.41 L8.32 192.78 A148.00 148.00 0 0 1 6.52 186.31 L19.43 180.14 A134.00 134.00 0 0 1 18.04 173.27 A134.00 134.00 0 0 1 17.30 168.65 L3.04 167.52 A148.00 148.00 0 0 1 2.40 160.84 L16.18 157.01 A134.00 134.00 0 0 1 16.00 150.00 A134.00 134.00 0 0 1 16.08 145.32 L2.23 141.74 A148.00 148.00 0 0 1 2.76 135.04 L17.00 133.67 A134.00 134.00 0 0 1 18.04 126.73 A134.00 134.00 0 0 1 18.93 122.14 L5.91 116.20 A148.00 148.00 0 0 1 7.59 109.70 L21.86 110.82 A134.00 134.00 0 0 1 24.08 104.17 A134.00 134.00 0 0 1 25.76 99.80 L13.97 91.70 A148.00 148.00 0 0 1 16.75 85.59 L30.61 89.17 A134.00 134.00 0 0 1 33.95 83.00 A134.00 134.00 0 0 1 36.36 78.99 L26.16 68.96 A148.00 148.00 0 0 1 29.96 63.43 L42.98 69.36 A134.00 134.00 0 0 1 47.35 63.87 A134.00 134.00 0 0 1 50.42 60.34 L42.11 48.69 A148.00 148.00 0 0 1 46.82 43.90 L58.61 52.00 A134.00 134.00 0 0 1 63.87 47.35 A134.00 134.00 0 0 1 67.50 44.41 L61.34 31.49 A148.00 148.00 0 0 1 66.81 27.59 L77.02 37.62 A134.00 134.00 0 0 1 83.00 33.95 A134.00 134.00 0 0 1 87.09 31.69 L83.27 17.90 A148.00 148.00 0 0 1 89.33 15.01 L97.64 26.65 A134.00 134.00 0 0 1 104.17 24.08 A134.00 134.00 0 0 1 108.59 22.56 L107.22 8.32 A148.00 148.00 0 0 1 113.69 6.52 L119.86 19.43 A134.00 134.00 0 0 1 126.73 18.04 A134.00 134.00 0 0 1 131.35 17.30 L132.48 3.04 A148.00 148.00 0 0 1 139.16 2.40 L142.99 16.18 A134.00 134.00 0 0 1 150.00 16.00 A134.00 134.00 0 0 1 154.68 16.08 L158.26 2.23 A148.00 148.00 0 0 1 164.96 2.76 L166.33 17.00 A134.00 134.00 0 0 1 173.27 18.04 A134.00 134.00 0 0 1 177.86 18.93 L183.80 5.91 A148.00 148.00 0 0 1 190.30 7.59 L189.18 21.86 A134.00 134.00 0 0 1 195.83 24.08 A134.00 134.00 0 0 1 200.20 25.76 L208.30 13.97 A148.00 148.00 0 0 1 214.41 16.75 L210.83 30.61 A134.00 134.00 0 0 1 217.00 33.95 A134.00 134.00 0 0 1 221.01 36.36 L231.04 26.16 A148.00 148.00 0 0 1 236.57 29.96 L230.64 42.98 A134.00 134.00 0 0 1 236.13 47.35 A134.00 134.00 0 0 1 239.66 50.42 L251.31 42.11 A148.00 148.00 0 0 1 256.10 46.82 L248.00 58.61 A134.00 134.00 0 0 1 252.65 63.87 A134.00 134.00 0 0 1 255.59 67.50 L268.51 61.34 A148.00 148.00 0 0 1 272.41 66.81 L262.38 77.02 A134.00 134.00 0 0 1 266.05 83.00 A134.00 134.00 0 0 1 268.31 87.09 L282.10 83.27 A148.00 148.00 0 0 1 284.99 89.33 L273.35 97.64 A134.00 134.00 0 0 1 275.92 104.17 A134.00 134.00 0 0 1 277.44 108.59 L291.68 107.22 A148.00 148.00 0 0 1 293.48 113.69 L280.57 119.86 A134.00 134.00 0 0 1 281.96 126.73 A134.00 134.00 0 0 1 282.70 131.35 L296.96 132.48 A148.00 148.00 0 0 1 297.60 139.16 L283.82 142.99 A134.00 134.00 0 0 1 284.00 150.00Z"/></svg>
+      <span class="cadran-texte"><span class="cadran-titre">Ligne d&#39;urgence</span><strong>514-805-6350</strong><span>24 h sur 24, 7 jours sur 7</span></span>
+    </a>
+  </div>
+</section>
+<section class="soumission clair" id="soumission">
+  <div class="conteneur soumission-grille">
+    <form class="formulaire etapes-form" data-formulaire data-etapes action="#" novalidate>
+      <div class="etapes-tete">
+        <h2 class="titre-section" data-anime="lignes">Demande de soumission</h2>
+        <p class="note">Formulaire de démonstration : rien n&#39;est envoyé.</p>
+        <p class="etapes-compte" aria-live="polite">Étape <span data-etape-num>1</span> sur 4 · <span data-etape-titre>Votre besoin</span></p>
+        <div class="etapes-barre" aria-hidden="true"><span></span></div>
+      </div>
+      <fieldset data-etape-form data-titre="Votre besoin">
+        <legend tabindex="-1">De quoi avez-vous besoin ?</legend>
+        <div class="choix-grille"><label class="choix"><input type="radio" name="besoin" value="fabrication" required data-recap-cle="Votre besoin"><span>Fabriquer une pièce</span></label><label class="choix"><input type="radio" name="besoin" value="reparation" required data-recap-cle="Votre besoin"><span>Réparer ou remettre à neuf</span></label><label class="choix"><input type="radio" name="besoin" value="sur-place" required data-recap-cle="Votre besoin"><span>Intervention sur place</span></label><label class="choix"><input type="radio" name="besoin" value="analyse" required data-recap-cle="Votre besoin"><span>Analyse d&#39;une panne</span></label></div>
+        <p class="erreur" data-etape-erreur role="alert" hidden>Choisissez une option pour continuer.</p>
+      </fieldset>
+      <fieldset data-etape-form data-titre="La pièce" hidden>
+        <legend tabindex="-1">La pièce</legend>
+        <div class="champ"><label for="f-piece">Type de pièce</label>
+          <select id="f-piece" name="piece" data-recap-cle="Type de pièce"><option value="">Choisir un type de pièce</option>
+            <option value="engrenage">Engrenage</option>
+            <option value="couronne">Grande couronne</option>
+            <option value="sechage">Engrenage de sécherie</option>
+            <option value="reducteur">Réducteur ou boîte de vitesses</option>
+            <option value="pompe">Pompe, soufflante, hydraulique</option>
+            <option value="moteur">Moteur électrique</option>
+            <option value="autre">Autre pièce</option>
+          </select></div>
+        <div class="champ-ligne">
+          <div class="champ"><label for="f-dim">Dimensions approximatives (diamètre, longueur, poids)</label><input id="f-dim" name="dimensions" placeholder="Exemple : diamètre 48 po, 1 200 lb" data-recap-cle="Dimensions approximatives (diamètre, longueur, poids)"></div>
+          <div class="champ champ--court"><label for="f-qte">Quantité</label><input id="f-qte" name="quantite" type="number" min="1" inputmode="numeric" value="1" data-recap-cle="Quantité"></div>
+        </div>
+        <div class="champ"><label for="f-desc">Décrivez la pièce ou le problème</label><textarea id="f-desc" name="description" rows="4" required data-recap-cle="Décrivez la pièce ou le problème"></textarea></div>
+        <p class="erreur" data-etape-erreur role="alert" hidden>Décrivez la pièce ou le problème pour continuer.</p>
+      </fieldset>
+      <fieldset data-etape-form data-titre="Le délai" hidden>
+        <legend tabindex="-1">Quel délai ?</legend>
+        <div class="choix-grille"><label class="choix"><input type="radio" name="delai" value="urgent" required data-recap-cle="Le délai"><span>Machine à l&#39;arrêt, c&#39;est urgent</span></label><label class="choix"><input type="radio" name="delai" value="planifie" required data-recap-cle="Le délai"><span>Arrêt planifié</span></label><label class="choix"><input type="radio" name="delai" value="souple" required data-recap-cle="Le délai"><span>Pas d&#39;urgence</span></label></div>
+        <p class="note-urgente" data-note-urgent hidden>Machine à l&#39;arrêt : appelez aussi le 514-805-6350. <a href="tel:+15148056350">514-805-6350</a></p>
+        <div class="champ-ligne">
+          <div class="champ"><label for="f-date">Date de l&#39;arrêt planifié (facultatif)</label><input id="f-date" name="date" type="date" data-recap-cle="Date de l&#39;arrêt planifié (facultatif)"></div>
+          <div class="champ"><label for="f-secteur">Votre secteur (facultatif)</label><select id="f-secteur" name="secteur" data-recap-cle="Votre secteur (facultatif)"><option value="">—</option><option>Pâte et papier</option><option>Mines et manutention</option><option>Broyeurs à billes</option><option>Acier et métaux</option><option>Énergie</option><option>Énergie éolienne</option><option>Pétrochimie</option><option>Portuaire</option><option>Marin</option><option>Traitement de l&#39;eau</option><option>Transformation alimentaire</option><option>Aérospatial</option><option>Espace</option><option>Militaire</option></select></div>
+        </div>
+        <p class="erreur" data-etape-erreur role="alert" hidden>Choisissez un délai pour continuer.</p>
+      </fieldset>
+      <fieldset data-etape-form data-titre="Vos coordonnées" hidden>
+        <legend tabindex="-1">Vos coordonnées</legend>
+        <div class="champ-ligne">
+          <div class="champ"><label for="f-nom">Nom</label><input id="f-nom" name="nom" autocomplete="name" required data-recap-cle="Nom"></div>
+          <div class="champ"><label for="f-ent">Entreprise</label><input id="f-ent" name="entreprise" autocomplete="organization" data-recap-cle="Entreprise"></div>
+        </div>
+        <div class="champ-ligne">
+          <div class="champ"><label for="f-mail">Courriel</label><input id="f-mail" name="email" type="email" autocomplete="email" required data-recap-cle="Courriel"></div>
+          <div class="champ"><label for="f-tel">Téléphone</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" data-recap-cle="Téléphone"></div>
+        </div>
+        <p class="mention-donnees">Vos renseignements servent uniquement à répondre à votre demande (Loi 25). Politique de confidentialité : à compléter.</p>
+        <p class="erreur" data-etape-erreur role="alert" hidden>Indiquez votre nom et un courriel valide.</p>
+      </fieldset>
+      <div class="etapes-nav">
+        <button type="button" class="bouton bouton--contour" data-precedent hidden>Étape précédente</button>
+        <button type="button" class="bouton" data-suivant>Étape suivante</button>
+        <button type="submit" class="bouton" data-envoyer hidden>Envoyer la demande</button>
+      </div>
+      <p data-message-envoi role="status" tabindex="-1" hidden></p>
+    </form>
+    <aside class="recap" aria-label="Votre demande">
+      <p class="surtitre">Votre demande</p>
+      <p class="recap-vide" data-recap-vide>Vos choix s&#39;affichent ici.</p>
+      <dl data-recap></dl>
+      <svg class="recap-roue" viewBox="0 0 120 120" aria-hidden="true" data-roue-defilement><path d="M108.00 60.00 A48.00 48.00 0 0 1 107.88 63.35 L117.64 66.47 A58.00 58.00 0 0 1 116.82 71.66 L106.57 71.61 A48.00 48.00 0 0 1 105.11 76.42 A48.00 48.00 0 0 1 103.85 79.52 L111.95 85.79 A58.00 58.00 0 0 1 109.40 90.39 L99.79 86.84 A48.00 48.00 0 0 1 96.77 90.85 A48.00 48.00 0 0 1 94.53 93.34 L100.00 102.00 A58.00 58.00 0 0 1 96.03 105.45 L88.21 98.83 A48.00 48.00 0 0 1 84.00 101.57 A48.00 48.00 0 0 1 81.04 103.14 L83.22 113.15 A58.00 58.00 0 0 1 78.31 115.03 L73.23 106.14 A48.00 48.00 0 0 1 68.34 107.27 A48.00 48.00 0 0 1 65.02 107.74 L63.64 117.89 A58.00 58.00 0 0 1 58.38 117.98 L56.65 107.88 A48.00 48.00 0 0 1 51.66 107.27 A48.00 48.00 0 0 1 48.39 106.57 L43.62 115.64 A58.00 58.00 0 0 1 38.65 113.93 L40.48 103.85 A48.00 48.00 0 0 1 36.00 101.57 A48.00 48.00 0 0 1 33.16 99.79 L25.58 106.68 A58.00 58.00 0 0 1 21.49 103.37 L26.66 94.53 A48.00 48.00 0 0 1 23.23 90.85 A48.00 48.00 0 0 1 21.17 88.21 L11.69 92.10 A58.00 58.00 0 0 1 8.98 87.59 L16.86 81.04 A48.00 48.00 0 0 1 14.89 76.42 A48.00 48.00 0 0 1 13.86 73.23 L3.63 73.64 A58.00 58.00 0 0 1 2.62 68.47 L12.26 65.02 A48.00 48.00 0 0 1 12.00 60.00 A48.00 48.00 0 0 1 12.12 56.65 L2.36 53.53 A58.00 58.00 0 0 1 3.18 48.34 L13.43 48.39 A48.00 48.00 0 0 1 14.89 43.58 A48.00 48.00 0 0 1 16.15 40.48 L8.05 34.21 A58.00 58.00 0 0 1 10.60 29.61 L20.21 33.16 A48.00 48.00 0 0 1 23.23 29.15 A48.00 48.00 0 0 1 25.47 26.66 L20.00 18.00 A58.00 58.00 0 0 1 23.97 14.55 L31.79 21.17 A48.00 48.00 0 0 1 36.00 18.43 A48.00 48.00 0 0 1 38.96 16.86 L36.78 6.85 A58.00 58.00 0 0 1 41.69 4.97 L46.77 13.86 A48.00 48.00 0 0 1 51.66 12.73 A48.00 48.00 0 0 1 54.98 12.26 L56.36 2.11 A58.00 58.00 0 0 1 61.62 2.02 L63.35 12.12 A48.00 48.00 0 0 1 68.34 12.73 A48.00 48.00 0 0 1 71.61 13.43 L76.38 4.36 A58.00 58.00 0 0 1 81.35 6.07 L79.52 16.15 A48.00 48.00 0 0 1 84.00 18.43 A48.00 48.00 0 0 1 86.84 20.21 L94.42 13.32 A58.00 58.00 0 0 1 98.51 16.63 L93.34 25.47 A48.00 48.00 0 0 1 96.77 29.15 A48.00 48.00 0 0 1 98.83 31.79 L108.31 27.90 A58.00 58.00 0 0 1 111.02 32.41 L103.14 38.96 A48.00 48.00 0 0 1 105.11 43.58 A48.00 48.00 0 0 1 106.14 46.77 L116.37 46.36 A58.00 58.00 0 0 1 117.38 51.53 L107.74 54.98 A48.00 48.00 0 0 1 108.00 60.00Z M76.00 60.00 A16.00 16.00 0 1 0 44.00 60.00 A16.00 16.00 0 1 0 76.00 60.00Z" fill-rule="evenodd"/></svg>
+    </aside>
+  </div>
+</section>
+<section class="coordonnees sombre" id="coordonnees">
+  <div class="conteneur coord-grille">
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Nos coordonnées</h2>
+      <dl class="coord-liste" data-anime="cascade">
+        <div><dt>Adresse principale</dt><dd>267, rue de la Rivière, Sainte-Sophie (Québec) J5J 1B6</dd></div>
+        <div><dt>Urgence 24 h</dt><dd><a href="tel:+15148056350">514-805-6350</a></dd></div>
+        <div><dt>Courriel</dt><dd><a href="mailto:info@fxtechnologie.com">info@fxtechnologie.com</a></dd></div>
+        <div><dt>Télécopieur</dt><dd>450-582-9105</dd></div>
+      </dl>
+      <p class="surtitre surtitre--petit">Centres de services</p>
+      <ul class="centres-mini" data-anime="cascade"><li><strong>Toronto</strong> <a href="tel:+14166283792">416-628-3792</a></li><li><strong>Montréal</strong> <a href="tel:+14505829413">450-582-9413</a></li><li><strong>Plattsburgh</strong> <a href="tel:+15189074267">518-907-4267</a></li></ul>
+    </div>
+    <figure class="media coord-media" data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/enseigne-800.webp" srcset="/assets/images/enseigne-480.webp 480w, /assets/images/enseigne-640.webp 640w, /assets/images/enseigne-800.webp 800w" sizes="(max-width: 760px) 100vw, 45vw" alt="Enseigne d&#39;un centre de services FX Technologie" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-fx-clair.png" alt="FX Technologie" width="210" height="79" loading="lazy">
+      <p>Engrenages et transmission de puissance : fabrication, réparation, usinage et service sur place.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Nous joindre</p>
+      <p>267, rue de la Rivière, Sainte-Sophie (Québec) J5J 1B6<br><a href="tel:+14505829413">450-582-9413</a> · téléc. 450-582-9105<br><a href="mailto:info@fxtechnologie.com">info@fxtechnologie.com</a></p>
+      <p class="pied-urgence"><a href="tel:+15148056350">Urgence 24 h · 514-805-6350</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/produits" data-libelle="Produits">Produits</a></li><li><a href="/services" data-libelle="Services">Services</a></li><li><a href="/expertise" data-libelle="Expertise">Expertise</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre</p>
+      <ul>
+        <li><a href="https://twitter.com/fxtechnologie" target="_blank" rel="noopener">Twitter @fxtechnologie</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : formulaires simulés, rien n&#39;est envoyé.</p><p>© FX Technologie</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+15148056350">Urgence 24 h</a>
+  <a class="bouton" href="/contact#soumission" data-libelle="Contact">Demander une soumission</a>
+</div>
+<div class="engrenement" aria-hidden="true" data-audit-ignorer><svg class="eg-grande" viewBox="0 0 100 100"><path d="M88.00 50.00 A38.00 38.00 0 0 1 87.88 52.98 L97.62 56.02 A48.00 48.00 0 0 1 96.76 60.84 L86.57 60.31 A38.00 38.00 0 0 1 85.11 64.54 A38.00 38.00 0 0 1 83.86 67.25 L91.69 73.78 A48.00 48.00 0 0 1 89.05 77.91 L79.84 73.53 A38.00 38.00 0 0 1 76.87 76.87 A38.00 38.00 0 0 1 74.68 78.90 L79.42 87.93 A48.00 48.00 0 0 1 75.40 90.73 L68.57 83.15 A38.00 38.00 0 0 1 64.54 85.11 A38.00 38.00 0 0 1 61.74 86.14 L62.67 96.30 A48.00 48.00 0 0 1 57.88 97.35 L54.47 87.74 A38.00 38.00 0 0 1 50.00 88.00 A38.00 38.00 0 0 1 47.02 87.88 L43.98 97.62 A48.00 48.00 0 0 1 39.16 96.76 L39.69 86.57 A38.00 38.00 0 0 1 35.46 85.11 A38.00 38.00 0 0 1 32.75 83.86 L26.22 91.69 A48.00 48.00 0 0 1 22.09 89.05 L26.47 79.84 A38.00 38.00 0 0 1 23.13 76.87 A38.00 38.00 0 0 1 21.10 74.68 L12.07 79.42 A48.00 48.00 0 0 1 9.27 75.40 L16.85 68.57 A38.00 38.00 0 0 1 14.89 64.54 A38.00 38.00 0 0 1 13.86 61.74 L3.70 62.67 A48.00 48.00 0 0 1 2.65 57.88 L12.26 54.47 A38.00 38.00 0 0 1 12.00 50.00 A38.00 38.00 0 0 1 12.12 47.02 L2.38 43.98 A48.00 48.00 0 0 1 3.24 39.16 L13.43 39.69 A38.00 38.00 0 0 1 14.89 35.46 A38.00 38.00 0 0 1 16.14 32.75 L8.31 26.22 A48.00 48.00 0 0 1 10.95 22.09 L20.16 26.47 A38.00 38.00 0 0 1 23.13 23.13 A38.00 38.00 0 0 1 25.32 21.10 L20.58 12.07 A48.00 48.00 0 0 1 24.60 9.27 L31.43 16.85 A38.00 38.00 0 0 1 35.46 14.89 A38.00 38.00 0 0 1 38.26 13.86 L37.33 3.70 A48.00 48.00 0 0 1 42.12 2.65 L45.53 12.26 A38.00 38.00 0 0 1 50.00 12.00 A38.00 38.00 0 0 1 52.98 12.12 L56.02 2.38 A48.00 48.00 0 0 1 60.84 3.24 L60.31 13.43 A38.00 38.00 0 0 1 64.54 14.89 A38.00 38.00 0 0 1 67.25 16.14 L73.78 8.31 A48.00 48.00 0 0 1 77.91 10.95 L73.53 20.16 A38.00 38.00 0 0 1 76.87 23.13 A38.00 38.00 0 0 1 78.90 25.32 L87.93 20.58 A48.00 48.00 0 0 1 90.73 24.60 L83.15 31.43 A38.00 38.00 0 0 1 85.11 35.46 A38.00 38.00 0 0 1 86.14 38.26 L96.30 37.33 A48.00 48.00 0 0 1 97.35 42.12 L87.74 45.53 A38.00 38.00 0 0 1 88.00 50.00Z M62.00 50.00 A12.00 12.00 0 1 0 38.00 50.00 A12.00 12.00 0 1 0 62.00 50.00Z" fill-rule="evenodd"/></svg><svg class="eg-petite" viewBox="0 0 100 100"><path d="M80.00 50.00 A30.00 30.00 0 0 1 79.63 54.69 L94.55 61.44 A46.00 46.00 0 0 1 91.31 70.24 L75.58 65.67 A30.00 30.00 0 0 1 71.21 71.21 A30.00 30.00 0 0 1 67.63 74.27 L73.42 89.59 A46.00 46.00 0 0 1 64.90 93.52 L57.00 79.17 A30.00 30.00 0 0 1 50.00 80.00 A30.00 30.00 0 0 1 45.31 79.63 L38.56 94.55 A46.00 46.00 0 0 1 29.76 91.31 L34.33 75.58 A30.00 30.00 0 0 1 28.79 71.21 A30.00 30.00 0 0 1 25.73 67.63 L10.41 73.42 A46.00 46.00 0 0 1 6.48 64.90 L20.83 57.00 A30.00 30.00 0 0 1 20.00 50.00 A30.00 30.00 0 0 1 20.37 45.31 L5.45 38.56 A46.00 46.00 0 0 1 8.69 29.76 L24.42 34.33 A30.00 30.00 0 0 1 28.79 28.79 A30.00 30.00 0 0 1 32.37 25.73 L26.58 10.41 A46.00 46.00 0 0 1 35.10 6.48 L43.00 20.83 A30.00 30.00 0 0 1 50.00 20.00 A30.00 30.00 0 0 1 54.69 20.37 L61.44 5.45 A46.00 46.00 0 0 1 70.24 8.69 L65.67 24.42 A30.00 30.00 0 0 1 71.21 28.79 A30.00 30.00 0 0 1 74.27 32.37 L89.59 26.58 A46.00 46.00 0 0 1 93.52 35.10 L79.17 43.00 A30.00 30.00 0 0 1 80.00 50.00Z M64.00 50.00 A14.00 14.00 0 1 0 36.00 50.00 A14.00 14.00 0 1 0 64.00 50.00Z" fill-rule="evenodd"/></svg></div>
+</body>
+</html>

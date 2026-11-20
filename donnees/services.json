@@ -1,0 +1,22 @@
+[
+  { "id": "reparer", "famille": "Réparer et remettre à neuf", "services": [
+    { "titre": "Réparation de boîte de vitesses", "texte": "Remplacement des engrenages défectueux, modification du rapport, remise à neuf complète.", "image": "produit-reducteur" },
+    { "titre": "Réparation d'engrenages", "texte": "Engrenages de tout genre et de toute taille, remis en état ou refaits à l'identique.", "image": "reparation-engrenage" },
+    { "titre": "Réparation de pompes", "texte": "Démontage, expertise, remise en état et essais.", "image": "service-pompe" },
+    { "titre": "Réparation de soufflantes", "texte": "Soufflantes et souffleurs remis en état, repeints, prêts à repartir.", "image": "service-soufflante" },
+    { "titre": "Réparation hydraulique", "texte": "Composants hydrauliques réparés et remontés.", "image": "service-hydraulique" },
+    { "titre": "Moteur électrique", "texte": "Réparation et remise en service de moteurs électriques.", "image": "service-moteur" }
+  ]},
+  { "id": "usiner", "famille": "Usiner et fabriquer", "services": [
+    { "titre": "Usinage CNC et conventionnel", "texte": "De la petite pièce au gros composant : acier, inox, aluminium, fibre de carbone, Inconel.", "image": "service-usinage" },
+    { "titre": "Soudure et fabrication", "texte": "Pièces soudées et fabrications sur mesure.", "image": "service-soudure" },
+    { "titre": "Coupe de métal", "texte": "Découpe de pièces et de tôles pour la fabrication.", "image": "service-coupe" }
+  ]},
+  { "id": "surfaces", "famille": "Traiter les surfaces", "services": [
+    { "titre": "Métallisation HVOF et chrome", "texte": "Revêtements très denses et fortement adhérents, en remplacement du chrome dur.", "image": "service-hvof" },
+    { "titre": "Revêtement de rouleaux", "texte": "Rouleaux rechargés, recouverts et réusinés.", "image": "service-rouleaux" }
+  ]},
+  { "id": "sur-place", "famille": "Intervenir sur place", "services": [
+    { "titre": "Prestations sur place", "texte": "Assistance technique et service mécanique dans votre usine, pour réduire les arrêts.", "image": "service-sur-place" }
+  ]}
+]

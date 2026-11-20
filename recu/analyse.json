@@ -1,0 +1,7406 @@
+{
+  "dossier": "/Users/paul/Downloads/fxtechnologie-recu",
+  "date": "2026-11-20T17:30:43.887Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg",
+    "planche-4.jpg",
+    "planche-5.jpg",
+    "planche-6.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo-sombre.png",
+      "nom": "logo-sombre",
+      "drapeau": "logo",
+      "largeur": 210,
+      "hauteur": 79,
+      "ratio": "2.66",
+      "ratio_valeur": 2.658,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 28972,
+      "transparence": true,
+      "sujet": {
+        "x": 4.7,
+        "y": 45.7,
+        "l": 79.9,
+        "h": 54.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        75
+      ],
+      "cadrage_css": "41% 75%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 87.2,
+        "bruit": 0.53,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "TECHNOLOGIE",
+        "blocs": 1,
+        "surface": 24.8,
+        "details": [
+          {
+            "texte": "TECHNOLOGIE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1a9a5a5ccd4cd895",
+      "drapeaux": [
+        "logo",
+        "texte du logo"
+      ]
+    },
+    {
+      "fichier": "services.jpg",
+      "nom": "services",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 225904,
+      "transparence": false,
+      "sujet": {
+        "x": 26.5,
+        "y": 27.9,
+        "l": 54.4,
+        "h": 44.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        52
+      ],
+      "cadrage_css": "53% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 30.3,
+        "bruit": 0.4,
+        "compression": 1.58,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "55549396c995317b",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "engrenage-reussite.jpg",
+      "nom": "engrenage-reussite",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1536,
+      "ratio": "4:3",
+      "ratio_valeur": 1.302,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 359414,
+      "transparence": false,
+      "sujet": {
+        "x": 28.9,
+        "y": 45.6,
+        "l": 45.2,
+        "h": 49.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        63
+      ],
+      "cadrage_css": "48% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.78,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 31.2,
+        "bruit": 0.69,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "TECHNOLOGIE",
+        "blocs": 1,
+        "surface": 20.6,
+        "details": [
+          {
+            "texte": "TECHNOLOGIE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "3c7e3e36363e9ede",
+      "drapeaux": [
+        "autre",
+        "texte décoratif",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "reparation-boite-reduction.jpg",
+      "nom": "reparation-boite-reduction",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1328,
+      "ratio": "3:2",
+      "ratio_valeur": 1.506,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 466248,
+      "transparence": false,
+      "sujet": {
+        "x": 45.7,
+        "y": 28.6,
+        "l": 50.4,
+        "h": 70.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        51
+      ],
+      "cadrage_css": "59% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 33.4,
+        "bruit": 0.73,
+        "compression": 1.25,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ed7cfcdcd8f8dc38",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "remise-neuf-boite-reduction.jpg",
+      "nom": "remise-neuf-boite-reduction",
+      "drapeau": "autre",
+      "largeur": 1328,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.664,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 503323,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 7.2,
+        "l": 80.8,
+        "h": 85.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        44
+      ],
+      "cadrage_css": "52% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 34.6,
+        "bruit": 0.75,
+        "compression": 1.24,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d0013333432b0b07",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "usa.jpg",
+      "nom": "usa",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 398495,
+      "transparence": false,
+      "sujet": {
+        "x": 30.8,
+        "y": 5.6,
+        "l": 55.3,
+        "h": 94.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        53
+      ],
+      "cadrage_css": "52% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 35.8,
+        "bruit": 0.73,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "TECHNOLOGLE · UNITED STATES",
+        "blocs": 2,
+        "surface": 48.1,
+        "details": [
+          {
+            "texte": "TECHNOLOGLE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "UNITED STATES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "64333f7e7e3fbfbf",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "reparation-ventilateur.jpg",
+      "nom": "reparation-ventilateur",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 303579,
+      "transparence": false,
+      "sujet": {
+        "x": 23.9,
+        "y": 4.4,
+        "l": 54.8,
+        "h": 90.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        40
+      ],
+      "cadrage_css": "58% 40%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 23.3,
+        "bruit": 0.73,
+        "compression": 1.29,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "TECHNOLOGIE · El: 430592941 · MVL baliong · Uitversil",
+        "blocs": 4,
+        "surface": 0.4,
+        "details": [
+          {
+            "texte": "TECHNOLOGIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "El: 430592941",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MVL baliong",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Uitversil",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "707060f8f869f8f8",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "verification-specifications-boite.jpg",
+      "nom": "verification-specifications-boite",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 507453,
+      "transparence": false,
+      "sujet": {
+        "x": 27.5,
+        "y": 17.3,
+        "l": 44.3,
+        "h": 62.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        45
+      ],
+      "cadrage_css": "49% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 31.8,
+        "bruit": 0.76,
+        "compression": 1.34,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "TOP · ANPUT · BOTTOM · AUT · KSIPe B",
+        "blocs": 5,
+        "surface": 7.8,
+        "details": [
+          {
+            "texte": "TOP",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ANPUT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BOTTOM",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AUT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "KSIPe B",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "00004c4cd9c8c0e1",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "nouvelles.jpg",
+      "nom": "nouvelles",
+      "drapeau": "autre",
+      "largeur": 1310,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.655,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 292012,
+      "transparence": false,
+      "sujet": {
+        "x": 57.4,
+        "y": 27.9,
+        "l": 23.5,
+        "h": 19.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        69,
+        37
+      ],
+      "cadrage_css": "69% 37%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 12.8,
+        "bruit": 0.51,
+        "compression": 0.93,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "TECHNOLOGIE",
+        "blocs": 1,
+        "surface": 1.6,
+        "details": [
+          {
+            "texte": "TECHNOLOGIE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "033321acc9913df0",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "fx-technologie-gallerie.jpg",
+      "nom": "fx-technologie-gallerie",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 72536,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 8.8,
+        "l": 80.9,
+        "h": 66.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        46
+      ],
+      "cadrage_css": "43% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 5.8,
+        "bruit": 0.01,
+        "compression": 5.2,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1f0f0f0b07050000",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "compression visible",
+        "calme bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "recherche-excellence.jpg",
+      "nom": "recherche-excellence",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 314994,
+      "transparence": false,
+      "sujet": {
+        "x": 91.7,
+        "y": 22.1,
+        "l": 8.1,
+        "h": 40.8,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        96,
+        34
+      ],
+      "cadrage_css": "96% 34%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 26.8,
+        "bruit": 0.47,
+        "compression": 1.35,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Miller",
+        "blocs": 1,
+        "surface": 0.3,
+        "details": [
+          {
+            "texte": "Miller",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "46529296965f4fcd",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "energie-eolienne-fx-technologie.jpg",
+      "nom": "energie-eolienne-fx-technologie",
+      "drapeau": "autre",
+      "largeur": 1806,
+      "hauteur": 1108,
+      "ratio": "16:10",
+      "ratio_valeur": 1.63,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1188054,
+      "transparence": false,
+      "sujet": {
+        "x": 63.2,
+        "y": 29.4,
+        "l": 14.7,
+        "h": 25,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        70,
+        41
+      ],
+      "cadrage_css": "70% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.8,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.63,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 7.1,
+        "bruit": 1.09,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c78000808d8dfefc",
+      "drapeaux": [
+        "autre",
+        "calme bas/gauche"
+      ]
+    },
+    {
+      "fichier": "usinage-precision.jpg",
+      "nom": "usinage-precision",
+      "drapeau": "autre",
+      "largeur": 1734,
+      "hauteur": 1154,
+      "ratio": "3:2",
+      "ratio_valeur": 1.503,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1567681,
+      "transparence": false,
+      "sujet": {
+        "x": 27.5,
+        "y": 8.7,
+        "l": 50.5,
+        "h": 85.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        47
+      ],
+      "cadrage_css": "53% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 41.6,
+        "bruit": 1.44,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f4f6fbe9e7dbdbb7",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "reparation-moteur-electrique.jpg",
+      "nom": "reparation-moteur-electrique",
+      "drapeau": "autre",
+      "largeur": 1732,
+      "hauteur": 1155,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 2174175,
+      "transparence": false,
+      "sujet": {
+        "x": 7.2,
+        "y": 39.4,
+        "l": 75.1,
+        "h": 54.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        55
+      ],
+      "cadrage_css": "50% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 48.7,
+        "bruit": 1.08,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d153e7cd92b3733a",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "exploitation-miniere-manutention-fx.jpg",
+      "nom": "exploitation-miniere-manutention-fx",
+      "drapeau": "autre",
+      "largeur": 1732,
+      "hauteur": 1155,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 2693308,
+      "transparence": false,
+      "sujet": {
+        "x": 3.8,
+        "y": 11,
+        "l": 90.1,
+        "h": 71.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        41
+      ],
+      "cadrage_css": "42% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 91.4,
+        "bruit": 1.51,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e2e639792833b1e1",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "environnement-recyclage-engrenage.jpg",
+      "nom": "environnement-recyclage-engrenage",
+      "drapeau": "autre",
+      "largeur": 1732,
+      "hauteur": 1155,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 2794453,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 7.5,
+        "l": 77,
+        "h": 90.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        49
+      ],
+      "cadrage_css": "42% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 61.7,
+        "bruit": 1.82,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "cb624ece8e8e8e4e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "hydro-electrique-reducteur-engrenage.jpg",
+      "nom": "hydro-electrique-reducteur-engrenage",
+      "drapeau": "autre",
+      "largeur": 1732,
+      "hauteur": 1155,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1769955,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 30.9,
+        "l": 36.8,
+        "h": 38.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        48
+      ],
+      "cadrage_css": "48% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 24.9,
+        "bruit": 1.22,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "fbee86c3e0e0c999",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "industrie-portuaire-fx-technologie.jpg",
+      "nom": "industrie-portuaire-fx-technologie",
+      "drapeau": "autre",
+      "largeur": 1732,
+      "hauteur": 1155,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1440512,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 23.5,
+        "l": 76.5,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        41
+      ],
+      "cadrage_css": "53% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.52,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 40.7,
+        "bruit": 1.56,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e0e5ed8996c9bbfd",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "fabrication-soudure-personnalisees.jpg",
+      "nom": "fabrication-soudure-personnalisees",
+      "drapeau": "autre",
+      "largeur": 1732,
+      "hauteur": 1155,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 2123783,
+      "transparence": false,
+      "sujet": {
+        "x": 14.8,
+        "y": 15.6,
+        "l": 30.5,
+        "h": 52.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        40
+      ],
+      "cadrage_css": "36% 40%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 79,
+        "bruit": 1.47,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "beccccd8f0b3d2d3",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "industrie-maritime-fx-technologie.jpg",
+      "nom": "industrie-maritime-fx-technologie",
+      "drapeau": "autre",
+      "largeur": 1729,
+      "hauteur": 1157,
+      "ratio": "3:2",
+      "ratio_valeur": 1.494,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1369304,
+      "transparence": false,
+      "sujet": {
+        "x": 19.3,
+        "y": 30.4,
+        "l": 42.1,
+        "h": 38.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        43
+      ],
+      "cadrage_css": "47% 43%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.59,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        }
+      ],
+      "qualite": {
+        "nettete": 50.4,
+        "bruit": 0.93,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "fefeec8dc9c8c808",
+      "drapeaux": [
+        "autre",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "fabricant-engrenage-broyeur-billes.jpg",
+      "nom": "fabricant-engrenage-broyeur-billes",
+      "drapeau": "autre",
+      "largeur": 1633,
+      "hauteur": 1225,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 2852494,
+      "transparence": false,
+      "sujet": {
+        "x": 39.1,
+        "y": 6.7,
+        "l": 30.4,
+        "h": 77.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        47
+      ],
+      "cadrage_css": "54% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 45.7,
+        "bruit": 1.87,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "9f6666eccecbc36e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "traitement-acier-metal-fx.jpg",
+      "nom": "traitement-acier-metal-fx",
+      "drapeau": "autre",
+      "largeur": 1225,
+      "hauteur": 1633,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 2585387,
+      "transparence": false,
+      "sujet": {
+        "x": 26.5,
+        "y": 38.2,
+        "l": 57.4,
+        "h": 32.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        54
+      ],
+      "cadrage_css": "53% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 18.3,
+        "bruit": 0.94,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "1225 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c416264ed6164e60",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "industrie-alimentaire-acier-inoxydable.jpg",
+      "nom": "industrie-alimentaire-acier-inoxydable",
+      "drapeau": "autre",
+      "largeur": 1753,
+      "hauteur": 1141,
+      "ratio": "3:2",
+      "ratio_valeur": 1.536,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1766709,
+      "transparence": false,
+      "sujet": {
+        "x": 20.2,
+        "y": 22.6,
+        "l": 36.5,
+        "h": 77.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        45
+      ],
+      "cadrage_css": "37% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 50,
+        "bruit": 1.29,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "8317616464e4a4ce",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "militaire-fx-technologie.jpg",
+      "nom": "militaire-fx-technologie",
+      "drapeau": "autre",
+      "largeur": 1885,
+      "hauteur": 1061,
+      "ratio": "16:9",
+      "ratio_valeur": 1.777,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1694334,
+      "transparence": false,
+      "sujet": {
+        "x": 17.2,
+        "y": 23.9,
+        "l": 55.9,
+        "h": 60.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        43
+      ],
+      "cadrage_css": "45% 43%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 65.4,
+        "bruit": 1.6,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d2c8c99ccc1626c8",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "coupe-metal.jpg",
+      "nom": "coupe-metal",
+      "drapeau": "autre",
+      "largeur": 1650,
+      "hauteur": 1212,
+      "ratio": "4:3",
+      "ratio_valeur": 1.361,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1436019,
+      "transparence": false,
+      "sujet": {
+        "x": 9.1,
+        "y": 12.1,
+        "l": 33.3,
+        "h": 48.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        30,
+        39
+      ],
+      "cadrage_css": "30% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 23.3,
+        "bruit": 1.58,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "72706fcf6fe1ef6b",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "pates-papiers-engrenage-sechoir.jpg",
+      "nom": "pates-papiers-engrenage-sechoir",
+      "drapeau": "autre",
+      "largeur": 1734,
+      "hauteur": 1153,
+      "ratio": "3:2",
+      "ratio_valeur": 1.504,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1544952,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 29.4,
+        "l": 58.8,
+        "h": 35.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        48
+      ],
+      "cadrage_css": "48% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 85.9,
+        "bruit": 2.22,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c3d9cc8cc78c8c8c",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "pignon-papetiere.jpg",
+      "nom": "pignon-papetiere",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 1200,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 133660,
+      "transparence": false,
+      "sujet": {
+        "x": 2.4,
+        "y": 35.4,
+        "l": 60.2,
+        "h": 42.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        50
+      ],
+      "cadrage_css": "43% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.54,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.54,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 25.2,
+        "bruit": 0.53,
+        "compression": 2.05,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "642626b0f4d4e8fc",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "petrochimie-reducteur-engrenage-fx.jpg",
+      "nom": "petrochimie-reducteur-engrenage-fx",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 1000,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 783240,
+      "transparence": false,
+      "sujet": {
+        "x": 32.1,
+        "y": 20.3,
+        "l": 52.4,
+        "h": 33.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        32
+      ],
+      "cadrage_css": "58% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.54,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 48,
+        "bruit": 0.9,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "fcdccbc7cfcbdc38",
+      "drapeaux": [
+        "autre",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "reparation-pompes.jpg",
+      "nom": "reparation-pompes",
+      "drapeau": "autre",
+      "largeur": 1448,
+      "hauteur": 968,
+      "ratio": "3:2",
+      "ratio_valeur": 1.496,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 312372,
+      "transparence": false,
+      "sujet": {
+        "x": 10.7,
+        "y": 6.8,
+        "l": 79.4,
+        "h": 85.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        43
+      ],
+      "cadrage_css": "49% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 28.8,
+        "bruit": 0.86,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "eac18a9b3213830e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "puissance-production.jpg",
+      "nom": "puissance-production",
+      "drapeau": "produit",
+      "largeur": 1750,
+      "hauteur": 800,
+      "ratio": "2.19",
+      "ratio_valeur": 2.188,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 585342,
+      "transparence": false,
+      "sujet": {
+        "x": 25.8,
+        "y": 61,
+        "l": 47.4,
+        "h": 27.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        70
+      ],
+      "cadrage_css": "48% 70%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 17,
+        "bruit": 0.44,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c607470797671313",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "service-mecanique-place.jpg",
+      "nom": "service-mecanique-place",
+      "drapeau": "lieu",
+      "largeur": 1500,
+      "hauteur": 900,
+      "ratio": "1.67",
+      "ratio_valeur": 1.667,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 292972,
+      "transparence": false,
+      "sujet": {
+        "x": 43.7,
+        "y": 15.5,
+        "l": 27.8,
+        "h": 39.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        42
+      ],
+      "cadrage_css": "56% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 35.3,
+        "bruit": 1.05,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d8b4686cc7a7f2f0",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "exact-drop-unit.jpg",
+      "nom": "exact-drop-unit",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 960,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 372333,
+      "transparence": false,
+      "sujet": {
+        "x": 18.5,
+        "y": 17.1,
+        "l": 66.6,
+        "h": 53,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        45
+      ],
+      "cadrage_css": "47% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 30.2,
+        "bruit": 1.22,
+        "compression": 1.07,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "99f9fc9c9cecb0b8",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "toronto.png",
+      "nom": "toronto",
+      "drapeau": "autre",
+      "largeur": 1522,
+      "hauteur": 785,
+      "ratio": "1.94",
+      "ratio_valeur": 1.939,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1658854,
+      "transparence": true,
+      "sujet": {
+        "x": 10,
+        "y": 11.8,
+        "l": 81.5,
+        "h": 76.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        49
+      ],
+      "cadrage_css": "48% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        }
+      ],
+      "qualite": {
+        "nettete": 48.2,
+        "bruit": 1,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ccc2f1d4f3f8f659",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "reparation-engrenage-tout-genre.jpg",
+      "nom": "reparation-engrenage-tout-genre",
+      "drapeau": "autre",
+      "largeur": 1000,
+      "hauteur": 1149,
+      "ratio": "0.87",
+      "ratio_valeur": 0.87,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 138779,
+      "transparence": false,
+      "sujet": {
+        "x": 3.6,
+        "y": 46.6,
+        "l": 18,
+        "h": 50.3,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        12,
+        59
+      ],
+      "cadrage_css": "12% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 34.9,
+        "bruit": 0.64,
+        "compression": 1.21,
+        "faible": true,
+        "raisons": [
+          "1000 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7639e8daccfa74b1",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "service-mecanique-place-2.png",
+      "nom": "service-mecanique-place-2",
+      "drapeau": "lieu",
+      "largeur": 1072,
+      "hauteur": 712,
+      "ratio": "3:2",
+      "ratio_valeur": 1.506,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1063678,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 10.7,
+        "l": 60.9,
+        "h": 50.3,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        28,
+        37
+      ],
+      "cadrage_css": "28% 37%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 21.4,
+        "bruit": 1.13,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1072 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "4ecdb19cede7e392",
+      "drapeaux": [
+        "lieu",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "fabricant-boite-reduction-mesure.jpg",
+      "nom": "fabricant-boite-reduction-mesure",
+      "drapeau": "autre",
+      "largeur": 1000,
+      "hauteur": 750,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 660010,
+      "transparence": false,
+      "sujet": {
+        "x": 26.8,
+        "y": 10.1,
+        "l": 48.7,
+        "h": 69.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        41
+      ],
+      "cadrage_css": "51% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 21.7,
+        "bruit": 1.77,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "1000 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b9f1f9787169ebee",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "analyse-engrenages-pannes.jpg",
+      "nom": "analyse-engrenages-pannes",
+      "drapeau": "autre",
+      "largeur": 1000,
+      "hauteur": 500,
+      "ratio": "2:1",
+      "ratio_valeur": 2,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 499217,
+      "transparence": false,
+      "sujet": {
+        "x": 8.9,
+        "y": 5.6,
+        "l": 14.7,
+        "h": 75.6,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        20,
+        27
+      ],
+      "cadrage_css": "20% 27%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 33.4,
+        "bruit": 1.98,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1000 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e6df39612d5132ba",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-helicoidale.jpg",
+      "nom": "engrenage-helicoidale",
+      "drapeau": "autre",
+      "largeur": 800,
+      "hauteur": 600,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 101679,
+      "transparence": false,
+      "sujet": {
+        "x": 0.2,
+        "y": 28.8,
+        "l": 64.2,
+        "h": 71.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        53
+      ],
+      "cadrage_css": "36% 53%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 55.2,
+        "bruit": 1.33,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "800 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "4948ec6b1e24b132",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "reparation-hydraulique.jpg",
+      "nom": "reparation-hydraulique",
+      "drapeau": "autre",
+      "largeur": 800,
+      "hauteur": 538,
+      "ratio": "3:2",
+      "ratio_valeur": 1.487,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 75047,
+      "transparence": false,
+      "sujet": {
+        "x": 0.1,
+        "y": 21.9,
+        "l": 99,
+        "h": 77.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        54
+      ],
+      "cadrage_css": "46% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.98
+        }
+      ],
+      "qualite": {
+        "nettete": 32.3,
+        "bruit": 1.05,
+        "compression": 1.26,
+        "faible": true,
+        "raisons": [
+          "800 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ce90f16cce878152",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "remise-neuf-boite-reduction-2.jpg",
+      "nom": "remise-neuf-boite-reduction-2",
+      "drapeau": "autre",
+      "largeur": 565,
+      "hauteur": 659,
+      "ratio": "0.86",
+      "ratio_valeur": 0.857,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 80401,
+      "transparence": false,
+      "sujet": {
+        "x": 67.1,
+        "y": 65.4,
+        "l": 16.1,
+        "h": 18,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        75,
+        73
+      ],
+      "cadrage_css": "75% 73%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 20.7,
+        "bruit": 0.76,
+        "compression": 1.23,
+        "faible": true,
+        "raisons": [
+          "565 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "79636739199b4959",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "first-class-people-first.jpg",
+      "nom": "first-class-people-first",
+      "drapeau": "autre",
+      "largeur": 733,
+      "hauteur": 481,
+      "ratio": "3:2",
+      "ratio_valeur": 1.524,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 394766,
+      "transparence": false,
+      "sujet": {
+        "x": 44.1,
+        "y": 7.4,
+        "l": 35.3,
+        "h": 57.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        37
+      ],
+      "cadrage_css": "62% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 71.5,
+        "bruit": 1.81,
+        "compression": 0.93,
+        "faible": true,
+        "raisons": [
+          "733 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "NILES O · ZP40",
+        "blocs": 2,
+        "surface": 1.6,
+        "details": [
+          {
+            "texte": "NILES O",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ZP40",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "adcc89a5a496d24a",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "fabricant-engrenage-grande-taille.jpg",
+      "nom": "fabricant-engrenage-grande-taille",
+      "drapeau": "autre",
+      "largeur": 722,
+      "hauteur": 480,
+      "ratio": "3:2",
+      "ratio_valeur": 1.504,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 115435,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 17.6,
+        "l": 67.6,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        50
+      ],
+      "cadrage_css": "47% 50%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 38.1,
+        "bruit": 1.36,
+        "compression": 1.27,
+        "faible": true,
+        "raisons": [
+          "722 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0181a1202821b3d1",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-spiro-conique.jpg",
+      "nom": "engrenage-spiro-conique",
+      "drapeau": "autre",
+      "largeur": 659,
+      "hauteur": 480,
+      "ratio": "1.37",
+      "ratio_valeur": 1.373,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 64526,
+      "transparence": false,
+      "sujet": {
+        "x": 3.7,
+        "y": 1.2,
+        "l": 84.9,
+        "h": 39.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        31
+      ],
+      "cadrage_css": "51% 31%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "sombre",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 42.8,
+        "bruit": 1.19,
+        "compression": 1.26,
+        "faible": true,
+        "raisons": [
+          "659 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2b6bcbe66c71655a",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "reparation-reducteur-vis-sans.jpg",
+      "nom": "reparation-reducteur-vis-sans",
+      "drapeau": "autre",
+      "largeur": 642,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.338,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 51131,
+      "transparence": false,
+      "sujet": {
+        "x": 16.1,
+        "y": 11.9,
+        "l": 69.8,
+        "h": 87.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        49
+      ],
+      "cadrage_css": "53% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 26.8,
+        "bruit": 0.83,
+        "compression": 1.36,
+        "faible": true,
+        "raisons": [
+          "642 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "RADICON",
+        "blocs": 1,
+        "surface": 2.5,
+        "details": [
+          {
+            "texte": "RADICON",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "3f72f4fc586c6971",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "jet-sable.jpg",
+      "nom": "jet-sable",
+      "drapeau": "autre",
+      "largeur": 642,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.338,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 73094,
+      "transparence": false,
+      "sujet": {
+        "x": 6.6,
+        "y": 10.1,
+        "l": 43.6,
+        "h": 35.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        32,
+        37
+      ],
+      "cadrage_css": "32% 37%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 46.7,
+        "bruit": 1.46,
+        "compression": 1.24,
+        "faible": true,
+        "raisons": [
+          "642 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1564fc7abe3a363e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-grande-taille.jpg",
+      "nom": "engrenage-grande-taille",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 70321,
+      "transparence": false,
+      "sujet": {
+        "x": 14.1,
+        "y": 20.6,
+        "l": 75.1,
+        "h": 56.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        48
+      ],
+      "cadrage_css": "55% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 30.4,
+        "bruit": 1.07,
+        "compression": 1.28,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c968763237b61643",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "atlas-steel-22-t.jpg",
+      "nom": "atlas-steel-22-t",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 52179,
+      "transparence": false,
+      "sujet": {
+        "x": 22.1,
+        "y": 27.9,
+        "l": 42.6,
+        "h": 38.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        48
+      ],
+      "cadrage_css": "44% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 40.1,
+        "bruit": 1.15,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "99b1aa092987cbcb",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "metalisation-small.jpg",
+      "nom": "metalisation-small",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 44030,
+      "transparence": false,
+      "sujet": {
+        "x": 62.2,
+        "y": 43.9,
+        "l": 37.2,
+        "h": 33.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        72,
+        62
+      ],
+      "cadrage_css": "72% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 18.5,
+        "bruit": 0.69,
+        "compression": 1.26,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f49c8ccee0f07000",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "metalisation-hvof.jpg",
+      "nom": "metalisation-hvof",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 46333,
+      "transparence": false,
+      "sujet": {
+        "x": 0.2,
+        "y": 10.6,
+        "l": 98,
+        "h": 77.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        38
+      ],
+      "cadrage_css": "50% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 25.3,
+        "bruit": 0.79,
+        "compression": 1.61,
+        "faible": true,
+        "raisons": [
+          "640 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f0c6c679393999ea",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "hydra-pulper.jpg",
+      "nom": "hydra-pulper",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 52094,
+      "transparence": false,
+      "sujet": {
+        "x": 18.1,
+        "y": 25.9,
+        "l": 54.3,
+        "h": 57.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        48
+      ],
+      "cadrage_css": "47% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 45,
+        "bruit": 1.28,
+        "compression": 1.27,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "fb9f17172f37960e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "dryer-gear-before-repair.jpg",
+      "nom": "dryer-gear-before-repair",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 63222,
+      "transparence": false,
+      "sujet": {
+        "x": 0.2,
+        "y": 10.4,
+        "l": 94.6,
+        "h": 77.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        47
+      ],
+      "cadrage_css": "48% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 58.2,
+        "bruit": 1.78,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f0f8ccccc2a4e0f4",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "dryer-gear.jpg",
+      "nom": "dryer-gear",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 45732,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 20.2,
+        "l": 89.6,
+        "h": 54,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        46
+      ],
+      "cadrage_css": "48% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 44.9,
+        "bruit": 1.08,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c4cc7b7f792f3dbc",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "reparation-ventilateur-2.jpg",
+      "nom": "reparation-ventilateur-2",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 71088,
+      "transparence": false,
+      "sujet": {
+        "x": 1.2,
+        "y": 6.5,
+        "l": 98.8,
+        "h": 81.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        44
+      ],
+      "cadrage_css": "51% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 21.7,
+        "bruit": 0.92,
+        "compression": 1.41,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c0262448483ca0bc",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "reparation-ventilateur-3.jpg",
+      "nom": "reparation-ventilateur-3",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 78867,
+      "transparence": false,
+      "sujet": {
+        "x": 17.6,
+        "y": 9.9,
+        "l": 82.4,
+        "h": 83.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        53
+      ],
+      "cadrage_css": "54% 53%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "sombre",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 32.7,
+        "bruit": 1.25,
+        "compression": 1.29,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "bdfdccf4bedec531",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "remise-neuf-reducteur-arbres.jpg",
+      "nom": "remise-neuf-reducteur-arbres",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 60108,
+      "transparence": false,
+      "sujet": {
+        "x": 0.1,
+        "y": 14.7,
+        "l": 97.9,
+        "h": 77,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        48
+      ],
+      "cadrage_css": "47% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 66.5,
+        "bruit": 1.24,
+        "compression": 1.18,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Lavallée · SANT MANDA · (514) 231-7717",
+        "blocs": 3,
+        "surface": 2.3,
+        "details": [
+          {
+            "texte": "Lavallée",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SANT MANDA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "(514) 231-7717",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "f27747470d571d1d",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "remise-neuf-reducteur-arbres-2.jpg",
+      "nom": "remise-neuf-reducteur-arbres-2",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 47993,
+      "transparence": false,
+      "sujet": {
+        "x": 13.7,
+        "y": 4.3,
+        "l": 73.5,
+        "h": 89.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        38
+      ],
+      "cadrage_css": "48% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 26.5,
+        "bruit": 0.81,
+        "compression": 1.42,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e1d1f0f0d0f0f0f0",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "reducteur-motorize.jpg",
+      "nom": "reducteur-motorize",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 30807,
+      "transparence": false,
+      "sujet": {
+        "x": 9.3,
+        "y": 6.6,
+        "l": 81.6,
+        "h": 80.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        39
+      ],
+      "cadrage_css": "50% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 23.1,
+        "bruit": 0.49,
+        "compression": 1.63,
+        "faible": true,
+        "raisons": [
+          "640 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "02/11/2012 10:23",
+        "blocs": 1,
+        "surface": 1,
+        "details": [
+          {
+            "texte": "02/11/2012 10:23",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4848ccc4f898a408",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "reparation-reducteur-engrenages-type.jpg",
+      "nom": "reparation-reducteur-engrenages-type",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 44782,
+      "transparence": false,
+      "sujet": {
+        "x": 14.4,
+        "y": 39.1,
+        "l": 46,
+        "h": 39.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        54
+      ],
+      "cadrage_css": "43% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 44.2,
+        "bruit": 0.9,
+        "compression": 1.28,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "bfafdc2c95d036ad",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "remise-neuf-boite-reduction-3.jpg",
+      "nom": "remise-neuf-boite-reduction-3",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 70378,
+      "transparence": false,
+      "sujet": {
+        "x": 7.4,
+        "y": 22.3,
+        "l": 87.9,
+        "h": 41.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        39
+      ],
+      "cadrage_css": "54% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 71.8,
+        "bruit": 1.8,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "363c1c5a5b7c8080",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "metalisation-hvof-2.jpg",
+      "nom": "metalisation-hvof-2",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 59108,
+      "transparence": false,
+      "sujet": {
+        "x": 17.6,
+        "y": 26.5,
+        "l": 70.9,
+        "h": 53.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        41
+      ],
+      "cadrage_css": "53% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 41.7,
+        "bruit": 1.06,
+        "compression": 1.31,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "08/08/2012 12:56",
+        "blocs": 1,
+        "surface": 1,
+        "details": [
+          {
+            "texte": "08/08/2012 12:56",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "dad8e48396960862",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "welding.jpg",
+      "nom": "welding",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 68176,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 28.8,
+        "l": 97.3,
+        "h": 38.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 63.1,
+        "bruit": 1.95,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8792a5ccce4c1926",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "roll-finished-welding.jpg",
+      "nom": "roll-finished-welding",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 51330,
+      "transparence": false,
+      "sujet": {
+        "x": 13.9,
+        "y": 23.5,
+        "l": 64.7,
+        "h": 56.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        47
+      ],
+      "cadrage_css": "52% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 39.5,
+        "bruit": 1.34,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "06/03/2012 12.29",
+        "blocs": 1,
+        "surface": 1,
+        "details": [
+          {
+            "texte": "06/03/2012 12.29",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "568edcf0e4f0f89c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "welding-2.jpg",
+      "nom": "welding-2",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 65418,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 19.9,
+        "l": 89.4,
+        "h": 73.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        53
+      ],
+      "cadrage_css": "50% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 73.4,
+        "bruit": 1.82,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "1c949058494d4ed3",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "accouplement-usinage-speciaux.jpg",
+      "nom": "accouplement-usinage-speciaux",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 52885,
+      "transparence": false,
+      "sujet": {
+        "x": 33.8,
+        "y": 19.1,
+        "l": 29.4,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        45
+      ],
+      "cadrage_css": "48% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 57.9,
+        "bruit": 1.33,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "697573f1f2e4ec6d",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "livraison-rapide.jpg",
+      "nom": "livraison-rapide",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 46919,
+      "transparence": false,
+      "sujet": {
+        "x": 46.2,
+        "y": 39.3,
+        "l": 25.3,
+        "h": 27.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        50
+      ],
+      "cadrage_css": "53% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 51.7,
+        "bruit": 1.22,
+        "compression": 1.17,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "a8e07c2dafa6aefc",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "usinage-conventionnel.jpg",
+      "nom": "usinage-conventionnel",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 54194,
+      "transparence": false,
+      "sujet": {
+        "x": 15.1,
+        "y": 38.2,
+        "l": 83.4,
+        "h": 41.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        49
+      ],
+      "cadrage_css": "55% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 44.3,
+        "bruit": 1.39,
+        "compression": 1.15,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "889654c20029e3e4",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "usinage-conventionnel-2.jpg",
+      "nom": "usinage-conventionnel-2",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 42285,
+      "transparence": false,
+      "sujet": {
+        "x": 21.1,
+        "y": 34,
+        "l": 61.7,
+        "h": 26.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 49.5,
+        "bruit": 1.01,
+        "compression": 1.24,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e7f69c3c3bd807cf",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "usinage-conventionnel-grande-capacite.jpg",
+      "nom": "usinage-conventionnel-grande-capacite",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 64246,
+      "transparence": false,
+      "sujet": {
+        "x": 4.6,
+        "y": 23.3,
+        "l": 88.2,
+        "h": 53.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        50
+      ],
+      "cadrage_css": "51% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 44.9,
+        "bruit": 2.03,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f8ebeaeaa473e8f8",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-fonte.jpg",
+      "nom": "engrenage-secherie-fonte",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 72392,
+      "transparence": false,
+      "sujet": {
+        "x": 0.2,
+        "y": 0.1,
+        "l": 95.9,
+        "h": 83.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        45
+      ],
+      "cadrage_css": "48% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 47.8,
+        "bruit": 1.34,
+        "compression": 1.13,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "13335b156d3305b9",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-2.jpg",
+      "nom": "engrenage-secherie-fonte-2",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 64191,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 17.6,
+        "l": 38.2,
+        "h": 55.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        45
+      ],
+      "cadrage_css": "48% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 38.8,
+        "bruit": 1.16,
+        "compression": 1.21,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8c96070b33333314",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-3.jpg",
+      "nom": "engrenage-secherie-fonte-3",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 68386,
+      "transparence": false,
+      "sujet": {
+        "x": 4.9,
+        "y": 7,
+        "l": 87.8,
+        "h": 92.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        46
+      ],
+      "cadrage_css": "47% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 54.1,
+        "bruit": 1.21,
+        "compression": 1.22,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "4c64767212121737",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-nylon.jpg",
+      "nom": "engrenage-secherie-nylon",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 63008,
+      "transparence": false,
+      "sujet": {
+        "x": 0.6,
+        "y": 6.5,
+        "l": 92.8,
+        "h": 87.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        45
+      ],
+      "cadrage_css": "48% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 34.7,
+        "bruit": 1.06,
+        "compression": 1.28,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "75d05a5ad8717917",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "mag-gear-cutting.jpg",
+      "nom": "mag-gear-cutting",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 76351,
+      "transparence": false,
+      "sujet": {
+        "x": 17.2,
+        "y": 28.2,
+        "l": 34.8,
+        "h": 36,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        44
+      ],
+      "cadrage_css": "43% 44%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 45.4,
+        "bruit": 1.56,
+        "compression": 1.29,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8c88a52ce266c680",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "roll-welding.jpg",
+      "nom": "roll-welding",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 478,
+      "ratio": "4:3",
+      "ratio_valeur": 1.339,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 62313,
+      "transparence": false,
+      "sujet": {
+        "x": 11.2,
+        "y": 13.6,
+        "l": 66.5,
+        "h": 86.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        52
+      ],
+      "cadrage_css": "46% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 43.7,
+        "bruit": 1.75,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2c6d67c3e3a72727",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "pipe-welding.jpg",
+      "nom": "pipe-welding",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 478,
+      "ratio": "4:3",
+      "ratio_valeur": 1.339,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 46430,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 17,
+        "l": 83.7,
+        "h": 58,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        46
+      ],
+      "cadrage_css": "47% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 34.2,
+        "bruit": 1.21,
+        "compression": 1.31,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "i1D Miller",
+        "blocs": 1,
+        "surface": 1,
+        "details": [
+          {
+            "texte": "i1D Miller",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "e7e6bb0323692d03",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "reparation-ventilateur-4.jpg",
+      "nom": "reparation-ventilateur-4",
+      "drapeau": "autre",
+      "largeur": 700,
+      "hauteur": 432,
+      "ratio": "16:10",
+      "ratio_valeur": 1.62,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 78813,
+      "transparence": false,
+      "sujet": {
+        "x": 8,
+        "y": 5.9,
+        "l": 86.1,
+        "h": 93.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        41
+      ],
+      "cadrage_css": "50% 41%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 31.5,
+        "bruit": 1.1,
+        "compression": 1.36,
+        "faible": true,
+        "raisons": [
+          "700 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c08e252c25019393",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "metalisation-hvof-3.jpg",
+      "nom": "metalisation-hvof-3",
+      "drapeau": "autre",
+      "largeur": 617,
+      "hauteur": 480,
+      "ratio": "1.29",
+      "ratio_valeur": 1.285,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 39955,
+      "transparence": false,
+      "sujet": {
+        "x": 19.2,
+        "y": 34.1,
+        "l": 69.5,
+        "h": 41.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        49
+      ],
+      "cadrage_css": "45% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 12.4,
+        "bruit": 0.57,
+        "compression": 1.56,
+        "faible": true,
+        "raisons": [
+          "617 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b0704ceca6ec0f81",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "couverture-rouleaux.jpg",
+      "nom": "couverture-rouleaux",
+      "drapeau": "autre",
+      "largeur": 667,
+      "hauteur": 424,
+      "ratio": "16:10",
+      "ratio_valeur": 1.573,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 147402,
+      "transparence": false,
+      "sujet": {
+        "x": 32.5,
+        "y": 12.6,
+        "l": 67.5,
+        "h": 74.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        41
+      ],
+      "cadrage_css": "62% 41%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 33.9,
+        "bruit": 1.2,
+        "compression": 1.22,
+        "faible": true,
+        "raisons": [
+          "667 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "400000.",
+        "blocs": 1,
+        "surface": 1.8,
+        "details": [
+          {
+            "texte": "400000.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "e6a3e347cecd8307",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "hydra-pulper-2.jpg",
+      "nom": "hydra-pulper-2",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 425,
+      "ratio": "3:2",
+      "ratio_valeur": 1.506,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 59313,
+      "transparence": false,
+      "sujet": {
+        "x": 25.1,
+        "y": 28.8,
+        "l": 62.2,
+        "h": 67.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        55
+      ],
+      "cadrage_css": "52% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 70,
+        "bruit": 1.58,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c2ac65e7664343e3",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "hard-facing.jpg",
+      "nom": "hard-facing",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 418,
+      "ratio": "3:2",
+      "ratio_valeur": 1.531,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 47679,
+      "transparence": false,
+      "sujet": {
+        "x": 24.5,
+        "y": 44.2,
+        "l": 41.1,
+        "h": 47.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        57
+      ],
+      "cadrage_css": "47% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 38.5,
+        "bruit": 1.57,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c386cccc6860e69a",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "analyse-engrenages-pannes-2.png",
+      "nom": "analyse-engrenages-pannes-2",
+      "drapeau": "autre",
+      "largeur": 560,
+      "hauteur": 465,
+      "ratio": "1.2",
+      "ratio_valeur": 1.204,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 452084,
+      "transparence": true,
+      "sujet": {
+        "x": 29.4,
+        "y": 20.6,
+        "l": 42.6,
+        "h": 38.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        39
+      ],
+      "cadrage_css": "51% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 11.7,
+        "bruit": 0.61,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "560 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "84fe807ff8cd816e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "embrayage.jpg",
+      "nom": "embrayage",
+      "drapeau": "autre",
+      "largeur": 496,
+      "hauteur": 480,
+      "ratio": "1.03",
+      "ratio_valeur": 1.033,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 50915,
+      "transparence": false,
+      "sujet": {
+        "x": 44.1,
+        "y": 22.1,
+        "l": 22.1,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        56
+      ],
+      "cadrage_css": "55% 56%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 49.1,
+        "bruit": 1.79,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "496 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e0e0e4f0d6c66cc9",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "couronne-bronze.jpg",
+      "nom": "couronne-bronze",
+      "drapeau": "autre",
+      "largeur": 674,
+      "hauteur": 345,
+      "ratio": "2:1",
+      "ratio_valeur": 1.954,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 78698,
+      "transparence": false,
+      "sujet": {
+        "x": 0.5,
+        "y": 28.5,
+        "l": 94.8,
+        "h": 67.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        52
+      ],
+      "cadrage_css": "47% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.85
+        }
+      ],
+      "qualite": {
+        "nettete": 33.6,
+        "bruit": 1.34,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "674 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "6d47f3b3e7f3fef0",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "technologie-metalisation-hvof.jpg",
+      "nom": "technologie-metalisation-hvof",
+      "drapeau": "autre",
+      "largeur": 895,
+      "hauteur": 171,
+      "ratio": "5.23",
+      "ratio_valeur": 5.234,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 100214,
+      "transparence": false,
+      "sujet": {
+        "x": 46.9,
+        "y": 0.7,
+        "l": 51.7,
+        "h": 45.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        67,
+        29
+      ],
+      "cadrage_css": "67% 29%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.92,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 25.9,
+        "bruit": 0.81,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "895 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "939a185c1c781999",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "dryer-gear-2.jpg",
+      "nom": "dryer-gear-2",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 52819,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.3,
+        "l": 94.3,
+        "h": 87,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 39.8,
+        "bruit": 1.33,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "74d2dadad8f13b96",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "industrie-aerospatiale-fx-technologie.jpg",
+      "nom": "industrie-aerospatiale-fx-technologie",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 600,
+      "ratio": "3.2",
+      "ratio_valeur": 3.2,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 116940,
+      "transparence": false,
+      "sujet": {
+        "x": 45.1,
+        "y": 18.8,
+        "l": 54.9,
+        "h": 68.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        70,
+        55
+      ],
+      "cadrage_css": "70% 55%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 22.4,
+        "bruit": 0.5,
+        "compression": 1.4,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e6e383c3c3cbf3b2",
+      "drapeaux": [
+        "autre",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "industrie-spatiale-fx-technologie.jpg",
+      "nom": "industrie-spatiale-fx-technologie",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1364,
+      "ratio": "3:2",
+      "ratio_valeur": 1.466,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 494569,
+      "transparence": false,
+      "sujet": {
+        "x": 14.4,
+        "y": 4.7,
+        "l": 72.1,
+        "h": 87,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        43
+      ],
+      "cadrage_css": "51% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "sombre",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "sombre",
+          "recouvre_sujet": 0.56
+        }
+      ],
+      "qualite": {
+        "nettete": 57.8,
+        "bruit": 1.35,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d4b0e0e4c480d0c0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "reparation-ventilateur-5.jpg",
+      "nom": "reparation-ventilateur-5",
+      "drapeau": "autre",
+      "largeur": 642,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.338,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 38889,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 40.8,
+        "h": 64.6,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        20,
+        19
+      ],
+      "cadrage_css": "20% 19%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.61,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.65
+        }
+      ],
+      "qualite": {
+        "nettete": 15.2,
+        "bruit": 0.58,
+        "compression": 1.68,
+        "faible": true,
+        "raisons": [
+          "642 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "a727008013030b43",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "reparation-ventilateur-6.jpg",
+      "nom": "reparation-ventilateur-6",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 72733,
+      "transparence": false,
+      "sujet": {
+        "x": 26.4,
+        "y": 24.8,
+        "l": 67.9,
+        "h": 75.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        53
+      ],
+      "cadrage_css": "57% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 26.7,
+        "bruit": 1.04,
+        "compression": 1.21,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c971786cf430f1d5",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "metalisation-hvof-4.jpg",
+      "nom": "metalisation-hvof-4",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 51748,
+      "transparence": false,
+      "sujet": {
+        "x": 3.8,
+        "y": 9.3,
+        "l": 80.1,
+        "h": 69.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        38
+      ],
+      "cadrage_css": "49% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 30.9,
+        "bruit": 0.81,
+        "compression": 1.31,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "08/08/2012 12:56",
+        "blocs": 1,
+        "surface": 1,
+        "details": [
+          {
+            "texte": "08/08/2012 12:56",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0c03339313331c59",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "metalisation-hvof-5.jpg",
+      "nom": "metalisation-hvof-5",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 58210,
+      "transparence": false,
+      "sujet": {
+        "x": 14.8,
+        "y": 17.3,
+        "l": 66.9,
+        "h": 63.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        45
+      ],
+      "cadrage_css": "53% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 32.9,
+        "bruit": 1.01,
+        "compression": 1.29,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "19/03/2012 14:35",
+        "blocs": 1,
+        "surface": 1.1,
+        "details": [
+          {
+            "texte": "19/03/2012 14:35",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "6b43f3872e87939b",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "metalisation-hvof-6.jpg",
+      "nom": "metalisation-hvof-6",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 52084,
+      "transparence": false,
+      "sujet": {
+        "x": 25.4,
+        "y": 28.3,
+        "l": 54.8,
+        "h": 38,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        51
+      ],
+      "cadrage_css": "52% 51%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 82.5,
+        "bruit": 0.89,
+        "compression": 1.21,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "22/11/2011 10:18",
+        "blocs": 1,
+        "surface": 1.3,
+        "details": [
+          {
+            "texte": "22/11/2011 10:18",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "064601c1c1c0800e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "welding-3.jpg",
+      "nom": "welding-3",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 81741,
+      "transparence": false,
+      "sujet": {
+        "x": 39.9,
+        "y": 24,
+        "l": 58.3,
+        "h": 39.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        42
+      ],
+      "cadrage_css": "62% 42%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 101.5,
+        "bruit": 2.45,
+        "compression": 0.95,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "98b03251c918995b",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "welding-4.jpg",
+      "nom": "welding-4",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 65047,
+      "transparence": false,
+      "sujet": {
+        "x": 0.3,
+        "y": 10.7,
+        "l": 95,
+        "h": 83.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        48
+      ],
+      "cadrage_css": "44% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 72.5,
+        "bruit": 1.91,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c080a8bafa8b9715",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "usinage-haute-precision.jpg",
+      "nom": "usinage-haute-precision",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 55698,
+      "transparence": false,
+      "sujet": {
+        "x": 28.9,
+        "y": 12.6,
+        "l": 49.5,
+        "h": 76.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        50
+      ],
+      "cadrage_css": "53% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 50.2,
+        "bruit": 1.35,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c6c0f0b1b830b2b6",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenages-sechage-engrenages-sechage.jpg",
+      "nom": "engrenages-sechage-engrenages-sechage",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 1000,
+      "ratio": "16:10",
+      "ratio_valeur": 1.6,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 276976,
+      "transparence": false,
+      "sujet": {
+        "x": 45.7,
+        "y": 52.6,
+        "l": 37.7,
+        "h": 43.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        66
+      ],
+      "cadrage_css": "56% 66%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 50.1,
+        "bruit": 1.18,
+        "compression": 1.34,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "PREMIÈRE · SECTION · SÉCHOIRS 1 À 17",
+        "blocs": 3,
+        "surface": 5.8,
+        "details": [
+          {
+            "texte": "PREMIÈRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SECTION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SÉCHOIRS 1 À 17",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "952336326a3a1e1e",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-nylon-2.jpg",
+      "nom": "engrenage-secherie-nylon-2",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 768,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 498573,
+      "transparence": false,
+      "sujet": {
+        "x": 16.4,
+        "y": 12.2,
+        "l": 64.1,
+        "h": 76.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        46
+      ],
+      "cadrage_css": "50% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 28.8,
+        "bruit": 1.07,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c1c3c7d9e8e99dcc",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-4.jpg",
+      "nom": "engrenage-secherie-fonte-4",
+      "drapeau": "autre",
+      "largeur": 480,
+      "hauteur": 640,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 68992,
+      "transparence": false,
+      "sujet": {
+        "x": 22.1,
+        "y": 14.7,
+        "l": 45.6,
+        "h": 51.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        41
+      ],
+      "cadrage_css": "45% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        }
+      ],
+      "qualite": {
+        "nettete": 42.9,
+        "bruit": 1.26,
+        "compression": 1.22,
+        "faible": true,
+        "raisons": [
+          "480 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "a1c78e0b0f171dbe",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-5.jpg",
+      "nom": "engrenage-secherie-fonte-5",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 65058,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 3.9,
+        "l": 87.7,
+        "h": 81,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        38
+      ],
+      "cadrage_css": "52% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 49.8,
+        "bruit": 1.17,
+        "compression": 1.19,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "123233192f16979b",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-avant.jpg",
+      "nom": "engrenage-secherie-avant",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 60802,
+      "transparence": false,
+      "sujet": {
+        "x": 8.1,
+        "y": 7.6,
+        "l": 89.8,
+        "h": 88,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        50
+      ],
+      "cadrage_css": "51% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 28.5,
+        "bruit": 1.24,
+        "compression": 1.39,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "f170e4c4d070b8ea",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "engrenage-secherie-fonte-6.jpg",
+      "nom": "engrenage-secherie-fonte-6",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 404978,
+      "transparence": false,
+      "sujet": {
+        "x": 6.4,
+        "y": 4.6,
+        "l": 91.6,
+        "h": 90.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        42
+      ],
+      "cadrage_css": "51% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 34.5,
+        "bruit": 0.57,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "1613333333060e8f",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "pignon.jpg",
+      "nom": "pignon",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 70844,
+      "transparence": false,
+      "sujet": {
+        "x": 16.8,
+        "y": 7,
+        "l": 66.3,
+        "h": 92.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        59
+      ],
+      "cadrage_css": "54% 59%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 50.8,
+        "bruit": 1.39,
+        "compression": 1.15,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "23/11/2011 14:28",
+        "blocs": 1,
+        "surface": 1.1,
+        "details": [
+          {
+            "texte": "23/11/2011 14:28",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "9bcfd6f6d69797c7",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "maritimes.jpg",
+      "nom": "maritimes",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1328,
+      "ratio": "3:2",
+      "ratio_valeur": 1.506,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 563203,
+      "transparence": false,
+      "sujet": {
+        "x": 29.3,
+        "y": 6,
+        "l": 52.1,
+        "h": 64.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        43
+      ],
+      "cadrage_css": "58% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 77.5,
+        "bruit": 1.25,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "www.fxtechnologie.com · TECHNOLOGIE. · Spécialiste en engrenage et transmission de puissance · Service 24hrso Tél : (450) 582-9413 · TORONTO",
+        "blocs": 5,
+        "surface": 12.6,
+        "details": [
+          {
+            "texte": "www.fxtechnologie.com",
+            "niveau": "marque"
+          },
+          {
+            "texte": "TECHNOLOGIE.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Spécialiste en engrenage et transmission de puissance",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Service 24hrso Tél : (450) 582-9413",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TORONTO",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "e0f8f8ece0f0f0f0",
+      "drapeaux": [
+        "autre",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "montreal.jpg",
+      "nom": "montreal",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1758,
+      "ratio": "1.14",
+      "ratio_valeur": 1.138,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 408455,
+      "transparence": false,
+      "sujet": {
+        "x": 20,
+        "y": 18,
+        "l": 66.9,
+        "h": 37.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        38
+      ],
+      "cadrage_css": "50% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 26.2,
+        "bruit": 0.55,
+        "compression": 1.34,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "TECHINOLOGTE · Spécialiste en engrenage et transmission de puissance · Service 24hrs • Tél : (450) 582-9413 · www.fxtechnologie.com · MONTREAL",
+        "blocs": 5,
+        "surface": 16.2,
+        "details": [
+          {
+            "texte": "TECHINOLOGTE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Spécialiste en engrenage et transmission de puissance",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Service 24hrs • Tél : (450) 582-9413",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "www.fxtechnologie.com",
+            "niveau": "marque"
+          },
+          {
+            "texte": "MONTREAL",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8f9ff6fcfc8d4d4d",
+      "drapeaux": [
+        "autre",
+        "filigrane ou marque",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "site-jobs.jpg",
+      "nom": "site-jobs",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1191,
+      "ratio": "1.68",
+      "ratio_valeur": 1.679,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 343053,
+      "transparence": false,
+      "sujet": {
+        "x": 27.1,
+        "y": 46.4,
+        "l": 39.4,
+        "h": 44.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        60
+      ],
+      "cadrage_css": "48% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 23.1,
+        "bruit": 0.64,
+        "compression": 1.34,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f0282547db1a10d0",
+      "drapeaux": [
+        "autre",
+        "calme haut/droite"
+      ]
+    },
+    {
+      "fichier": "large-size-machining.jpg",
+      "nom": "large-size-machining",
+      "drapeau": "autre",
+      "largeur": 640,
+      "hauteur": 480,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 49197,
+      "transparence": false,
+      "sujet": {
+        "x": 29.9,
+        "y": 20.8,
+        "l": 40.5,
+        "h": 62.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        49
+      ],
+      "cadrage_css": "55% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 28.8,
+        "bruit": 0.86,
+        "compression": 1.41,
+        "faible": true,
+        "raisons": [
+          "640 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0c95302438b0300e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    }
+  ]
+}

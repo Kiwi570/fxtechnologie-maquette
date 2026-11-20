@@ -1,0 +1,170 @@
+{
+  "client": "FX Technologie",
+  "activite": "industrie",
+  "direction": "Acier et braise",
+  "date": "2026-11-20T17:36:52.219Z",
+  "images": [
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture.jpg",
+      "page": "accueil",
+      "emplacement": "Ouverture de l'accueil, version ordinateur, texte à gauche",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mécanismes",
+        "visages"
+      ],
+      "consigne": "Wide low-angle shot inside a large heavy-industry machine shop at night: a giant segmented steel ring gear, much taller than a person, standing upright on timber blocks in the right half of the frame, its freshly cut teeth catching warm orange sodium light, an overhead crane hook and chains hanging above it, the left half of the frame falling into calm deep graphite shadow, a few faint sparks far in the background, empty scene, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-ouverture-mobile",
+      "fichier": "accueil-ouverture-mobile.jpg",
+      "page": "accueil",
+      "emplacement": "Ouverture de l'accueil, version téléphone (portrait), texte en haut",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mécanismes"
+      ],
+      "consigne": "Vertical portrait composition inside a large heavy-industry machine shop at night: a giant steel ring gear seen slightly from below, filling the lower two thirds of the frame, its freshly cut teeth catching warm orange sodium light, crane chains rising out of frame, the top third calm and dark graphite for a title, empty scene, nobody in the frame. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-atelier",
+      "fichier": "accueil-atelier.jpg",
+      "page": "accueil",
+      "emplacement": "Grande photo pleine largeur au milieu de l'accueil (« Dans nos ateliers ou chez vous »)",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Wide shot of a heavy machine shop: an overhead crane lifting a large industrial gearbox housing with chains, one technician seen from behind in full protective equipment guiding the load with a gloved hand, warm work lights, worn concrete floor, steel columns, depth and haze, face never visible. Landscape composition, aspect ratio 3:2, the lower third stays dark and simple for text overlay. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carte-engrenages",
+      "fichier": "carte-engrenages.jpg",
+      "page": "accueil",
+      "emplacement": "Carte produit « Engrenages » (accueil et page Produits)",
+      "role": "produit",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mécanismes"
+      ],
+      "consigne": "Macro photograph of a freshly ground helical steel gear, the slanted teeth in razor-sharp focus, thin oil film, warm raking light from the side, background falling into dark graphite shadow. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carte-couronne",
+      "fichier": "carte-couronne.jpg",
+      "page": "accueil",
+      "emplacement": "Carte produit « Grande couronne » (accueil et page Produits)",
+      "role": "produit",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mécanismes"
+      ],
+      "consigne": "A very large segmented steel ring gear made of several curved segments with bolted flanges, laid flat on timber blocks on a workshop floor, seen from above at a steep angle, warm work light, machined teeth catching highlights, empty scene. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "produits-ouverture",
+      "fichier": "produits-ouverture.jpg",
+      "page": "produits",
+      "emplacement": "Ouverture de la page Produits, version ordinateur, image à droite",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mécanismes"
+      ],
+      "consigne": "Close-up three-quarter view of a large double helical herringbone gear standing on a workshop stand, the chevron teeth gleaming with oil, warm orange rim light, dark machine shop softly blurred behind, the left third of the frame calm and dark. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "produits-ouverture-mobile",
+      "fichier": "produits-ouverture-mobile.jpg",
+      "page": "produits",
+      "emplacement": "Ouverture de la page Produits, version téléphone (portrait)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mécanismes"
+      ],
+      "consigne": "Vertical portrait close-up of a large double helical herringbone gear seen from slightly below, chevron teeth gleaming with oil in the lower two thirds of the frame, warm orange rim light, top third calm and dark. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "services-ouverture",
+      "fichier": "services-ouverture.jpg",
+      "page": "services",
+      "emplacement": "Ouverture de la page Services, plein cadre, texte en bas à gauche",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "A large vertical turning lathe machining the inside of a huge steel ring, long metal chips curling off the cutting tool, a light coolant mist, warm orange work light against a dark shop, the lower left of the frame calm and dark, empty scene, nobody in the frame. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "services-ouverture-mobile",
+      "fichier": "services-ouverture-mobile.jpg",
+      "page": "services",
+      "emplacement": "Ouverture de la page Services, version téléphone (portrait)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Vertical portrait shot of a large vertical turning lathe machining a huge steel ring, metal chips curling off the cutting tool in the lower half, warm orange work light, top third calm and dark, empty scene. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "services-hvof",
+      "fichier": "services-hvof.jpg",
+      "page": "services",
+      "emplacement": "Grande scène du chapitre « Traiter les surfaces » (métallisation HVOF)",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [
+        "visages"
+      ],
+      "consigne": "Thermal spray coating inside a dark spray booth: a bright narrow supersonic flame jet hitting a rotating steel shaft held in a lathe, a fan of glowing orange particles bouncing off the surface, the spray gun mounted on a robotic arm, the operator out of frame, deep shadows around. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "page-404.jpg",
+      "page": "404",
+      "emplacement": "Image de la page 404",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [
+        "mécanismes"
+      ],
+      "consigne": "A single steel spur gear lying flat on a dark oiled workbench with exactly one tooth missing, the broken tooth lying a little apart beside it, warm side light, calm dark background on the left. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic editorial photography for a premium industrial brand, documentary realism, quiet, serious and powerful heavy-industry mood, palette of deep graphite and gunmetal grey, raw machined steel, warm forge orange accents, no saturated blue, no green tint, warm orange sodium work lights and a few cool skylight reflections, strong contrast, deep shadows, tactile freshly machined steel, oiled gear teeth, cast iron, worn concrete floor, timber blocking, set in a large heavy-industry machine shop with overhead cranes on a winter night, high dynamic range, crisp metal and condensation details, shallow depth of field, fine film grain, photorealistic, no glossy CGI, no HDR look, no futuristic overlays. No compliance label, no certification sticker, no stamp, no flag, no company vehicle markings, no dial with numbers, nobody without protective equipment, no posed smiles. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

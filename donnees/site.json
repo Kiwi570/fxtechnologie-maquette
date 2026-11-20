@@ -1,0 +1,22 @@
+{
+  "nom": "FX Technologie",
+  "adresse": "https://fxtechnologie-maquette.vercel.app",
+  "siteActuel": "fxtechnologie.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "produits", "services", "expertise", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "soumission" },
+  "couleurs": { "fond": "#F0EDE8", "texte": "#15181B", "voile": "#15181B", "ouverture": "#15181B", "menu": "#15181B", "theme": "#15181B" },
+  "formeVoile": "iris",
+  "contact": {
+    "telephone": "450-582-9413", "telephoneLien": "+14505829413",
+    "urgence": "514-805-6350", "urgenceLien": "+15148056350",
+    "telecopieur": "450-582-9105",
+    "email": "info@fxtechnologie.com",
+    "adresse": "267, rue de la Rivière, Sainte-Sophie (Québec) J5J 1B6",
+    "twitter": "https://twitter.com/fxtechnologie"
+  },
+  "polices": ["/assets/fonts/bsd-800.woff2", "/assets/fonts/plex-400.woff2"],
+  "imagePartage": "accueil-ouverture-1280.webp",
+  "curseur": false
+}

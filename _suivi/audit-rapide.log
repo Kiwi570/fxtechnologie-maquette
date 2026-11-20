@@ -1,0 +1,40 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 32 s
+… mesures
+  22/36
+  fait en 51 s
+… mesures:balayage
+  fait en 0 s
+… films
+  fait en 134 s
+… bords
+  fait en 55 s
+… parcours:intro
+  fait en 57 s
+… parcours:menu
+  fait en 4 s
+… parcours:liens
+  fait en 124 s
+… parcours:hauteur
+  fait en 40 s
+… parcours:projet
+  fait en 0 s
+… ecran
+  fait en 18 s
+… fluidite
+  fait en 183 s
+… mouvement
+  fait en 135 s
+… vitesse
+  fait en 17 s
+… captures
+  fait en 139 s
+… safari
+  fait en 0 s
+
+Échecs : 64 · À regarder : 44 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --rapide --seulement=fichiers,mesures,ecran,fluidite
+Rapport : /home/claude/fxtechnologie-maquette/_audit/rapport/rapport.md (passe 20261120-181155-rapide-cible)
+fin 1
