@@ -159,7 +159,7 @@ ${contenu}
 </main>
 ${pied(c)}
 ${barre(c)}
-<div class="engrenement" aria-hidden="true" data-audit-ignorer><svg class="eg-grande" viewBox="0 0 100 100"><path d="${brut(roue(100, 16, 48, 38, 12))}" fill-rule="evenodd"/></svg><svg class="eg-petite" viewBox="0 0 100 100"><path d="${brut(roue(100, 8, 46, 30, 14))}" fill-rule="evenodd"/></svg></div>
+<div class="engrenement" aria-hidden="true" data-audit-ignorer data-grille="fil"><svg class="eg-grande" viewBox="0 0 100 100"><path d="${brut(roue(100, 16, 48, 38, 12))}" fill-rule="evenodd"/></svg><svg class="eg-petite" viewBox="0 0 100 100"><path d="${brut(roue(100, 8, 46, 30, 14))}" fill-rule="evenodd"/></svg></div>
 </body>
 </html>`;
 }

@@ -37,9 +37,11 @@ export default (c) => {
 
 <section class="produits clair" id="produits">
   <div class="conteneur">
-    <div class="tete-section">
-      <p class="surtitre" data-anime>${c.t('accueil.produits.surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${c.t('accueil.produits.titre')}</h2>
+    <div class="tete-section tete-section--duo">
+      <div>
+        <p class="surtitre" data-anime>${c.t('accueil.produits.surtitre')}</p>
+        <h2 class="titre-section" data-anime="lignes">${c.t('accueil.produits.titre')}</h2>
+      </div>
       <p class="chapo" data-anime>${c.t('accueil.produits.texte')}</p>
     </div>
     <p class="produits-glisser" aria-hidden="true">${c.t('accueil.produits.glisser')}</p>
@@ -82,9 +84,12 @@ export default (c) => {
         <g transform="translate(0 12)"><g class="echelle-couronne"><path d="${brut(roue(472, 96, 204, 192, 160))}" fill-rule="evenodd"/></g></g>
         <g class="echelle-cote"><line x1="32" y1="472" x2="440" y2="472"/><line x1="32" y1="464" x2="32" y2="480"/><line x1="440" y1="464" x2="440" y2="480"/></g>
         <text class="echelle-texte" x="236" y="498" text-anchor="middle">320 po · 8,13 m</text>
-        <text class="echelle-texte echelle-face-texte" x="500" y="30">50,4 po</text>
-        <rect class="echelle-face-barre" x="500" y="44" width="110" height="408"/>
-        <g class="echelle-humain" transform="translate(634 364)"><circle cx="0" cy="8" r="7.5"/><path d="M-8 19h16l3 32h-5l-2 37h-4l-2-30-2 30h-4l-2-37h-5z"/></g>
+        <defs><pattern id="denture" width="12" height="9" patternUnits="userSpaceOnUse"><rect width="12" height="9" class="denture-fond"/><line x1="0" y1="8.5" x2="12" y2="8.5" class="denture-trait"/></pattern></defs>
+        <text class="echelle-texte echelle-profil-titre" x="496" y="30">${c.t('accueil.couronne.profil')}</text>
+        <rect class="echelle-face-barre" x="496" y="44" width="64" height="408" fill="url(#denture)"/>
+        <g class="echelle-face-cote"><line class="efc-l" x1="496" y1="472" x2="560" y2="472"/><line x1="496" y1="464" x2="496" y2="480"/><line class="efc-d" x1="560" y1="464" x2="560" y2="480"/></g>
+        <text class="echelle-texte echelle-face-texte" x="496" y="498">50,4 po</text>
+        <g class="echelle-humain" transform="translate(632 364)"><circle cx="0" cy="8" r="7.5"/><path d="M-8 19h16l3 32h-5l-2 37h-4l-2-30-2 30h-4l-2-37h-5z"/></g>
       </svg>
       <figcaption id="echelle-legende">${c.t('accueil.couronne.legende')}</figcaption>
     </figure>
@@ -120,7 +125,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="atelier" id="atelier" style="--fx-longueur: 220svh" data-fx="plein-ecran" data-fx-depart="inset(22% 28% 22% 28% round 16px)">
+<section class="atelier" id="atelier" style="--fx-longueur: 190svh" data-fx="plein-ecran" data-fx-depart="inset(22% 28% 22% 28% round 16px)">
   <div data-collant>
     ${c.media({ nom: 'grok/accueil-atelier', alt: c.s('accueil.atelier.alt'), classe: 'atelier-media', sizes: '100vw', attrs: 'data-fx-cible' })}
     <p class="atelier-mots" aria-hidden="true"><span data-fx-ecarte="g">${c.t('accueil.atelier.mot1')}</span><span data-fx-ecarte="d">${c.t('accueil.atelier.mot2')}</span></p>
@@ -185,9 +190,11 @@ export default (c) => {
 
 <section class="centres clair" id="centres" data-effet="carte-centres">
   <div class="conteneur">
-    <div class="tete-section">
-      <p class="surtitre" data-anime>${c.t('accueil.centres.surtitre')}</p>
-      <h2 class="titre-section" data-anime="lignes">${c.t('accueil.centres.titre')}</h2>
+    <div class="tete-section tete-section--duo">
+      <div>
+        <p class="surtitre" data-anime>${c.t('accueil.centres.surtitre')}</p>
+        <h2 class="titre-section" data-anime="lignes">${c.t('accueil.centres.titre')}</h2>
+      </div>
       <p class="chapo" data-anime>${c.t('accueil.centres.texte')}</p>
     </div>
     ${reseau(c)}
@@ -197,9 +204,12 @@ export default (c) => {
 <section class="appel sombre" id="appel">
   <canvas class="etincelles appel-etincelles" data-etincelles="appel" data-audit-ignorer aria-hidden="true"></canvas>
   <div class="conteneur appel-grille">
-    <div class="appel-roues" data-effet="roue-appel" data-visuel aria-hidden="true">
-      <svg class="appel-roue" viewBox="0 0 300 300"><path d="${brut(roue(300, 32, 146, 132, 40))}" fill-rule="evenodd"/></svg>
-      <svg class="appel-pignon" viewBox="0 0 150 150"><path d="${brut(roue(150, 16, 72, 58, 20))}" fill-rule="evenodd"/></svg>
+    <div class="appel-jeu">
+      <button type="button" class="appel-roues" data-effet="roue-appel" data-grille="manipuler retour" data-visuel aria-label="${c.s('accueil.appel.tourner')}">
+        <svg class="appel-roue" viewBox="0 0 300 300" aria-hidden="true"><path d="${brut(roue(300, 32, 146, 132, 40))}" fill-rule="evenodd"/></svg>
+        <svg class="appel-pignon" viewBox="0 0 150 150" aria-hidden="true"><path d="${brut(roue(150, 16, 72, 58, 20))}" fill-rule="evenodd"/></svg>
+      </button>
+      <p class="appel-indice" aria-hidden="true"><span class="indice-souris">${c.t('accueil.appel.indiceSouris')}</span><span class="indice-doigt">${c.t('accueil.appel.indiceDoigt')}</span></p>
     </div>
     <div>
       <h2 class="titre-section" data-anime="lignes">${c.t('accueil.appel.titre')}</h2>

@@ -18,7 +18,9 @@
     "hvof",
     "inspection",
     "cadran-urgence",
-    "dent-manquante"
+    "dent-manquante",
+    "simulateur-rapport",
+    "loupe-inspection"
   ],
   "grille": {
     "dispenses": {}

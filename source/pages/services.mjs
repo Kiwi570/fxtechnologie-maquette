@@ -43,7 +43,8 @@ export default (c) => {
         <p class="specs-ligne" data-anime><strong>${c.t('services.reparer.types')}&nbsp;:</strong> ${c.t('services.reparer.typesListe')}</p>
       </div>
     </div>
-    <ul class="services-cartes" data-anime="cascade">${F.reparer.services.map(carte)}</ul>
+    <p class="services-glisser" aria-hidden="true">${c.t('accueil.produits.glisser')}</p>
+    <div class="services-cartes-defile" tabindex="0" role="region" aria-label="${F.reparer.famille}"><ul class="services-cartes" data-anime="cascade">${F.reparer.services.map(carte)}</ul></div>
   </div>
 </section>
 
@@ -59,7 +60,8 @@ export default (c) => {
       </div>
       <p class="chapo" data-anime>${c.t('services.usiner.texte')}</p>
     </div>
-    <ul class="services-cartes services-cartes--trois" data-anime="cascade">${F.usiner.services.map(carte)}</ul>
+    <p class="services-glisser" aria-hidden="true">${c.t('accueil.produits.glisser')}</p>
+    <div class="services-cartes-defile" tabindex="0" role="region" aria-label="${F.usiner.famille}"><ul class="services-cartes services-cartes--trois" data-anime="cascade">${F.usiner.services.map(carte)}</ul></div>
   </div>
 </section>
 
@@ -70,6 +72,20 @@ export default (c) => {
         ${c.media({ nom: 'grok/services-hvof', alt: c.s('services.hvof.alt'), classe: 'hvof-media', sizes: '(max-width: 860px) 100vw, 50vw' })}
         <canvas class="hvof-particules" data-audit-ignorer aria-hidden="true"></canvas>
       </div>
+      <figure class="hvof-schema" data-etape="0" data-visuel>
+        <svg viewBox="0 0 600 200" role="img" aria-label="${c.s('services.hvof.schema')}">
+          <g class="hs-gaz"><path d="M8 62 H58" class="hs-fleche"/><path d="M8 138 H58" class="hs-fleche"/></g>
+          <rect class="hs-chambre" x="60" y="52" width="120" height="96" rx="8"/>
+          <path class="hs-flamme" d="M78 100 C 100 70, 140 82, 172 100 C 140 118, 100 130, 78 100 Z"/>
+          <path class="hs-buse" d="M180 58 L 250 88 L 352 90 L 352 110 L 250 112 L 180 142 Z"/>
+          <g class="hs-poudre"><path d="M248 18 L 278 18 L 268 44 L 258 44 Z"/><path d="M263 44 V 88" class="hs-fleche"/></g>
+          <path class="hs-jet" d="M352 100 H 486"/>
+          <circle class="hs-arbre" cx="540" cy="100" r="48"/>
+          <path class="hs-depot" d="M 494 74 A 54 54 0 0 0 494 126"/>
+          <g class="hs-num">${[[120, 36], [216, 36], [318, 36], [516, 36]].map(([x, y], i) => html`<circle cx="${x}" cy="${y - 7}" r="15"/><text x="${x}" y="${y}" text-anchor="middle">${brut(String(i + 1))}</text>`)}</g>
+        </svg>
+        <figcaption>${c.t('services.hvof.schemaNote')}</figcaption>
+      </figure>
     </div>
     <div class="hvof-texte">
       <p class="surtitre" data-anime>03 · ${F.surfaces.famille}</p>

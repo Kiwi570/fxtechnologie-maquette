@@ -20,9 +20,11 @@ export default (c) => {
         <a class="hero-urgence" href="tel:${contact.urgenceLien}" data-info-cle><span class="pastille" aria-hidden="true"></span>${c.t('commun.urgence')} · <strong>${contact.urgence}</strong></a>
       </div>
     </div>
-    <div class="inspection-visuel" data-iris-centre>
+    <div class="inspection-visuel" data-iris-centre data-effet="loupe-inspection" data-souris>
       ${c.media({ nom: 'expertise-ouverture', alt: c.s('expertise.tete.alt'), priorite: true, classe: 'inspection-media', ratio: '4 / 3', sizes: '(max-width: 860px) 100vw, 55vw' })}
-      <svg class="inspection-anneau" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46"/></svg>
+      <svg class="inspection-anneau" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46"/><circle class="anneau-pointille" cx="50" cy="50" r="49.5"/></svg>
+      <span class="loupe" aria-hidden="true" data-audit-ignorer></span>
+      <p class="loupe-indice" aria-hidden="true"><span class="indice-souris">${c.t('expertise.tete.loupeSouris')}</span><span class="indice-doigt">${c.t('expertise.tete.loupeDoigt')}</span></p>
     </div>
   </div>
 </section>

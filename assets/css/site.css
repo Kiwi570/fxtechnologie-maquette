@@ -122,7 +122,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-ligne { transform: tran
 .chiffres-liste li { padding: 8px clamp(14px, 2vw, 28px) 8px 0; border-left: 1px solid var(--ligne); padding-left: clamp(14px, 2vw, 28px); display: grid; gap: 6px; align-content: start; }
 .chiffres-liste li:first-child { border-left: 0; padding-left: 0; }
 .chiffre { font-family: var(--police-titres); font-size: clamp(3rem, 2rem + 4vw, 6rem); line-height: 1; color: var(--sur-sombre); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.chiffres-liste li span:last-child { color: var(--sur-sombre-doux); font-size: .98rem; max-width: 18em; }
+.chiffres-liste li > span:last-child { color: var(--sur-sombre-doux); font-size: .98rem; max-width: 18em; }
 .chiffres-norme { margin-top: 32px; font-family: var(--police-mono); font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; }
 @media (max-width: 900px) { .chiffres-liste { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 28px; } .chiffres-liste li:nth-child(3) { border-left: 0; padding-left: 0; } }
 
@@ -164,7 +164,11 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-ligne { transform: tran
 .echelle-cote line { stroke: var(--braise); stroke-width: 1.5; }
 .echelle-texte { font-family: var(--police-mono); font-size: 24px; fill: var(--sur-sombre); }
 .echelle-humain { fill: var(--sur-sombre); }
-.echelle-face-barre { fill: var(--graphite-3); stroke: var(--braise); stroke-width: 1.5; vector-effect: non-scaling-stroke; transform-box: fill-box; transform-origin: 0 50%; transition: transform .7s var(--courbe); }
+.echelle-face-barre { stroke: var(--braise); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.denture-fond { fill: var(--graphite-3); }
+.denture-trait { stroke: rgba(232, 100, 27, .55); stroke-width: 1; }
+.echelle-face-cote line { stroke: var(--braise); stroke-width: 1.5; }
+.echelle-profil-titre { fill: var(--sur-sombre-doux); font-size: 20px; letter-spacing: .1em; text-transform: uppercase; }
 .echelle figcaption { font-size: .9rem; color: var(--sur-sombre-doux); margin-top: 10px; }
 @media (max-width: 860px) { .couronne-grille { grid-template-columns: minmax(0, 1fr); } .echelle { order: -1; } }
 
@@ -177,7 +181,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-ligne { transform: tran
 .index-ligne { border-bottom: 1px solid var(--ligne); position: relative; }
 .index-ligne::before { content: ''; position: absolute; left: 0; bottom: -1px; height: 2px; width: 100%; background: var(--braise); transform: scaleX(0); transform-origin: 0 50%; transition: transform .6s var(--courbe); }
 .index-ligne.actif::before { transform: none; }
-.index-ligne a { display: grid; grid-template-columns: 3.2em minmax(0, 1fr); column-gap: 12px; padding: 14px 0; text-decoration: none; color: inherit; min-height: 44px; }
+.index-ligne a { display: grid; grid-template-columns: 3.2em minmax(0, 1fr); column-gap: 12px; padding: 10px 0; text-decoration: none; color: inherit; min-height: 44px; }
 .index-num { font-family: var(--police-mono); font-size: .85rem; color: #6A6560; padding-top: .5em; transition: color .3s; }
 .index-titre { font-family: var(--police-titres); font-weight: 800; text-transform: uppercase; font-size: clamp(1.5rem, 1.1rem + 1.1vw, 2.3rem); line-height: 1.02; transition: color .3s, transform .5s var(--courbe); }
 .index-texte { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
@@ -220,7 +224,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .hero-ligne { transform: tran
 
 /* Méthode : une roue épinglée tourne d'une dent par étape. */
 .methode { position: relative; }
-html.js:not(.secours) .methode { height: calc(var(--etapes) * 50svh + 100svh); }
+html.js:not(.secours) .methode { height: calc(var(--etapes) * 38svh + 100svh); }
 .methode-cadre { min-height: 100svh; display: flex; align-items: center; padding: calc(var(--entete-h) + 24px) 0 32px; }
 html.js:not(.secours) .methode-cadre { position: sticky; top: 0; height: 100svh; overflow: hidden; }
 .methode-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); align-items: center; }
@@ -433,8 +437,9 @@ html.entete-cache .sommaire-produits { top: 0; }
 
 /* HVOF : photo collante et particules, étapes qui s'allument. */
 .hvof-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
-.hvof-visuel { position: sticky; top: calc(var(--entete-h) + 72px); }
-.hvof-cadre { position: relative; border-radius: var(--rayon); overflow: hidden; aspect-ratio: 4 / 5; max-height: calc(100svh - var(--entete-h) - 110px); width: 100%; }
+.hvof-visuel { position: sticky; top: calc(var(--entete-h) + 64px); align-self: start; display: grid; gap: 12px; }
+.hvof-grille { align-items: start; }
+.hvof-cadre { position: relative; border-radius: var(--rayon); overflow: hidden; aspect-ratio: 16 / 11; max-height: calc(100svh - var(--entete-h) - 330px); min-height: 220px; width: 100%; }
 .hvof-media { position: absolute; inset: 0; border-radius: 0; }
 .hvof-media img { object-position: 70% 50%; }
 .hvof-particules { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; }
@@ -449,8 +454,10 @@ html.entete-cache .sommaire-produits { top: 0; }
 :is(html.secours, html:not(.js)) .hvof-etape { min-height: 0; }
 @media (max-width: 860px) {
   .hvof-grille { grid-template-columns: minmax(0, 1fr); }
-  .hvof-visuel { top: calc(var(--entete-h) + 8px); z-index: 2; }
-  .hvof-cadre { aspect-ratio: 16 / 9; max-height: 30svh; }
+  .hvof-visuel { display: contents; }
+  .hvof-cadre { aspect-ratio: 16 / 10; max-height: none; order: 1; }
+  .hvof-texte { order: 3; }
+  .hvof-schema { order: 2; position: sticky; top: calc(var(--entete-h) + 6px); z-index: 4; }
   .hvof-etape { min-height: 0; padding: 18px 0; }
 }
 
@@ -501,7 +508,7 @@ html.entete-cache .sommaire-produits { top: 0; }
 .secteurs-tableau svg { width: 26px; height: 26px; fill: rgba(236, 232, 225, .3); transition: fill .3s, transform .6s var(--courbe); }
 .secteurs-tableau li:hover svg { fill: var(--braise); transform: rotate(90deg); }
 @media (max-width: 1000px) { .secteurs-tableau { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 480px) { .secteurs-tableau { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 480px) { .secteurs-tableau li { grid-template-columns: 2em minmax(0, 1fr); padding-right: 8px; font-size: .95rem; } .secteurs-tableau svg { display: none; } }
 
 /* Contact : cadran d'urgence et soumission en étapes. */
 .tete-contact { padding: calc(var(--entete-h) + clamp(28px, 5vw, 64px)) 0 clamp(40px, 6vw, 80px); }
@@ -622,3 +629,91 @@ html.js:not(.secours) .methode-detail { display: block; margin: 14px 0 0; height
   .cadran strong { font-size: 1.6rem; }
   .tete-contact { padding-top: calc(var(--entete-h) + 12px); padding-bottom: 20px; }
 }
+
+/* ═══ v2 ═══ */
+/* En-têtes de section sur deux colonnes : titre à gauche, chapô en face, sans grand vide à droite. */
+.tete-section--duo { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(20px, 5vw, 80px); align-items: end; }
+.tete-section--duo .chapo { margin-bottom: .5em; }
+@media (max-width: 860px) { .tete-section--duo { grid-template-columns: minmax(0, 1fr); gap: 0; } }
+
+/* Roues de l'appel : on les attrape et on les lance. */
+.appel-jeu { display: grid; justify-items: center; gap: 10px; }
+.appel-roues { border: 0; padding: 0; background: none; cursor: grab; touch-action: none; border-radius: 50%; color: inherit; }
+.appel-roues:active { cursor: grabbing; }
+.appel-roue path, .appel-pignon path { transform-box: view-box; transform-origin: 50% 50%; }
+.appel-indice { margin: 0; font-family: var(--police-mono); font-size: .85rem; color: var(--braise) !important; letter-spacing: .04em; }
+.indice-doigt { display: none; }
+@media (hover: none) { .indice-souris { display: none; } .indice-doigt { display: inline; } }
+
+/* Simulateur de rapport. */
+.rapport { padding: clamp(72px, 9vw, 130px) 0; }
+.rapport-grille { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+.rapport-reglages { display: grid; gap: 14px; margin: 22px 0 18px; }
+.reglage { display: grid; grid-template-columns: minmax(0, 1fr) 3.2em; grid-template-areas: "l o" "i i"; gap: 4px 10px; align-items: center; }
+.reglage label { grid-area: l; font-weight: 600; color: var(--sur-sombre); }
+.reglage output { grid-area: o; justify-self: end; font-family: var(--police-mono); font-size: 1.1rem; color: var(--braise); font-variant-numeric: tabular-nums; }
+.reglage input[type="range"] { grid-area: i; width: 100%; min-height: 44px; accent-color: var(--braise); background: transparent; }
+.reglage--nombre { grid-template-areas: "l i"; grid-template-columns: minmax(0, 1fr) 8em; }
+.reglage--nombre input { grid-area: i; min-height: 48px; padding: 8px 12px; border-radius: var(--rayon); border: 1.5px solid rgba(236, 232, 225, .3); background: var(--graphite-2); color: var(--sur-sombre); font-family: var(--police-mono); width: 100%; }
+.rapport-resultats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin: 0 0 12px; border-top: 1px solid var(--ligne); }
+.rapport-resultats > div { padding: 14px 12px 6px 0; }
+.rapport-resultats > div + div { border-left: 1px solid var(--ligne); padding-left: 14px; }
+.rapport-resultats dt { font-family: var(--police-mono); font-size: .82rem; letter-spacing: .1em; text-transform: uppercase; color: var(--sur-sombre-doux); }
+.rapport-resultats dd { margin: 4px 0 0; color: var(--sur-sombre-doux); white-space: nowrap; }
+.rapport-valeur { font-family: var(--police-titres); font-weight: 800; font-size: clamp(1.8rem, 1.2rem + 2vw, 3rem); color: var(--sur-sombre); font-variant-numeric: tabular-nums; display: inline-block; min-width: 3.2ch; }
+.rapport-visuel { margin: 0; }
+.rapport-svg { width: 100%; height: auto; overflow: visible; }
+.rapport-roue path { fill: var(--graphite-3); stroke: var(--braise); stroke-width: 1.4; }
+.rapport-pignon path { fill: var(--braise); }
+.rapport-axe { fill: var(--sur-sombre); }
+.rapport-legende { text-align: center; font-family: var(--police-mono); font-size: .9rem; color: var(--sur-sombre-doux); margin-top: 8px; }
+@media (max-width: 860px) {
+  .rapport-grille { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .rapport-texte { display: contents; }
+  .rapport-texte > * { order: 5; }
+  .rapport-texte > :nth-child(-n+3) { order: 1; }
+  .rapport-visuel { order: 3; margin: 8px 0 0; }
+}
+@media (max-width: 480px) { .rapport-resultats { grid-template-columns: minmax(0, 1fr); } .rapport-resultats > div + div { border-left: 0; padding-left: 0; border-top: 1px solid var(--ligne); } }
+
+/* Loupe d'inspection. */
+.inspection-visuel { cursor: zoom-in; }
+.loupe { position: absolute; left: 0; top: 0; width: 160px; height: 160px; border-radius: 50%; pointer-events: none; z-index: 5; opacity: 0; transition: opacity .25s; background-repeat: no-repeat; box-shadow: 0 0 0 3px var(--braise), 0 12px 40px rgba(0, 0, 0, .5); }
+.inspection-visuel.loupe-active .loupe { opacity: 1; }
+.loupe-indice { position: absolute; left: 12px; bottom: 12px; margin: 0; z-index: 4; padding: 6px 10px; border-radius: 2px; background: rgba(21, 24, 27, .85); color: var(--sur-sombre) !important; font-family: var(--police-mono); font-size: .82rem; pointer-events: none; }
+.inspection-visuel.loupe-active .loupe-indice { opacity: 0; transition: opacity .3s; }
+.anneau-pointille { stroke-dasharray: 3 7; opacity: .6; stroke-width: 1.5 !important; }
+.inspection-anneau circle:first-child { stroke-width: 4; }
+
+/* Schéma HVOF : chaque étape allume sa partie. */
+.hvof-schema { margin: 0; background: var(--graphite); border-radius: var(--rayon); padding: 12px 14px 8px; color: var(--sur-sombre); }
+.hvof-schema svg { width: 100%; height: auto; display: block; }
+.hvof-schema figcaption { font-family: var(--police-mono); font-size: .82rem; color: var(--sur-sombre-doux); margin-top: 4px; }
+.hs-chambre, .hs-buse, .hs-poudre path:first-child { fill: var(--graphite-3); stroke: rgba(236, 232, 225, .35); stroke-width: 2; transition: stroke .4s, fill .4s; }
+.hs-fleche { fill: none; stroke: rgba(236, 232, 225, .35); stroke-width: 3; stroke-linecap: round; transition: stroke .4s; }
+.hs-flamme { fill: var(--braise); opacity: .15; transform-box: fill-box; transform-origin: 0 50%; transition: opacity .4s, transform .6s var(--courbe); transform: scaleX(.6); }
+.hs-jet { fill: none; stroke: #FFB077; stroke-width: 5; stroke-linecap: round; stroke-dasharray: 2 14; opacity: .15; transition: opacity .4s; }
+.hs-arbre { fill: #3A4047; stroke: rgba(236, 232, 225, .35); stroke-width: 2; }
+.hs-depot { fill: none; stroke: var(--braise); stroke-width: 2; opacity: .2; transition: stroke-width .8s var(--courbe), opacity .4s; }
+.hs-num circle { fill: var(--graphite-2); stroke: rgba(236, 232, 225, .3); stroke-width: 2; transition: fill .3s, stroke .3s; }
+.hs-num text { font-family: var(--police-mono); font-size: 20px; fill: var(--sur-sombre); }
+.hvof-schema[data-etape="1"] :is(.hs-chambre, .hs-gaz .hs-fleche) { stroke: var(--braise); }
+.hvof-schema:is([data-etape="1"], [data-etape="2"], [data-etape="3"], [data-etape="4"]) .hs-flamme { opacity: .95; transform: none; }
+.hvof-schema[data-etape="2"] .hs-buse { stroke: var(--braise); }
+.hvof-schema:is([data-etape="2"], [data-etape="3"], [data-etape="4"]) .hs-jet { opacity: 1; }
+.hvof-schema[data-etape="3"] :is(.hs-poudre path) { stroke: var(--braise); }
+.hvof-schema[data-etape="4"] .hs-depot { opacity: 1; stroke-width: 12; }
+.hvof-schema[data-etape="1"] .hs-num circle:nth-of-type(1), .hvof-schema[data-etape="2"] .hs-num circle:nth-of-type(2), .hvof-schema[data-etape="3"] .hs-num circle:nth-of-type(3), .hvof-schema[data-etape="4"] .hs-num circle:nth-of-type(4) { fill: var(--braise); stroke: var(--braise); }
+.hvof-schema[data-etape="1"] .hs-num text:nth-of-type(1), .hvof-schema[data-etape="2"] .hs-num text:nth-of-type(2), .hvof-schema[data-etape="3"] .hs-num text:nth-of-type(3), .hvof-schema[data-etape="4"] .hs-num text:nth-of-type(4) { fill: var(--graphite); }
+:is(html.secours, html:not(.js)) .hvof-schema :is(.hs-flamme, .hs-jet, .hs-depot) { opacity: 1; transform: none; }
+
+/* Cartes de services : sur téléphone, une rangée qu'on fait glisser (page plus courte). */
+@media (max-width: 560px) {
+  .services-cartes-defile { overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: calc(-1 * var(--gouttiere)); padding: 0 var(--gouttiere) 12px; scrollbar-width: none; }
+  .services-cartes-defile .services-cartes { display: flex; gap: 14px; width: max-content; }
+  .services-cartes-defile .service-carte { flex: 0 0 76vw; width: 76vw; scroll-snap-align: start; }
+}
+.services-glisser { display: none; }
+@media (max-width: 560px) { .services-glisser { display: block; font-family: var(--police-mono); font-size: .82rem; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 10px; color: var(--braise-texte); } .sombre .services-glisser { color: var(--braise); } }
+/* La scène HVOF ne doit pas être un conteneur de défilement (sinon la colonne collante ne colle plus). */
+.famille.hvof { overflow: visible; overflow-x: clip; }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/bsd-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/plex-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#15181B">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -126,7 +126,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
 </section>
 <nav class="sommaire-produits" aria-label="Sur cette page" data-sommaire>
-  <ul class="conteneur"><li><a href="#engrenages" data-sans-transition><span>01</span>Engrenages</a></li><li><a href="#grande-couronne" data-sans-transition><span>02</span>Grande couronne</a></li><li><a href="#sechage" data-sans-transition><span>03</span>Engrenage de sécherie</a></li><li><a href="#reducteur" data-sans-transition><span>04</span>Réducteur sur mesure</a></li></ul>
+  <ul class="conteneur"><li><a href="#engrenages" data-sans-transition><span>01</span>Engrenages</a></li><li><a href="#grande-couronne" data-sans-transition><span>02</span>Grande couronne</a></li><li><a href="#sechage" data-sans-transition><span>03</span>Engrenage de sécherie</a></li><li><a href="#reducteur" data-sans-transition><span>04</span>Réducteur sur mesure</a></li><li><a href="#rapport" data-sans-transition><span>05</span>Simulateur</a></li></ul>
 </nav>
 <section class="fiche clair" id="engrenages">
   <div class="conteneur fiche-grille">
@@ -265,6 +265,35 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </div>
 </section>
+<section class="rapport sombre" id="rapport" data-effet="simulateur-rapport">
+  <div class="conteneur rapport-grille">
+    <div class="rapport-texte">
+      <p class="surtitre" data-anime>Simulateur</p>
+      <h2 class="titre-section" data-anime="lignes">Essayez un rapport de réduction</h2>
+      <p class="chapo" data-anime>Nous modifions le rapport des réducteurs existants. Faites varier le nombre de dents du pignon et de la roue : les engrenages tournent à leur vraie proportion de vitesse.</p>
+      <form class="rapport-reglages" data-rapport action="#" onsubmit="return false">
+        <div class="reglage"><label for="r-z1">Dents du pignon</label><input id="r-z1" type="range" min="8" max="40" step="1" value="17" data-z1><output for="r-z1" data-z1-val>17</output></div>
+        <div class="reglage"><label for="r-z2">Dents de la roue</label><input id="r-z2" type="range" min="20" max="120" step="1" value="71" data-z2><output for="r-z2" data-z2-val>71</output></div>
+        <div class="reglage reglage--nombre"><label for="r-n">Vitesse d&#39;entrée (tr/min)</label><input id="r-n" type="number" min="100" max="3600" step="50" value="1750" inputmode="numeric" data-n></div>
+      </form>
+      <dl class="rapport-resultats" aria-live="polite">
+        <div><dt>Rapport</dt><dd><span class="rapport-valeur" data-i>1 : 4,2</span></dd></div>
+        <div><dt>Vitesse de sortie</dt><dd><span class="rapport-valeur" data-n2>419</span> tr/min</dd></div>
+        <div><dt>Couple multiplié par</dt><dd><span class="rapport-valeur" data-c>4,2</span></dd></div>
+      </dl>
+      <p class="note">Calcul théorique sur un seul étage, sans pertes, à titre illustratif. Un vrai réducteur se calcule étage par étage avec son rendement.</p>
+      <p><a href="/contact?besoin=fabrication&amp;piece=reducteur&amp;rapport=4,2#soumission" class="bouton" data-libelle="Contact" data-rapport-lien data-survol="magnetique">Demander une soumission pour ce rapport</a></p>
+    </div>
+    <figure class="rapport-visuel" data-visuel>
+      <svg viewBox="0 0 600 440" class="rapport-svg" role="img" aria-label="Pignon et roue qui s&#39;engrènent, à la proportion choisie">
+        <g class="rapport-roue"><path d="" fill-rule="evenodd"/></g>
+        <g class="rapport-pignon"><path d="" fill-rule="evenodd"/></g>
+        <circle class="rapport-axe rapport-axe-1" r="5"/><circle class="rapport-axe rapport-axe-2" r="5"/>
+      </svg>
+      <figcaption class="rapport-legende"><span data-leg-z1>17</span> dents au pignon · <span data-leg-z2>71</span> dents à la roue</figcaption>
+    </figure>
+  </div>
+</section>
 <section class="appel appel--court sombre" id="appel">
   <div class="conteneur appel-ligne">
     <svg class="appel-roue-court" viewBox="0 0 200 200" data-roue-defilement data-effet="roue-appel" aria-hidden="true"><path d="M184.00 100.00 A84.00 84.00 0 0 1 183.88 104.40 L195.66 108.03 A96.00 96.00 0 0 1 194.90 114.52 L182.59 115.31 A84.00 84.00 0 0 1 181.14 121.74 A84.00 84.00 0 0 1 179.89 125.96 L190.32 132.52 A96.00 96.00 0 0 1 187.90 138.59 L175.82 136.16 A84.00 84.00 0 0 1 172.75 142.00 A84.00 84.00 0 0 1 170.45 145.75 L178.83 154.79 A96.00 96.00 0 0 1 174.92 160.02 L163.87 154.55 A84.00 84.00 0 0 1 159.40 159.40 A84.00 84.00 0 0 1 156.21 162.42 L161.96 173.32 A96.00 96.00 0 0 1 156.83 177.37 L147.58 169.23 A84.00 84.00 0 0 1 142.00 172.75 A84.00 84.00 0 0 1 138.14 174.84 L140.87 186.86 A96.00 96.00 0 0 1 134.87 189.44 L128.04 179.18 A84.00 84.00 0 0 1 121.74 181.14 A84.00 84.00 0 0 1 117.46 182.16 L117.00 194.48 A96.00 96.00 0 0 1 110.53 195.42 L106.59 183.74 A84.00 84.00 0 0 1 100.00 184.00 A84.00 84.00 0 0 1 95.60 183.88 L91.97 195.66 A96.00 96.00 0 0 1 85.48 194.90 L84.69 182.59 A84.00 84.00 0 0 1 78.26 181.14 A84.00 84.00 0 0 1 74.04 179.89 L67.48 190.32 A96.00 96.00 0 0 1 61.41 187.90 L63.84 175.82 A84.00 84.00 0 0 1 58.00 172.75 A84.00 84.00 0 0 1 54.25 170.45 L45.21 178.83 A96.00 96.00 0 0 1 39.98 174.92 L45.45 163.87 A84.00 84.00 0 0 1 40.60 159.40 A84.00 84.00 0 0 1 37.58 156.21 L26.68 161.96 A96.00 96.00 0 0 1 22.63 156.83 L30.77 147.58 A84.00 84.00 0 0 1 27.25 142.00 A84.00 84.00 0 0 1 25.16 138.14 L13.14 140.87 A96.00 96.00 0 0 1 10.56 134.87 L20.82 128.04 A84.00 84.00 0 0 1 18.86 121.74 A84.00 84.00 0 0 1 17.84 117.46 L5.52 117.00 A96.00 96.00 0 0 1 4.58 110.53 L16.26 106.59 A84.00 84.00 0 0 1 16.00 100.00 A84.00 84.00 0 0 1 16.12 95.60 L4.34 91.97 A96.00 96.00 0 0 1 5.10 85.48 L17.41 84.69 A84.00 84.00 0 0 1 18.86 78.26 A84.00 84.00 0 0 1 20.11 74.04 L9.68 67.48 A96.00 96.00 0 0 1 12.10 61.41 L24.18 63.84 A84.00 84.00 0 0 1 27.25 58.00 A84.00 84.00 0 0 1 29.55 54.25 L21.17 45.21 A96.00 96.00 0 0 1 25.08 39.98 L36.13 45.45 A84.00 84.00 0 0 1 40.60 40.60 A84.00 84.00 0 0 1 43.79 37.58 L38.04 26.68 A96.00 96.00 0 0 1 43.17 22.63 L52.42 30.77 A84.00 84.00 0 0 1 58.00 27.25 A84.00 84.00 0 0 1 61.86 25.16 L59.13 13.14 A96.00 96.00 0 0 1 65.13 10.56 L71.96 20.82 A84.00 84.00 0 0 1 78.26 18.86 A84.00 84.00 0 0 1 82.54 17.84 L83.00 5.52 A96.00 96.00 0 0 1 89.47 4.58 L93.41 16.26 A84.00 84.00 0 0 1 100.00 16.00 A84.00 84.00 0 0 1 104.40 16.12 L108.03 4.34 A96.00 96.00 0 0 1 114.52 5.10 L115.31 17.41 A84.00 84.00 0 0 1 121.74 18.86 A84.00 84.00 0 0 1 125.96 20.11 L132.52 9.68 A96.00 96.00 0 0 1 138.59 12.10 L136.16 24.18 A84.00 84.00 0 0 1 142.00 27.25 A84.00 84.00 0 0 1 145.75 29.55 L154.79 21.17 A96.00 96.00 0 0 1 160.02 25.08 L154.55 36.13 A84.00 84.00 0 0 1 159.40 40.60 A84.00 84.00 0 0 1 162.42 43.79 L173.32 38.04 A96.00 96.00 0 0 1 177.37 43.17 L169.23 52.42 A84.00 84.00 0 0 1 172.75 58.00 A84.00 84.00 0 0 1 174.84 61.86 L186.86 59.13 A96.00 96.00 0 0 1 189.44 65.13 L179.18 71.96 A84.00 84.00 0 0 1 181.14 78.26 A84.00 84.00 0 0 1 182.16 82.54 L194.48 83.00 A96.00 96.00 0 0 1 195.42 89.47 L183.74 93.41 A84.00 84.00 0 0 1 184.00 100.00Z M130.00 100.00 A30.00 30.00 0 1 0 70.00 100.00 A30.00 30.00 0 1 0 130.00 100.00Z" fill-rule="evenodd"/></svg>
@@ -305,6 +334,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <a class="bouton bouton--contour" href="tel:+15148056350">Urgence 24 h</a>
   <a class="bouton" href="/contact#soumission" data-libelle="Contact">Demander une soumission</a>
 </div>
-<div class="engrenement" aria-hidden="true" data-audit-ignorer><svg class="eg-grande" viewBox="0 0 100 100"><path d="M88.00 50.00 A38.00 38.00 0 0 1 87.88 52.98 L97.62 56.02 A48.00 48.00 0 0 1 96.76 60.84 L86.57 60.31 A38.00 38.00 0 0 1 85.11 64.54 A38.00 38.00 0 0 1 83.86 67.25 L91.69 73.78 A48.00 48.00 0 0 1 89.05 77.91 L79.84 73.53 A38.00 38.00 0 0 1 76.87 76.87 A38.00 38.00 0 0 1 74.68 78.90 L79.42 87.93 A48.00 48.00 0 0 1 75.40 90.73 L68.57 83.15 A38.00 38.00 0 0 1 64.54 85.11 A38.00 38.00 0 0 1 61.74 86.14 L62.67 96.30 A48.00 48.00 0 0 1 57.88 97.35 L54.47 87.74 A38.00 38.00 0 0 1 50.00 88.00 A38.00 38.00 0 0 1 47.02 87.88 L43.98 97.62 A48.00 48.00 0 0 1 39.16 96.76 L39.69 86.57 A38.00 38.00 0 0 1 35.46 85.11 A38.00 38.00 0 0 1 32.75 83.86 L26.22 91.69 A48.00 48.00 0 0 1 22.09 89.05 L26.47 79.84 A38.00 38.00 0 0 1 23.13 76.87 A38.00 38.00 0 0 1 21.10 74.68 L12.07 79.42 A48.00 48.00 0 0 1 9.27 75.40 L16.85 68.57 A38.00 38.00 0 0 1 14.89 64.54 A38.00 38.00 0 0 1 13.86 61.74 L3.70 62.67 A48.00 48.00 0 0 1 2.65 57.88 L12.26 54.47 A38.00 38.00 0 0 1 12.00 50.00 A38.00 38.00 0 0 1 12.12 47.02 L2.38 43.98 A48.00 48.00 0 0 1 3.24 39.16 L13.43 39.69 A38.00 38.00 0 0 1 14.89 35.46 A38.00 38.00 0 0 1 16.14 32.75 L8.31 26.22 A48.00 48.00 0 0 1 10.95 22.09 L20.16 26.47 A38.00 38.00 0 0 1 23.13 23.13 A38.00 38.00 0 0 1 25.32 21.10 L20.58 12.07 A48.00 48.00 0 0 1 24.60 9.27 L31.43 16.85 A38.00 38.00 0 0 1 35.46 14.89 A38.00 38.00 0 0 1 38.26 13.86 L37.33 3.70 A48.00 48.00 0 0 1 42.12 2.65 L45.53 12.26 A38.00 38.00 0 0 1 50.00 12.00 A38.00 38.00 0 0 1 52.98 12.12 L56.02 2.38 A48.00 48.00 0 0 1 60.84 3.24 L60.31 13.43 A38.00 38.00 0 0 1 64.54 14.89 A38.00 38.00 0 0 1 67.25 16.14 L73.78 8.31 A48.00 48.00 0 0 1 77.91 10.95 L73.53 20.16 A38.00 38.00 0 0 1 76.87 23.13 A38.00 38.00 0 0 1 78.90 25.32 L87.93 20.58 A48.00 48.00 0 0 1 90.73 24.60 L83.15 31.43 A38.00 38.00 0 0 1 85.11 35.46 A38.00 38.00 0 0 1 86.14 38.26 L96.30 37.33 A48.00 48.00 0 0 1 97.35 42.12 L87.74 45.53 A38.00 38.00 0 0 1 88.00 50.00Z M62.00 50.00 A12.00 12.00 0 1 0 38.00 50.00 A12.00 12.00 0 1 0 62.00 50.00Z" fill-rule="evenodd"/></svg><svg class="eg-petite" viewBox="0 0 100 100"><path d="M80.00 50.00 A30.00 30.00 0 0 1 79.63 54.69 L94.55 61.44 A46.00 46.00 0 0 1 91.31 70.24 L75.58 65.67 A30.00 30.00 0 0 1 71.21 71.21 A30.00 30.00 0 0 1 67.63 74.27 L73.42 89.59 A46.00 46.00 0 0 1 64.90 93.52 L57.00 79.17 A30.00 30.00 0 0 1 50.00 80.00 A30.00 30.00 0 0 1 45.31 79.63 L38.56 94.55 A46.00 46.00 0 0 1 29.76 91.31 L34.33 75.58 A30.00 30.00 0 0 1 28.79 71.21 A30.00 30.00 0 0 1 25.73 67.63 L10.41 73.42 A46.00 46.00 0 0 1 6.48 64.90 L20.83 57.00 A30.00 30.00 0 0 1 20.00 50.00 A30.00 30.00 0 0 1 20.37 45.31 L5.45 38.56 A46.00 46.00 0 0 1 8.69 29.76 L24.42 34.33 A30.00 30.00 0 0 1 28.79 28.79 A30.00 30.00 0 0 1 32.37 25.73 L26.58 10.41 A46.00 46.00 0 0 1 35.10 6.48 L43.00 20.83 A30.00 30.00 0 0 1 50.00 20.00 A30.00 30.00 0 0 1 54.69 20.37 L61.44 5.45 A46.00 46.00 0 0 1 70.24 8.69 L65.67 24.42 A30.00 30.00 0 0 1 71.21 28.79 A30.00 30.00 0 0 1 74.27 32.37 L89.59 26.58 A46.00 46.00 0 0 1 93.52 35.10 L79.17 43.00 A30.00 30.00 0 0 1 80.00 50.00Z M64.00 50.00 A14.00 14.00 0 1 0 36.00 50.00 A14.00 14.00 0 1 0 64.00 50.00Z" fill-rule="evenodd"/></svg></div>
+<div class="engrenement" aria-hidden="true" data-audit-ignorer data-grille="fil"><svg class="eg-grande" viewBox="0 0 100 100"><path d="M88.00 50.00 A38.00 38.00 0 0 1 87.88 52.98 L97.62 56.02 A48.00 48.00 0 0 1 96.76 60.84 L86.57 60.31 A38.00 38.00 0 0 1 85.11 64.54 A38.00 38.00 0 0 1 83.86 67.25 L91.69 73.78 A48.00 48.00 0 0 1 89.05 77.91 L79.84 73.53 A38.00 38.00 0 0 1 76.87 76.87 A38.00 38.00 0 0 1 74.68 78.90 L79.42 87.93 A48.00 48.00 0 0 1 75.40 90.73 L68.57 83.15 A38.00 38.00 0 0 1 64.54 85.11 A38.00 38.00 0 0 1 61.74 86.14 L62.67 96.30 A48.00 48.00 0 0 1 57.88 97.35 L54.47 87.74 A38.00 38.00 0 0 1 50.00 88.00 A38.00 38.00 0 0 1 47.02 87.88 L43.98 97.62 A48.00 48.00 0 0 1 39.16 96.76 L39.69 86.57 A38.00 38.00 0 0 1 35.46 85.11 A38.00 38.00 0 0 1 32.75 83.86 L26.22 91.69 A48.00 48.00 0 0 1 22.09 89.05 L26.47 79.84 A38.00 38.00 0 0 1 23.13 76.87 A38.00 38.00 0 0 1 21.10 74.68 L12.07 79.42 A48.00 48.00 0 0 1 9.27 75.40 L16.85 68.57 A38.00 38.00 0 0 1 14.89 64.54 A38.00 38.00 0 0 1 13.86 61.74 L3.70 62.67 A48.00 48.00 0 0 1 2.65 57.88 L12.26 54.47 A38.00 38.00 0 0 1 12.00 50.00 A38.00 38.00 0 0 1 12.12 47.02 L2.38 43.98 A48.00 48.00 0 0 1 3.24 39.16 L13.43 39.69 A38.00 38.00 0 0 1 14.89 35.46 A38.00 38.00 0 0 1 16.14 32.75 L8.31 26.22 A48.00 48.00 0 0 1 10.95 22.09 L20.16 26.47 A38.00 38.00 0 0 1 23.13 23.13 A38.00 38.00 0 0 1 25.32 21.10 L20.58 12.07 A48.00 48.00 0 0 1 24.60 9.27 L31.43 16.85 A38.00 38.00 0 0 1 35.46 14.89 A38.00 38.00 0 0 1 38.26 13.86 L37.33 3.70 A48.00 48.00 0 0 1 42.12 2.65 L45.53 12.26 A38.00 38.00 0 0 1 50.00 12.00 A38.00 38.00 0 0 1 52.98 12.12 L56.02 2.38 A48.00 48.00 0 0 1 60.84 3.24 L60.31 13.43 A38.00 38.00 0 0 1 64.54 14.89 A38.00 38.00 0 0 1 67.25 16.14 L73.78 8.31 A48.00 48.00 0 0 1 77.91 10.95 L73.53 20.16 A38.00 38.00 0 0 1 76.87 23.13 A38.00 38.00 0 0 1 78.90 25.32 L87.93 20.58 A48.00 48.00 0 0 1 90.73 24.60 L83.15 31.43 A38.00 38.00 0 0 1 85.11 35.46 A38.00 38.00 0 0 1 86.14 38.26 L96.30 37.33 A48.00 48.00 0 0 1 97.35 42.12 L87.74 45.53 A38.00 38.00 0 0 1 88.00 50.00Z M62.00 50.00 A12.00 12.00 0 1 0 38.00 50.00 A12.00 12.00 0 1 0 62.00 50.00Z" fill-rule="evenodd"/></svg><svg class="eg-petite" viewBox="0 0 100 100"><path d="M80.00 50.00 A30.00 30.00 0 0 1 79.63 54.69 L94.55 61.44 A46.00 46.00 0 0 1 91.31 70.24 L75.58 65.67 A30.00 30.00 0 0 1 71.21 71.21 A30.00 30.00 0 0 1 67.63 74.27 L73.42 89.59 A46.00 46.00 0 0 1 64.90 93.52 L57.00 79.17 A30.00 30.00 0 0 1 50.00 80.00 A30.00 30.00 0 0 1 45.31 79.63 L38.56 94.55 A46.00 46.00 0 0 1 29.76 91.31 L34.33 75.58 A30.00 30.00 0 0 1 28.79 71.21 A30.00 30.00 0 0 1 25.73 67.63 L10.41 73.42 A46.00 46.00 0 0 1 6.48 64.90 L20.83 57.00 A30.00 30.00 0 0 1 20.00 50.00 A30.00 30.00 0 0 1 20.37 45.31 L5.45 38.56 A46.00 46.00 0 0 1 8.69 29.76 L24.42 34.33 A30.00 30.00 0 0 1 28.79 28.79 A30.00 30.00 0 0 1 32.37 25.73 L26.58 10.41 A46.00 46.00 0 0 1 35.10 6.48 L43.00 20.83 A30.00 30.00 0 0 1 50.00 20.00 A30.00 30.00 0 0 1 54.69 20.37 L61.44 5.45 A46.00 46.00 0 0 1 70.24 8.69 L65.67 24.42 A30.00 30.00 0 0 1 71.21 28.79 A30.00 30.00 0 0 1 74.27 32.37 L89.59 26.58 A46.00 46.00 0 0 1 93.52 35.10 L79.17 43.00 A30.00 30.00 0 0 1 80.00 50.00Z M64.00 50.00 A14.00 14.00 0 1 0 36.00 50.00 A14.00 14.00 0 1 0 64.00 50.00Z" fill-rule="evenodd"/></svg></div>
 </body>
 </html>

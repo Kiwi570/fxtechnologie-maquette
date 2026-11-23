@@ -107,7 +107,8 @@
       "totale": "au total",
       "note": "Conversions en mètres arrondies.",
       "alt": "Couronne de 320 po dessinée à l'échelle à côté d'une silhouette humaine",
-      "legende": "À l'échelle : une silhouette de 1,75 m à côté d'une couronne de 320 po."
+      "legende": "À l'échelle : une silhouette de 1,75 m à côté d'une couronne de 320 po.",
+      "profil": "Profil"
     },
     "services": {
       "surtitre": "Services",
@@ -148,7 +149,10 @@
     },
     "appel": {
       "titre": "Une pièce à refaire, une machine à l'arrêt ?",
-      "texte": "Décrivez-nous la pièce : nous vous répondons avec une soumission. Pour une panne, appelez la ligne d'urgence, 24 h sur 24."
+      "texte": "Décrivez-nous la pièce : nous vous répondons avec une soumission. Pour une panne, appelez la ligne d'urgence, 24 h sur 24.",
+      "tourner": "Faire tourner les roues",
+      "indiceSouris": "↻ Attrapez la roue et lancez-la",
+      "indiceDoigt": "↻ Touchez la roue pour la lancer"
     }
   },
   "produits": {
@@ -188,6 +192,23 @@
       "p3": "Puissances thermiques élevées",
       "reparer": "Votre réducteur est à réparer plutôt qu'à remplacer ?",
       "lienReparer": "Réparation de boîtes de vitesses"
+    },
+    "rapport": {
+      "surtitre": "Simulateur",
+      "titre": "Essayez un rapport de réduction",
+      "texte": "Nous modifions le rapport des réducteurs existants. Faites varier le nombre de dents du pignon et de la roue : les engrenages tournent à leur vraie proportion de vitesse.",
+      "pignon": "Dents du pignon",
+      "roue": "Dents de la roue",
+      "entree": "Vitesse d'entrée (tr/min)",
+      "rapport": "Rapport",
+      "sortie": "Vitesse de sortie",
+      "couple": "Couple multiplié par",
+      "unite": "tr/min",
+      "note": "Calcul théorique sur un seul étage, sans pertes, à titre illustratif. Un vrai réducteur se calcule étage par étage avec son rendement.",
+      "action": "Demander une soumission pour ce rapport",
+      "alt": "Pignon et roue qui s'engrènent, à la proportion choisie",
+      "legPignon": "dents au pignon",
+      "legRoue": "dents à la roue"
     }
   },
   "services": {
@@ -218,7 +239,9 @@
       "e3": "La poudre est injectée dans ce flux, où elle se ramollit et prend de la vitesse.",
       "e4t": "Le dépôt",
       "e4": "Elle frappe la surface et forme un revêtement dense et adhérent.",
-      "alt": "Projection thermique à haute vitesse sur un arbre en rotation"
+      "alt": "Projection thermique à haute vitesse sur un arbre en rotation",
+      "schema": "Schéma du procédé HVOF : chambre de combustion, buse, injection de poudre, dépôt sur l'arbre",
+      "schemaNote": "Schéma illustratif"
     },
     "surPlace": {
       "texte": "Assistance technique et service mécanique dans votre usine : nous venons à la machine pour augmenter sa disponibilité et optimiser ses performances.",
@@ -235,7 +258,9 @@
       "titre1": "Trouver",
       "titre2": "la cause",
       "texte": "Plus de 25 ans comme spécialiste de la transmission de puissance : nous analysons les engrenages et les pannes pour remonter à l'origine du problème.",
-      "alt": "Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie"
+      "alt": "Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie",
+      "loupeSouris": "Passez la souris sur la photo : loupe d'inspection",
+      "loupeDoigt": "Touchez la photo : loupe d'inspection"
     },
     "analyse": {
       "titre": "L'analyse des engrenages et des pannes",

@@ -2,6 +2,29 @@
 
 Chaque version ajoute sa partie en tête de ce fichier, construite en comparant l'archive précédente et la nouvelle, jamais de mémoire.
 
+## v2 : analyse complète et version enrichie (23 novembre 2026)
+
+Construit en relisant chaque page sur ordinateur et téléphone et en comparant aux fichiers de la v1.
+
+**Nouveau, ludique et utile**
+- **Simulateur de rapport de réduction** (Produits, nouvelle section « Simulateur » dans le sommaire) : on règle les dents du pignon et de la roue et la vitesse d'entrée ; les deux engrenages sont redessinés au bon nombre de dents et tournent à leur vraie proportion de vitesse ; rapport, vitesse de sortie et couple s'affichent en direct ; le bouton ouvre la soumission avec le rapport déjà écrit dans la description.
+- **Roues de l'appel final à lancer** (accueil) : on attrape la grande roue et on la lance (souris ou doigt), le pignon suit au double, l'élan retombe en douceur et les étincelles suivent la vitesse ; un clic ou la touche Entrée donne une impulsion.
+- **Loupe d'inspection** (Expertise) : sur la photo du carter, une loupe grossit la zone sous la souris, ou là où l'on touche sur téléphone.
+- **Schéma HVOF animé** (Services) : chambre de combustion, buse, injection de poudre et dépôt sur l'arbre s'allument étape par étape pendant le défilement ; sur téléphone, le schéma reste en haut de l'écran pendant qu'on lit les étapes.
+
+**Corrigé**
+- Chiffres de l'accueil : pendant le comptage, les nombres s'affichaient en petit (« +24 », « 306 po ») ; ils restent maintenant à leur taille.
+- Couronne à l'échelle : la largeur de face est dessinée en vrai profil denté, à la même échelle que le diamètre, avec sa cote, et change avec le type choisi.
+- Scène HVOF : la photo ne restait pas à l'écran pendant les étapes sur ordinateur ; elle reste maintenant collée avec le schéma.
+- Index des services : les photos du panneau sont préchargées après l'ouverture (plus de case noire en défilant vite).
+- Photo d'inspection : même cadrage sur téléphone que sur ordinateur, l'anneau tombe sur la trappe de visite.
+
+**Harmonie et rythme**
+- En-têtes de section sur deux colonnes (titre à gauche, chapô en face) pour les produits et les centres : plus de grand vide à droite.
+- Accueil plus court : méthode et photo d'atelier resserrées, lignes de l'index plus compactes.
+- Téléphone : cartes de services en rangées à faire glisser, secteurs sur deux colonnes, simulateur réordonné (engrenages juste au-dessus des réglages).
+- Libellés techniques passés à 13 px.
+
 ## v1 : la base (20 novembre 2026)
 
 **Pages** : accueil, Produits, Services, Expertise, Contact (soumission en 4 étapes) et 404, en français.

@@ -26,7 +26,7 @@ export default (c) => {
 </section>
 
 <nav class="sommaire-produits" aria-label="${c.s('produits.tete.sommaire')}" data-sommaire>
-  <ul class="conteneur">${c.donnees.produits.map((x) => html`<li><a href="#${x.id}" data-sans-transition><span>${x.num}</span>${x.titre}</a></li>`)}</ul>
+  <ul class="conteneur">${c.donnees.produits.map((x) => html`<li><a href="#${x.id}" data-sans-transition><span>${x.num}</span>${x.titre}</a></li>`)}<li><a href="#rapport" data-sans-transition><span>05</span>${c.t('produits.rapport.surtitre')}</a></li></ul>
 </nav>
 
 <section class="fiche clair" id="engrenages">
@@ -105,6 +105,36 @@ export default (c) => {
       ${c.media({ nom: 'reducteur-portrait', alt: alt('reducteur-portrait'), ratio: '2 / 3', sizes: '(max-width: 760px) 50vw, 22vw', attrs: 'data-fx="zoom"' })}
       ${c.media({ nom: 'drop-in', alt: alt('drop-in'), ratio: '3 / 4', sizes: '(max-width: 760px) 50vw, 22vw' })}
     </div>
+  </div>
+</section>
+
+<section class="rapport sombre" id="rapport" data-effet="simulateur-rapport">
+  <div class="conteneur rapport-grille">
+    <div class="rapport-texte">
+      <p class="surtitre" data-anime>${c.t('produits.rapport.surtitre')}</p>
+      <h2 class="titre-section" data-anime="lignes">${c.t('produits.rapport.titre')}</h2>
+      <p class="chapo" data-anime>${c.t('produits.rapport.texte')}</p>
+      <form class="rapport-reglages" data-rapport action="#" onsubmit="return false">
+        <div class="reglage"><label for="r-z1">${c.t('produits.rapport.pignon')}</label><input id="r-z1" type="range" min="8" max="40" step="1" value="17" data-z1><output for="r-z1" data-z1-val>17</output></div>
+        <div class="reglage"><label for="r-z2">${c.t('produits.rapport.roue')}</label><input id="r-z2" type="range" min="20" max="120" step="1" value="71" data-z2><output for="r-z2" data-z2-val>71</output></div>
+        <div class="reglage reglage--nombre"><label for="r-n">${c.t('produits.rapport.entree')}</label><input id="r-n" type="number" min="100" max="3600" step="50" value="1750" inputmode="numeric" data-n></div>
+      </form>
+      <dl class="rapport-resultats" aria-live="polite">
+        <div><dt>${c.t('produits.rapport.rapport')}</dt><dd><span class="rapport-valeur" data-i>1 : 4,2</span></dd></div>
+        <div><dt>${c.t('produits.rapport.sortie')}</dt><dd><span class="rapport-valeur" data-n2>419</span> ${c.t('produits.rapport.unite')}</dd></div>
+        <div><dt>${c.t('produits.rapport.couple')}</dt><dd><span class="rapport-valeur" data-c>4,2</span></dd></div>
+      </dl>
+      <p class="note">${c.t('produits.rapport.note')}</p>
+      <p>${c.lien('contact', { ancre: 'soumission', params: 'besoin=fabrication&piece=reducteur&rapport=4,2', classe: 'bouton', texte: c.t('produits.rapport.action'), attrs: 'data-rapport-lien data-survol="magnetique"' })}</p>
+    </div>
+    <figure class="rapport-visuel" data-visuel>
+      <svg viewBox="0 0 600 440" class="rapport-svg" role="img" aria-label="${c.s('produits.rapport.alt')}">
+        <g class="rapport-roue"><path d="" fill-rule="evenodd"/></g>
+        <g class="rapport-pignon"><path d="" fill-rule="evenodd"/></g>
+        <circle class="rapport-axe rapport-axe-1" r="5"/><circle class="rapport-axe rapport-axe-2" r="5"/>
+      </svg>
+      <figcaption class="rapport-legende"><span data-leg-z1>17</span> ${c.t('produits.rapport.legPignon')} · <span data-leg-z2>71</span> ${c.t('produits.rapport.legRoue')}</figcaption>
+    </figure>
   </div>
 </section>
 

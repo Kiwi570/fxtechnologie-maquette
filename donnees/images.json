@@ -643,21 +643,14 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "762f548305fdfce4",
+    "empreinte": "bb45d797d0fba6a4",
     "ratio": "16:9",
     "largeurs": [
       640,
       1280,
       1920
     ],
-    "mobile": {
-      "ratio": "9:16",
-      "largeurs": [
-        640,
-        1080
-      ],
-      "cadrage": "50% 45%"
-    },
+    "mobile": null,
     "cadrage": "49% 50%",
     "sujet": {
       "x": 27.5,
@@ -704,18 +697,14 @@
     "fichiers": [
       "expertise-ouverture-640.webp",
       "expertise-ouverture-1280.webp",
-      "expertise-ouverture-1920.webp",
-      "expertise-ouverture-mobile-640.webp",
-      "expertise-ouverture-mobile-1080.webp"
+      "expertise-ouverture-1920.webp"
     ],
     "poids": {
       "expertise-ouverture-640.webp": 26386,
       "expertise-ouverture-1280.webp": 78734,
-      "expertise-ouverture-1920.webp": 148074,
-      "expertise-ouverture-mobile-640.webp": 51846,
-      "expertise-ouverture-mobile-1080.webp": 103040
+      "expertise-ouverture-1920.webp": 148074
     },
-    "media": "c.media({ nom: 'expertise-ouverture', alt: \"Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie\", cadrage: '49% 50%', cadrageMobile: '50% 45%', sizes: '100vw', priorite: true })"
+    "media": "c.media({ nom: 'expertise-ouverture', alt: \"Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie\", cadrage: '49% 50%', sizes: '100vw', priorite: true })"
   },
   "produit-secherie": {
     "nom": "produit-secherie",

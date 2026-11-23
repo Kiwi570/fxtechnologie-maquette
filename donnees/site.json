@@ -2,7 +2,7 @@
   "nom": "FX Technologie",
   "adresse": "https://fxtechnologie-maquette.vercel.app",
   "siteActuel": "fxtechnologie.com",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "produits", "services", "expertise", "contact"],
   "actionEntete": { "page": "contact", "ancre": "soumission" },

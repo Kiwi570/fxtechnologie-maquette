@@ -52,7 +52,7 @@ P.append(grok("page-404", "404", "404", "Image de la page 404", "Conseillée",
   "Un engrenage auquel il manque une dent", zone_texte="gauche"))
 # --- vraies photos
 P += [
-  real("verification-specifications-boite.jpg", "expertise-ouverture", "ouverture", "Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie", 4, mobile=True),
+  real("verification-specifications-boite.jpg", "expertise-ouverture", "ouverture", "Inspection d'un carter de réducteur par sa trappe de visite, annotations à la craie", 4, mobile=False),
   real("engrenage-secherie-fonte-6.jpg", "produit-secherie", "produit", "Engrenage de sécherie en fonte, moyeu usiné", 4, ratio="4:5"),
   real("reparation-boite-reduction.jpg", "produit-reducteur", "produit", "Réducteur remis à neuf, peint en blanc, à l'atelier", 4, ratio="4:5", cadrage=[70, 52], largeurs=[480, 640, 1000]),
   real("remise-neuf-boite-reduction.jpg", "reducteur-portrait", "carte-service", "Carter de réducteur remis à neuf", 3),
